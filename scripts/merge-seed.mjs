@@ -52,7 +52,10 @@ const curatedToeic = read(data('toeic-vocab.json'))
 const vocab = mergeDeck({
   finalPath: data('n4-vocab.json'),
   curated: curatedVocab,
-  parts: Array.from({ length: 10 }, (_, i) => src(`out-vocab-${i}.json`)),
+  parts: [
+    ...Array.from({ length: 10 }, (_, i) => src(`out-vocab-${i}.json`)),
+    ...['1', '2', '3'].map((s) => src(`out-vocab-ext-${s}.json`)),
+  ],
   requiredFields: ['id', 'deck', 'front', 'reading', 'meaning'],
 })
 
