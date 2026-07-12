@@ -1,32 +1,11134 @@
 [
-  { "id": "n4v:集まる", "deck": "n4-vocab", "front": "集まる", "reading": "あつまる", "pos": "自動詞", "meaning": "聚集、集合", "example": "駅の前に みんな 集まって ください。", "exampleTrans": "請大家在車站前集合。" },
-  { "id": "n4v:届ける", "deck": "n4-vocab", "front": "届ける", "reading": "とどける", "pos": "他動詞", "meaning": "送達、遞送", "example": "この荷物を 事務所に 届けて ください。", "exampleTrans": "請把這件行李送到辦公室。" },
-  { "id": "n4v:運ぶ", "deck": "n4-vocab", "front": "運ぶ", "reading": "はこぶ", "pos": "他動詞", "meaning": "搬運", "example": "机を 二階に 運びました。", "exampleTrans": "把桌子搬到了二樓。" },
-  { "id": "n4v:決める", "deck": "n4-vocab", "front": "決める", "reading": "きめる", "pos": "他動詞", "meaning": "決定", "example": "旅行の 日にちを 決めましょう。", "exampleTrans": "我們來決定旅行的日期吧。" },
-  { "id": "n4v:続く", "deck": "n4-vocab", "front": "続く", "reading": "つづく", "pos": "自動詞", "meaning": "持續、繼續", "example": "雨の日が 一週間 続いて います。", "exampleTrans": "雨天已經持續一個星期了。" },
-  { "id": "n4v:翻訳", "deck": "n4-vocab", "front": "翻訳", "reading": "ほんやく", "pos": "名詞・する", "meaning": "翻譯", "example": "この文章を 中国語に 翻訳して ください。", "exampleTrans": "請把這篇文章翻譯成中文。" },
-  { "id": "n4v:経験", "deck": "n4-vocab", "front": "経験", "reading": "けいけん", "pos": "名詞・する", "meaning": "經驗", "example": "外国で 働いた 経験が あります。", "exampleTrans": "我有在國外工作的經驗。" },
-  { "id": "n4v:会議", "deck": "n4-vocab", "front": "会議", "reading": "かいぎ", "pos": "名詞", "meaning": "會議", "example": "会議は 三時から 始まります。", "exampleTrans": "會議三點開始。" },
-  { "id": "n4v:準備", "deck": "n4-vocab", "front": "準備", "reading": "じゅんび", "pos": "名詞・する", "meaning": "準備", "example": "パーティーの 準備を して います。", "exampleTrans": "正在準備派對。" },
-  { "id": "n4v:予定", "deck": "n4-vocab", "front": "予定", "reading": "よてい", "pos": "名詞", "meaning": "預定、計畫", "example": "明日は 大阪へ 行く 予定です。", "exampleTrans": "明天預定去大阪。" },
-  { "id": "n4v:遠慮", "deck": "n4-vocab", "front": "遠慮", "reading": "えんりょ", "pos": "名詞・する", "meaning": "客氣、顧慮", "example": "どうぞ 遠慮しないで 食べて ください。", "exampleTrans": "請不要客氣，儘管吃。" },
-  { "id": "n4v:案内", "deck": "n4-vocab", "front": "案内", "reading": "あんない", "pos": "名詞・する", "meaning": "導覽、引導", "example": "京都を 案内して あげましょう。", "exampleTrans": "我帶你逛逛京都吧。" },
-  { "id": "n4v:紹介", "deck": "n4-vocab", "front": "紹介", "reading": "しょうかい", "pos": "名詞・する", "meaning": "介紹", "example": "友達を 紹介します。", "exampleTrans": "我來介紹朋友。" },
-  { "id": "n4v:故障", "deck": "n4-vocab", "front": "故障", "reading": "こしょう", "pos": "名詞・する", "meaning": "故障", "example": "エレベーターが 故障して います。", "exampleTrans": "電梯故障了。" },
-  { "id": "n4v:規則", "deck": "n4-vocab", "front": "規則", "reading": "きそく", "pos": "名詞", "meaning": "規則", "example": "学校の 規則を 守って ください。", "exampleTrans": "請遵守學校的規則。" },
-  { "id": "n4v:興味", "deck": "n4-vocab", "front": "興味", "reading": "きょうみ", "pos": "名詞", "meaning": "興趣", "example": "日本の 文化に 興味が あります。", "exampleTrans": "我對日本文化有興趣。" },
-  { "id": "n4v:説明", "deck": "n4-vocab", "front": "説明", "reading": "せつめい", "pos": "名詞・する", "meaning": "說明", "example": "使い方を 説明して ください。", "exampleTrans": "請說明使用方法。" },
-  { "id": "n4v:招待", "deck": "n4-vocab", "front": "招待", "reading": "しょうたい", "pos": "名詞・する", "meaning": "邀請", "example": "結婚式に 招待されました。", "exampleTrans": "我被邀請參加婚禮。" },
-  { "id": "n4v:連絡", "deck": "n4-vocab", "front": "連絡", "reading": "れんらく", "pos": "名詞・する", "meaning": "聯絡", "example": "何か あったら、すぐ 連絡して ください。", "exampleTrans": "有什麼事的話請立刻聯絡我。" },
-  { "id": "n4v:約束", "deck": "n4-vocab", "front": "約束", "reading": "やくそく", "pos": "名詞・する", "meaning": "約定", "example": "友達と 会う 約束が あります。", "exampleTrans": "我和朋友有約。" },
-  { "id": "n4v:用意", "deck": "n4-vocab", "front": "用意", "reading": "ようい", "pos": "名詞・する", "meaning": "準備、預備", "example": "飲み物は こちらで 用意します。", "exampleTrans": "飲料由我們這邊準備。" },
-  { "id": "n4v:支度", "deck": "n4-vocab", "front": "支度", "reading": "したく", "pos": "名詞・する", "meaning": "準備（外出、用餐等）", "example": "出かける 支度を して います。", "exampleTrans": "正在做出門的準備。" },
-  { "id": "n4v:途中", "deck": "n4-vocab", "front": "途中", "reading": "とちゅう", "pos": "名詞", "meaning": "途中", "example": "会社へ 行く 途中で、先生に 会いました。", "exampleTrans": "去公司的途中遇到了老師。" },
-  { "id": "n4v:最近", "deck": "n4-vocab", "front": "最近", "reading": "さいきん", "pos": "名詞・副詞", "meaning": "最近", "example": "最近、日本語の 勉強を 始めました。", "exampleTrans": "最近開始學日語了。" },
-  { "id": "n4v:場合", "deck": "n4-vocab", "front": "場合", "reading": "ばあい", "pos": "名詞", "meaning": "情況、場合", "example": "雨の 場合は、試合を 中止します。", "exampleTrans": "下雨的話比賽將中止。" },
-  { "id": "n4v:原因", "deck": "n4-vocab", "front": "原因", "reading": "げんいん", "pos": "名詞", "meaning": "原因", "example": "事故の 原因を 調べて います。", "exampleTrans": "正在調查事故的原因。" },
-  { "id": "n4v:世話", "deck": "n4-vocab", "front": "世話", "reading": "せわ", "pos": "名詞・する", "meaning": "照顧、關照", "example": "犬の 世話を するのは 大変です。", "exampleTrans": "照顧狗很辛苦。" },
-  { "id": "n4v:遅れる", "deck": "n4-vocab", "front": "遅れる", "reading": "おくれる", "pos": "自動詞", "meaning": "遲到、延誤", "example": "電車が 遅れて、会議に 間に合いませんでした。", "exampleTrans": "電車誤點，趕不上會議。" },
-  { "id": "n4v:間に合う", "deck": "n4-vocab", "front": "間に合う", "reading": "まにあう", "pos": "自動詞", "meaning": "來得及、趕上", "example": "急げば、最終電車に 間に合いますよ。", "exampleTrans": "快一點的話還趕得上末班車喔。" },
-  { "id": "n4v:頑張る", "deck": "n4-vocab", "front": "頑張る", "reading": "がんばる", "pos": "自動詞", "meaning": "努力、加油", "example": "試験に 合格するように 頑張ります。", "exampleTrans": "為了考試合格我會努力。" }
+ {
+  "id": "n4v:踏む",
+  "deck": "n4-vocab",
+  "front": "踏む",
+  "reading": "ふむ",
+  "meaning": "踩、踏",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～区",
+  "deck": "n4-vocab",
+  "front": "～区",
+  "reading": "～く",
+  "meaning": "～區（行政區）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:すっと",
+  "deck": "n4-vocab",
+  "front": "すっと",
+  "reading": "すっと",
+  "meaning": "筆直地、迅速地",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:盗む",
+  "deck": "n4-vocab",
+  "front": "盗む",
+  "reading": "ぬすむ",
+  "meaning": "偷、盜取",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:大抵",
+  "deck": "n4-vocab",
+  "front": "大抵",
+  "reading": "たいてい",
+  "meaning": "大致上、通常",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:とうとう",
+  "deck": "n4-vocab",
+  "front": "とうとう",
+  "reading": "とうとう",
+  "meaning": "終於、最終",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ガソリン",
+  "deck": "n4-vocab",
+  "front": "ガソリン",
+  "reading": "ガソリン",
+  "meaning": "汽油",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:鳴る",
+  "deck": "n4-vocab",
+  "front": "鳴る",
+  "reading": "なる",
+  "meaning": "響、鳴（自動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:しっかり",
+  "deck": "n4-vocab",
+  "front": "しっかり",
+  "reading": "しっかり",
+  "meaning": "牢牢地、穩固地",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:生きる",
+  "deck": "n4-vocab",
+  "front": "生きる",
+  "reading": "いきる",
+  "meaning": "活、生存",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:苦い",
+  "deck": "n4-vocab",
+  "front": "苦い",
+  "reading": "にがい",
+  "meaning": "苦的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:沸く",
+  "deck": "n4-vocab",
+  "front": "沸く",
+  "reading": "わく",
+  "meaning": "沸騰、變熱",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:意見",
+  "deck": "n4-vocab",
+  "front": "意見",
+  "reading": "いけん",
+  "meaning": "意見、看法",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:やはり; やっぱり",
+  "deck": "n4-vocab",
+  "front": "やはり; やっぱり",
+  "reading": "やはり; やっぱり",
+  "meaning": "果然、還是",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:漫画",
+  "deck": "n4-vocab",
+  "front": "漫画",
+  "reading": "まんが",
+  "meaning": "漫畫",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ステレオ",
+  "deck": "n4-vocab",
+  "front": "ステレオ",
+  "reading": "ステレオ",
+  "meaning": "立體音響",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:医学",
+  "deck": "n4-vocab",
+  "front": "医学",
+  "reading": "いがく",
+  "meaning": "醫學",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:テキスト",
+  "deck": "n4-vocab",
+  "front": "テキスト",
+  "reading": "テキスト",
+  "meaning": "課本、教材",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～月",
+  "deck": "n4-vocab",
+  "front": "～月",
+  "reading": "～つき",
+  "meaning": "月、月份",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:折る",
+  "deck": "n4-vocab",
+  "front": "折る",
+  "reading": "おる",
+  "meaning": "折斷、彎折",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～会",
+  "deck": "n4-vocab",
+  "front": "～会",
+  "reading": "～かい",
+  "meaning": "～會（會議、聚會）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:うかがう",
+  "deck": "n4-vocab",
+  "front": "うかがう",
+  "reading": "うかがう",
+  "meaning": "請教、詢問（謙讓語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:聞こえる",
+  "deck": "n4-vocab",
+  "front": "聞こえる",
+  "reading": "きこえる",
+  "meaning": "聽得見、聽得到",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:僕",
+  "deck": "n4-vocab",
+  "front": "僕",
+  "reading": "ぼく",
+  "meaning": "我（男性對平輩或晚輩的自稱）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:必ず",
+  "deck": "n4-vocab",
+  "front": "必ず",
+  "reading": "かならず",
+  "meaning": "一定、必定",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:壊す",
+  "deck": "n4-vocab",
+  "front": "壊す",
+  "reading": "こわす",
+  "meaning": "弄壞、破壞",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:怒る",
+  "deck": "n4-vocab",
+  "front": "怒る",
+  "reading": "おこる",
+  "meaning": "生氣、發怒；斥責",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:床屋",
+  "deck": "n4-vocab",
+  "front": "床屋",
+  "reading": "とこや",
+  "meaning": "理髮店",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:オートバイ",
+  "deck": "n4-vocab",
+  "front": "オートバイ",
+  "reading": "オートバイ",
+  "meaning": "摩托車、機車",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:運動",
+  "deck": "n4-vocab",
+  "front": "運動",
+  "reading": "うんどうする",
+  "meaning": "運動",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:止む",
+  "deck": "n4-vocab",
+  "front": "止む",
+  "reading": "やむ",
+  "meaning": "（雨、聲音等）停止",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:もし",
+  "deck": "n4-vocab",
+  "front": "もし",
+  "reading": "もし",
+  "meaning": "如果、假如",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:表",
+  "deck": "n4-vocab",
+  "front": "表",
+  "reading": "おもて",
+  "meaning": "表面、正面、外面",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:大学生",
+  "deck": "n4-vocab",
+  "front": "大学生",
+  "reading": "だいがくせい",
+  "meaning": "大學生",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:運転手",
+  "deck": "n4-vocab",
+  "front": "運転手",
+  "reading": "うんてんしゅ",
+  "meaning": "司機（職業）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:予習",
+  "deck": "n4-vocab",
+  "front": "予習",
+  "reading": "よしゅう",
+  "meaning": "預習",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:心配",
+  "deck": "n4-vocab",
+  "front": "心配",
+  "reading": "しんぱいする",
+  "meaning": "擔心、掛念",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:別",
+  "deck": "n4-vocab",
+  "front": "別",
+  "reading": "べつ",
+  "meaning": "區別、另外的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:非常に",
+  "deck": "n4-vocab",
+  "front": "非常に",
+  "reading": "ひじょうに",
+  "meaning": "非常、極為",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:お宅",
+  "deck": "n4-vocab",
+  "front": "お宅",
+  "reading": "おたく",
+  "meaning": "府上（對方的家，家的禮貌說法）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:柔らかい",
+  "deck": "n4-vocab",
+  "front": "柔らかい",
+  "reading": "やわらかい",
+  "meaning": "柔軟的、嫩的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:拾う",
+  "deck": "n4-vocab",
+  "front": "拾う",
+  "reading": "ひろう",
+  "meaning": "撿、拾取",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～ございます",
+  "deck": "n4-vocab",
+  "front": "～ございます",
+  "reading": "～ございます",
+  "meaning": "是、有（鄭重語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:気",
+  "deck": "n4-vocab",
+  "front": "気",
+  "reading": "き",
+  "meaning": "心情、精神",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:比べる",
+  "deck": "n4-vocab",
+  "front": "比べる",
+  "reading": "くらべる",
+  "meaning": "比較",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ほとんど",
+  "deck": "n4-vocab",
+  "front": "ほとんど",
+  "reading": "ほとんど",
+  "meaning": "幾乎、大部分",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:つもり",
+  "deck": "n4-vocab",
+  "front": "つもり",
+  "reading": "つもり",
+  "meaning": "打算、意圖",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:郊外",
+  "deck": "n4-vocab",
+  "front": "郊外",
+  "reading": "こうがい",
+  "meaning": "郊外、郊區",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:だめ",
+  "deck": "n4-vocab",
+  "front": "だめ",
+  "reading": "だめ",
+  "meaning": "不行、沒用",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:売り場",
+  "deck": "n4-vocab",
+  "front": "売り場",
+  "reading": "うりば",
+  "meaning": "賣場、櫃位",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:正月",
+  "deck": "n4-vocab",
+  "front": "正月",
+  "reading": "しょうがつ",
+  "meaning": "新年、正月",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:規則",
+  "deck": "n4-vocab",
+  "front": "規則",
+  "reading": "きそく",
+  "pos": "名詞",
+  "meaning": "規則",
+  "example": "学校の 規則を 守って ください。",
+  "exampleTrans": "請遵守學校的規則。"
+ },
+ {
+  "id": "n4v:うん",
+  "deck": "n4-vocab",
+  "front": "うん",
+  "reading": "うん",
+  "meaning": "嗯、好（非正式的「是」）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:発音",
+  "deck": "n4-vocab",
+  "front": "発音",
+  "reading": "はつおん",
+  "meaning": "發音",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:焼く",
+  "deck": "n4-vocab",
+  "front": "焼く",
+  "reading": "やく",
+  "meaning": "烤、燒",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:屋上",
+  "deck": "n4-vocab",
+  "front": "屋上",
+  "reading": "おくじょう",
+  "meaning": "屋頂、頂樓",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:失礼",
+  "deck": "n4-vocab",
+  "front": "失礼",
+  "reading": "しつれい",
+  "meaning": "失禮、不禮貌；抱歉、告辭",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ごみ",
+  "deck": "n4-vocab",
+  "front": "ごみ",
+  "reading": "ごみ",
+  "meaning": "垃圾",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:アフリカ",
+  "deck": "n4-vocab",
+  "front": "アフリカ",
+  "reading": "アフリカ",
+  "meaning": "非洲",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:点",
+  "deck": "n4-vocab",
+  "front": "点",
+  "reading": "てん",
+  "meaning": "分數、成績；點",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:一生懸命",
+  "deck": "n4-vocab",
+  "front": "一生懸命",
+  "reading": "いっしょうけんめい",
+  "meaning": "拼命地、努力地",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:今度",
+  "deck": "n4-vocab",
+  "front": "今度",
+  "reading": "こんど",
+  "meaning": "這次；下次、近期",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:機会",
+  "deck": "n4-vocab",
+  "front": "機会",
+  "reading": "きかい",
+  "meaning": "機會",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:建てる",
+  "deck": "n4-vocab",
+  "front": "建てる",
+  "reading": "たてる",
+  "meaning": "建造",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:複雑",
+  "deck": "n4-vocab",
+  "front": "複雑",
+  "reading": "ふくざつ",
+  "meaning": "複雜",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:彼",
+  "deck": "n4-vocab",
+  "front": "彼",
+  "reading": "かれ",
+  "meaning": "他；男朋友",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:いらっしゃる",
+  "deck": "n4-vocab",
+  "front": "いらっしゃる",
+  "reading": "いらっしゃる",
+  "meaning": "在、來、去（いく・くる・いる的尊敬語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:布団",
+  "deck": "n4-vocab",
+  "front": "布団",
+  "reading": "ふとん",
+  "meaning": "棉被、日式床墊",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:大事",
+  "deck": "n4-vocab",
+  "front": "大事",
+  "reading": "だいじ",
+  "meaning": "重要、要緊",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:贈り物",
+  "deck": "n4-vocab",
+  "front": "贈り物",
+  "reading": "おくりもの",
+  "meaning": "禮物、贈品",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:泥棒",
+  "deck": "n4-vocab",
+  "front": "泥棒",
+  "reading": "どろぼう",
+  "meaning": "小偷、竊賊",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～製",
+  "deck": "n4-vocab",
+  "front": "～製",
+  "reading": "～せい",
+  "meaning": "～製（～製造）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:注意",
+  "deck": "n4-vocab",
+  "front": "注意",
+  "reading": "ちゅうい",
+  "meaning": "注意、小心",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:台風",
+  "deck": "n4-vocab",
+  "front": "台風",
+  "reading": "たいふう",
+  "meaning": "颱風",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:日",
+  "deck": "n4-vocab",
+  "front": "日",
+  "reading": "ひ",
+  "meaning": "太陽、陽光、日子",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～軒",
+  "deck": "n4-vocab",
+  "front": "～軒",
+  "reading": "～けん",
+  "meaning": "～間、～棟（房屋量詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:そう",
+  "deck": "n4-vocab",
+  "front": "そう",
+  "reading": "そう",
+  "meaning": "是嗎、是那樣；對",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:通る",
+  "deck": "n4-vocab",
+  "front": "通る",
+  "reading": "とおる",
+  "meaning": "通過、經過",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:過ぎる",
+  "deck": "n4-vocab",
+  "front": "過ぎる",
+  "reading": "すぎる",
+  "meaning": "超過、過度",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:レポート; リポート",
+  "deck": "n4-vocab",
+  "front": "レポート; リポート",
+  "reading": "レポート; リポート",
+  "meaning": "報告",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:葉",
+  "deck": "n4-vocab",
+  "front": "葉",
+  "reading": "は",
+  "meaning": "葉子",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:必要",
+  "deck": "n4-vocab",
+  "front": "必要",
+  "reading": "ひつよう",
+  "meaning": "必要、需要",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:課長",
+  "deck": "n4-vocab",
+  "front": "課長",
+  "reading": "かちょう",
+  "meaning": "課長、科長",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:地震",
+  "deck": "n4-vocab",
+  "front": "地震",
+  "reading": "じしん",
+  "meaning": "地震",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:すると",
+  "deck": "n4-vocab",
+  "front": "すると",
+  "reading": "すると",
+  "meaning": "於是、接著",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:止める",
+  "deck": "n4-vocab",
+  "front": "止める",
+  "reading": "やめる",
+  "meaning": "停止、作罷",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ガラス",
+  "deck": "n4-vocab",
+  "front": "ガラス",
+  "reading": "ガラス",
+  "meaning": "玻璃",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～学部",
+  "deck": "n4-vocab",
+  "front": "～学部",
+  "reading": "～がくぶ",
+  "meaning": "～學院、～系（大學）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:厳しい",
+  "deck": "n4-vocab",
+  "front": "厳しい",
+  "reading": "きびしい",
+  "meaning": "嚴格的、嚴厲的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:エスカレーター",
+  "deck": "n4-vocab",
+  "front": "エスカレーター",
+  "reading": "エスカレーター",
+  "meaning": "手扶梯",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:人口",
+  "deck": "n4-vocab",
+  "front": "人口",
+  "reading": "じんこう",
+  "meaning": "人口",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:月",
+  "deck": "n4-vocab",
+  "front": "月",
+  "reading": "つき",
+  "meaning": "月亮",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:絹",
+  "deck": "n4-vocab",
+  "front": "絹",
+  "reading": "きぬ",
+  "meaning": "絲綢",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ちっとも",
+  "deck": "n4-vocab",
+  "front": "ちっとも",
+  "reading": "ちっとも",
+  "meaning": "一點也（不）（接否定）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:深い",
+  "deck": "n4-vocab",
+  "front": "深い",
+  "reading": "ふかい",
+  "meaning": "深的、深奧的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:壊れる",
+  "deck": "n4-vocab",
+  "front": "壊れる",
+  "reading": "こわれる",
+  "meaning": "壞掉、損壞",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:揺れる",
+  "deck": "n4-vocab",
+  "front": "揺れる",
+  "reading": "ゆれる",
+  "meaning": "搖晃、搖動",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:落る",
+  "deck": "n4-vocab",
+  "front": "落る",
+  "reading": "おちる",
+  "meaning": "掉落、落下",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:できるだけ",
+  "deck": "n4-vocab",
+  "front": "できるだけ",
+  "reading": "できるだけ",
+  "meaning": "盡可能、盡量",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:悲しい",
+  "deck": "n4-vocab",
+  "front": "悲しい",
+  "reading": "かなしい",
+  "meaning": "悲傷的、難過的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:中学校",
+  "deck": "n4-vocab",
+  "front": "中学校",
+  "reading": "ちゅうがっこう",
+  "meaning": "國中、中學",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ガス",
+  "deck": "n4-vocab",
+  "front": "ガス",
+  "reading": "ガス",
+  "meaning": "瓦斯",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:祈る",
+  "deck": "n4-vocab",
+  "front": "祈る",
+  "reading": "いのる",
+  "meaning": "祈禱、祝願",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:盛ん",
+  "deck": "n4-vocab",
+  "front": "盛ん",
+  "reading": "さかん",
+  "meaning": "興盛、盛行",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:アルバイト",
+  "deck": "n4-vocab",
+  "front": "アルバイト",
+  "reading": "アルバイト",
+  "meaning": "打工、兼職",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:起こす",
+  "deck": "n4-vocab",
+  "front": "起こす",
+  "reading": "おこす",
+  "meaning": "叫醒",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:致す",
+  "deck": "n4-vocab",
+  "front": "致す",
+  "reading": "いたす",
+  "meaning": "做（する的謙讓語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:噛む",
+  "deck": "n4-vocab",
+  "front": "噛む",
+  "reading": "かむ",
+  "meaning": "咬、咀嚼",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:赤ちゃん",
+  "deck": "n4-vocab",
+  "front": "赤ちゃん",
+  "reading": "あかちゃん",
+  "meaning": "嬰兒、寶寶",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:浅い",
+  "deck": "n4-vocab",
+  "front": "浅い",
+  "reading": "あさい",
+  "meaning": "淺的、膚淺的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:うそ",
+  "deck": "n4-vocab",
+  "front": "うそ",
+  "reading": "嘘",
+  "meaning": "謊言",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:小説",
+  "deck": "n4-vocab",
+  "front": "小説",
+  "reading": "しょうせつ",
+  "meaning": "小說",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:親",
+  "deck": "n4-vocab",
+  "front": "親",
+  "reading": "おや",
+  "meaning": "父母、雙親",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:それに",
+  "deck": "n4-vocab",
+  "front": "それに",
+  "reading": "それに",
+  "meaning": "而且、再加上",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:西洋",
+  "deck": "n4-vocab",
+  "front": "西洋",
+  "reading": "せいよう",
+  "meaning": "西洋、西方國家",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:思う",
+  "deck": "n4-vocab",
+  "front": "思う",
+  "reading": "おもう",
+  "meaning": "想、覺得",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:パート (タイム)",
+  "deck": "n4-vocab",
+  "front": "パート (タイム)",
+  "reading": "パート (タイム)",
+  "meaning": "兼職（多指主婦兼職）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:時代",
+  "deck": "n4-vocab",
+  "front": "時代",
+  "reading": "じだい",
+  "meaning": "時代、年代",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:申し上げる",
+  "deck": "n4-vocab",
+  "front": "申し上げる",
+  "reading": "もうしあげる",
+  "meaning": "說、稟告（謙讓語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～式",
+  "deck": "n4-vocab",
+  "front": "～式",
+  "reading": "～しき",
+  "meaning": "～典禮；～式",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:出席",
+  "deck": "n4-vocab",
+  "front": "出席",
+  "reading": "しゅっせきする",
+  "meaning": "出席",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～家",
+  "deck": "n4-vocab",
+  "front": "～家",
+  "reading": "～か",
+  "meaning": "～家（某領域的專家）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:迎える",
+  "deck": "n4-vocab",
+  "front": "迎える",
+  "reading": "むかえる",
+  "meaning": "迎接、歡迎",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:触る",
+  "deck": "n4-vocab",
+  "front": "触る",
+  "reading": "さわる",
+  "meaning": "觸摸、碰",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:建て",
+  "deck": "n4-vocab",
+  "front": "建て",
+  "reading": "～だて",
+  "meaning": "～層樓（建築）；獨棟",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:社長",
+  "deck": "n4-vocab",
+  "front": "社長",
+  "reading": "しゃちょう",
+  "meaning": "社長、公司總經理",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:動物園",
+  "deck": "n4-vocab",
+  "front": "動物園",
+  "reading": "どうぶつえん",
+  "meaning": "動物園",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:捕まえる",
+  "deck": "n4-vocab",
+  "front": "捕まえる",
+  "reading": "つかまえる",
+  "meaning": "抓住、逮捕",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:季節",
+  "deck": "n4-vocab",
+  "front": "季節",
+  "reading": "きせつ",
+  "meaning": "季節",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:寄る",
+  "deck": "n4-vocab",
+  "front": "寄る",
+  "reading": "よる",
+  "meaning": "順道去、順路拜訪",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:決まる",
+  "deck": "n4-vocab",
+  "front": "決まる",
+  "reading": "きまる",
+  "meaning": "定下來、被決定（自動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:開く",
+  "deck": "n4-vocab",
+  "front": "開く",
+  "reading": "ひらく",
+  "meaning": "打開；舉辦（活動）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:逃げる",
+  "deck": "n4-vocab",
+  "front": "逃げる",
+  "reading": "にげる",
+  "meaning": "逃跑、逃走",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:だから",
+  "deck": "n4-vocab",
+  "front": "だから",
+  "reading": "だから",
+  "meaning": "所以、因此",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:残念",
+  "deck": "n4-vocab",
+  "front": "残念",
+  "reading": "ざんねん",
+  "meaning": "遺憾、可惜",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:畳",
+  "deck": "n4-vocab",
+  "front": "畳",
+  "reading": "たたみ",
+  "meaning": "榻榻米",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:丁寧",
+  "deck": "n4-vocab",
+  "front": "丁寧",
+  "reading": "ていねい",
+  "meaning": "有禮貌、周到、細心",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:地理",
+  "deck": "n4-vocab",
+  "front": "地理",
+  "reading": "ちり",
+  "meaning": "地理",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:さっき",
+  "deck": "n4-vocab",
+  "front": "さっき",
+  "reading": "さっき",
+  "meaning": "剛才、方才",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:怖い",
+  "deck": "n4-vocab",
+  "front": "怖い",
+  "reading": "こわい",
+  "meaning": "可怕的、令人害怕的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:包む",
+  "deck": "n4-vocab",
+  "front": "包む",
+  "reading": "つつむ",
+  "meaning": "包、包裹",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:なるべく",
+  "deck": "n4-vocab",
+  "front": "なるべく",
+  "reading": "なるべく",
+  "meaning": "盡可能、盡量",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:無理",
+  "deck": "n4-vocab",
+  "front": "無理",
+  "reading": "むり",
+  "meaning": "勉強、不可能",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:サンドイッチ",
+  "deck": "n4-vocab",
+  "front": "サンドイッチ",
+  "reading": "サンドイッチ",
+  "meaning": "三明治",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:会議室",
+  "deck": "n4-vocab",
+  "front": "会議室",
+  "reading": "かいぎしつ",
+  "meaning": "會議室",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:品物",
+  "deck": "n4-vocab",
+  "front": "品物",
+  "reading": "しなもの",
+  "meaning": "物品、商品",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:人形",
+  "deck": "n4-vocab",
+  "front": "人形",
+  "reading": "にんぎょう",
+  "meaning": "人偶、娃娃",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:利用",
+  "deck": "n4-vocab",
+  "front": "利用",
+  "reading": "りよう",
+  "meaning": "利用、使用",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:飾る",
+  "deck": "n4-vocab",
+  "front": "飾る",
+  "reading": "かざる",
+  "meaning": "裝飾、點綴",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:止める~とめる",
+  "deck": "n4-vocab",
+  "front": "止める",
+  "reading": "とめる",
+  "meaning": "停止、使停下（他動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:恥ずかしい",
+  "deck": "n4-vocab",
+  "front": "恥ずかしい",
+  "reading": "はずかしい",
+  "meaning": "害羞的、難為情的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:いくら～ても",
+  "deck": "n4-vocab",
+  "front": "いくら～ても",
+  "reading": "いくら～ても",
+  "meaning": "無論多麼～也",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:用事",
+  "deck": "n4-vocab",
+  "front": "用事",
+  "reading": "ようじ",
+  "meaning": "要辦的事、事情、雜事",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ビル",
+  "deck": "n4-vocab",
+  "front": "ビル",
+  "reading": "ビル",
+  "meaning": "大樓、大廈",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:けんかする",
+  "deck": "n4-vocab",
+  "front": "けんかする",
+  "reading": "けんかする",
+  "meaning": "吵架、爭吵",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:頑張る",
+  "deck": "n4-vocab",
+  "front": "頑張る",
+  "reading": "がんばる",
+  "pos": "自動詞",
+  "meaning": "努力、加油",
+  "example": "試験に 合格するように 頑張ります。",
+  "exampleTrans": "為了考試合格我會努力。"
+ },
+ {
+  "id": "n4v:投げる",
+  "deck": "n4-vocab",
+  "front": "投げる",
+  "reading": "なげる",
+  "meaning": "投、擲、拋",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:故障",
+  "deck": "n4-vocab",
+  "front": "故障",
+  "reading": "こしょう",
+  "pos": "名詞・する",
+  "meaning": "故障",
+  "example": "エレベーターが 故障して います。",
+  "exampleTrans": "電梯故障了。"
+ },
+ {
+  "id": "n4v:力",
+  "deck": "n4-vocab",
+  "front": "力",
+  "reading": "ちから",
+  "meaning": "力量、力氣",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:受ける",
+  "deck": "n4-vocab",
+  "front": "受ける",
+  "reading": "うける",
+  "meaning": "參加（考試、面試等）、接受",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:気分",
+  "deck": "n4-vocab",
+  "front": "気分",
+  "reading": "きぶん",
+  "meaning": "心情、情緒",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:間違える",
+  "deck": "n4-vocab",
+  "front": "間違える",
+  "reading": "まちがえる",
+  "meaning": "弄錯、搞錯",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:そんな",
+  "deck": "n4-vocab",
+  "front": "そんな",
+  "reading": "そんな",
+  "meaning": "那樣的、那種",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:星",
+  "deck": "n4-vocab",
+  "front": "星",
+  "reading": "ほし",
+  "meaning": "星星",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:場合",
+  "deck": "n4-vocab",
+  "front": "場合",
+  "reading": "ばあい",
+  "pos": "名詞",
+  "meaning": "情況、場合",
+  "example": "雨の 場合は、試合を 中止します。",
+  "exampleTrans": "下雨的話比賽將中止。"
+ },
+ {
+  "id": "n4v:やっと",
+  "deck": "n4-vocab",
+  "front": "やっと",
+  "reading": "やっと",
+  "meaning": "終於、好不容易",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:足りる",
+  "deck": "n4-vocab",
+  "front": "足りる",
+  "reading": "たりる",
+  "meaning": "足夠、充足",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:行う",
+  "deck": "n4-vocab",
+  "front": "行う",
+  "reading": "おこなう",
+  "meaning": "舉行、實施（多用於書面語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ぶどう",
+  "deck": "n4-vocab",
+  "front": "ぶどう",
+  "reading": "ぶどう",
+  "meaning": "葡萄",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:無くなる",
+  "deck": "n4-vocab",
+  "front": "無くなる",
+  "reading": "なくなる",
+  "meaning": "不見、消失",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:準備",
+  "deck": "n4-vocab",
+  "front": "準備",
+  "reading": "じゅんび",
+  "pos": "名詞・する",
+  "meaning": "準備",
+  "example": "パーティーの 準備を して います。",
+  "exampleTrans": "正在準備派對。"
+ },
+ {
+  "id": "n4v:世界",
+  "deck": "n4-vocab",
+  "front": "世界",
+  "reading": "せかい",
+  "meaning": "世界",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:住所",
+  "deck": "n4-vocab",
+  "front": "住所",
+  "reading": "じゅうしょ",
+  "meaning": "住址、地址",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:再来月",
+  "deck": "n4-vocab",
+  "front": "再来月",
+  "reading": "さらいげつ",
+  "meaning": "下下個月",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:林",
+  "deck": "n4-vocab",
+  "front": "林",
+  "reading": "はやし",
+  "meaning": "樹林",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:倍",
+  "deck": "n4-vocab",
+  "front": "倍",
+  "reading": "ばい",
+  "meaning": "倍、加倍",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:痩せる",
+  "deck": "n4-vocab",
+  "front": "痩せる",
+  "reading": "やせる",
+  "meaning": "變瘦、瘦下來",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:線",
+  "deck": "n4-vocab",
+  "front": "線",
+  "reading": "せん",
+  "meaning": "線、線條",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:戦争",
+  "deck": "n4-vocab",
+  "front": "戦争",
+  "reading": "せんそう",
+  "meaning": "戰爭",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:決める",
+  "deck": "n4-vocab",
+  "front": "決める",
+  "reading": "きめる",
+  "pos": "他動詞",
+  "meaning": "決定",
+  "example": "旅行の 日にちを 決めましょう。",
+  "exampleTrans": "我們來決定旅行的日期吧。"
+ },
+ {
+  "id": "n4v:調べる",
+  "deck": "n4-vocab",
+  "front": "調べる",
+  "reading": "しらべる",
+  "meaning": "調查、查詢、查閱",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:寝坊",
+  "deck": "n4-vocab",
+  "front": "寝坊",
+  "reading": "ねぼう",
+  "meaning": "睡過頭、賴床",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:パパ",
+  "deck": "n4-vocab",
+  "front": "パパ",
+  "reading": "パパ",
+  "meaning": "爸爸、老爸",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:光る",
+  "deck": "n4-vocab",
+  "front": "光る",
+  "reading": "ひかる",
+  "meaning": "發光、閃耀",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:夫",
+  "deck": "n4-vocab",
+  "front": "夫",
+  "reading": "おっと",
+  "meaning": "丈夫",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:雲",
+  "deck": "n4-vocab",
+  "front": "雲",
+  "reading": "くも",
+  "meaning": "雲",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:坂",
+  "deck": "n4-vocab",
+  "front": "坂",
+  "reading": "さか",
+  "meaning": "坡道、斜坡",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～(て) しまう",
+  "deck": "n4-vocab",
+  "front": "～(て) しまう",
+  "reading": "～(て) しまう",
+  "meaning": "不小心～、～完了",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:飛行場",
+  "deck": "n4-vocab",
+  "front": "飛行場",
+  "reading": "ひこうじょう",
+  "meaning": "機場",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:柔道",
+  "deck": "n4-vocab",
+  "front": "柔道",
+  "reading": "じゅうどう",
+  "meaning": "柔道",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:決して",
+  "deck": "n4-vocab",
+  "front": "決して",
+  "reading": "けっして",
+  "meaning": "絕（不）、決（不）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:事務所",
+  "deck": "n4-vocab",
+  "front": "事務所",
+  "reading": "じむしょ",
+  "meaning": "事務所、辦公室",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:連絡",
+  "deck": "n4-vocab",
+  "front": "連絡",
+  "reading": "れんらく",
+  "pos": "名詞・する",
+  "meaning": "聯絡",
+  "example": "何か あったら、すぐ 連絡して ください。",
+  "exampleTrans": "有什麼事的話請立刻聯絡我。"
+ },
+ {
+  "id": "n4v:小学校",
+  "deck": "n4-vocab",
+  "front": "小学校",
+  "reading": "しょうがっこう",
+  "meaning": "小學",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:客",
+  "deck": "n4-vocab",
+  "front": "客",
+  "reading": "きゃく",
+  "meaning": "客人、顧客",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:昔",
+  "deck": "n4-vocab",
+  "front": "昔",
+  "reading": "むかし",
+  "meaning": "從前、以前",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:美しい",
+  "deck": "n4-vocab",
+  "front": "美しい",
+  "reading": "うつくしい",
+  "meaning": "美麗的、漂亮的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:捨てる",
+  "deck": "n4-vocab",
+  "front": "捨てる",
+  "reading": "すてる",
+  "meaning": "丟棄、扔掉",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:なさる",
+  "deck": "n4-vocab",
+  "front": "なさる",
+  "reading": "なさる",
+  "meaning": "做（する的尊敬語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:事",
+  "deck": "n4-vocab",
+  "front": "事",
+  "reading": "こと",
+  "meaning": "事情、事物",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:どんどん",
+  "deck": "n4-vocab",
+  "front": "どんどん",
+  "reading": "どんどん",
+  "meaning": "不斷地、接連地、迅速地",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:試合",
+  "deck": "n4-vocab",
+  "front": "試合",
+  "reading": "しあい",
+  "meaning": "比賽",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:適当",
+  "deck": "n4-vocab",
+  "front": "適当",
+  "reading": "てきとう",
+  "meaning": "適當、合適",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:素晴らしい",
+  "deck": "n4-vocab",
+  "front": "素晴らしい",
+  "reading": "すばらしい",
+  "meaning": "很棒的、了不起的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:美術館",
+  "deck": "n4-vocab",
+  "front": "美術館",
+  "reading": "びじゅつかん",
+  "meaning": "美術館",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:文法",
+  "deck": "n4-vocab",
+  "front": "文法",
+  "reading": "ぶんぽう",
+  "meaning": "文法",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:終わり",
+  "deck": "n4-vocab",
+  "front": "終わり",
+  "reading": "おわり",
+  "meaning": "結束、結尾",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:壁",
+  "deck": "n4-vocab",
+  "front": "壁",
+  "reading": "かべ",
+  "meaning": "牆壁",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:一度",
+  "deck": "n4-vocab",
+  "front": "一度",
+  "reading": "いちど",
+  "meaning": "一次、一回",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:お礼",
+  "deck": "n4-vocab",
+  "front": "お礼",
+  "reading": "おれい",
+  "meaning": "謝意、道謝、謝禮",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:親切",
+  "deck": "n4-vocab",
+  "front": "親切",
+  "reading": "しんせつ",
+  "meaning": "親切、好意",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:知らせる",
+  "deck": "n4-vocab",
+  "front": "知らせる",
+  "reading": "しらせる",
+  "meaning": "通知、告知",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:歯医者",
+  "deck": "n4-vocab",
+  "front": "歯医者",
+  "reading": "はいしゃ",
+  "meaning": "牙醫",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:熱心",
+  "deck": "n4-vocab",
+  "front": "熱心",
+  "reading": "ねっしん",
+  "meaning": "熱心、熱衷",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:始める",
+  "deck": "n4-vocab",
+  "front": "始める",
+  "reading": "はじめる",
+  "meaning": "開始",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:もらう",
+  "deck": "n4-vocab",
+  "front": "もらう",
+  "reading": "もらう",
+  "meaning": "得到、收到",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:泣く",
+  "deck": "n4-vocab",
+  "front": "泣く",
+  "reading": "なく",
+  "meaning": "哭、哭泣",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:治る",
+  "deck": "n4-vocab",
+  "front": "治る",
+  "reading": "なおる",
+  "meaning": "痊癒、康復（自動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:熱",
+  "deck": "n4-vocab",
+  "front": "熱",
+  "reading": "ねつ",
+  "meaning": "發燒、熱度",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:お祭り",
+  "deck": "n4-vocab",
+  "front": "お祭り",
+  "reading": "おまつり",
+  "meaning": "祭典、廟會",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:水道",
+  "deck": "n4-vocab",
+  "front": "水道",
+  "reading": "すいどう",
+  "meaning": "自來水、水管",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:匂い",
+  "deck": "n4-vocab",
+  "front": "匂い",
+  "reading": "におい",
+  "meaning": "氣味、味道",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ベル",
+  "deck": "n4-vocab",
+  "front": "ベル",
+  "reading": "ベル",
+  "meaning": "鈴、鈴聲",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:赤ん坊",
+  "deck": "n4-vocab",
+  "front": "赤ん坊",
+  "reading": "あかんぼう",
+  "meaning": "嬰兒",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:おかしい",
+  "deck": "n4-vocab",
+  "front": "おかしい",
+  "reading": "おかしい",
+  "meaning": "奇怪的、可笑的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:事故",
+  "deck": "n4-vocab",
+  "front": "事故",
+  "reading": "じこ",
+  "meaning": "事故、意外",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:変",
+  "deck": "n4-vocab",
+  "front": "変",
+  "reading": "へん",
+  "meaning": "奇怪、怪異",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:辞典",
+  "deck": "n4-vocab",
+  "front": "辞典",
+  "reading": "じてん",
+  "meaning": "辭典、工具書",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:残る",
+  "deck": "n4-vocab",
+  "front": "残る",
+  "reading": "のこる",
+  "meaning": "剩下、留下（自動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:立てる",
+  "deck": "n4-vocab",
+  "front": "立てる",
+  "reading": "たてる",
+  "meaning": "立起、豎起（他動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:くれる",
+  "deck": "n4-vocab",
+  "front": "くれる",
+  "reading": "くれる",
+  "meaning": "給（我）、為我做",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～員",
+  "deck": "n4-vocab",
+  "front": "～員",
+  "reading": "～いん",
+  "meaning": "～員、～人員",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:原因",
+  "deck": "n4-vocab",
+  "front": "原因",
+  "reading": "げんいん",
+  "pos": "名詞",
+  "meaning": "原因",
+  "example": "事故の 原因を 調べて います。",
+  "exampleTrans": "正在調查事故的原因。"
+ },
+ {
+  "id": "n4v:驚く",
+  "deck": "n4-vocab",
+  "front": "驚く",
+  "reading": "おどろく",
+  "meaning": "驚訝、吃驚",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:いただく",
+  "deck": "n4-vocab",
+  "front": "いただく",
+  "reading": "頂く",
+  "meaning": "吃、喝（たべる・のむ的謙讓語）；得到（もらう的謙讓語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:祖母",
+  "deck": "n4-vocab",
+  "front": "祖母",
+  "reading": "そぼ",
+  "meaning": "祖母、外婆",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:場所",
+  "deck": "n4-vocab",
+  "front": "場所",
+  "reading": "ばしょ",
+  "meaning": "地方、場所",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:答",
+  "deck": "n4-vocab",
+  "front": "答",
+  "reading": "こたえ",
+  "meaning": "答案、回答",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:もちろん",
+  "deck": "n4-vocab",
+  "front": "もちろん",
+  "reading": "もちろん",
+  "meaning": "當然",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:漬ける",
+  "deck": "n4-vocab",
+  "front": "漬ける",
+  "reading": "つける",
+  "meaning": "浸泡、醃漬",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:受付",
+  "deck": "n4-vocab",
+  "front": "受付",
+  "reading": "うけつけ",
+  "meaning": "櫃檯、接待處",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:内",
+  "deck": "n4-vocab",
+  "front": "内",
+  "reading": "うち",
+  "meaning": "之內、裡面",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:スクリーン",
+  "deck": "n4-vocab",
+  "front": "スクリーン",
+  "reading": "スクリーン",
+  "meaning": "螢幕、銀幕",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:増える",
+  "deck": "n4-vocab",
+  "front": "増える",
+  "reading": "ふえる",
+  "meaning": "增加、增多",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:または",
+  "deck": "n4-vocab",
+  "front": "または",
+  "reading": "または",
+  "meaning": "或者、或是",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:けがする",
+  "deck": "n4-vocab",
+  "front": "けがする",
+  "reading": "けがする",
+  "meaning": "受傷",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:以下",
+  "deck": "n4-vocab",
+  "front": "以下",
+  "reading": "いか",
+  "meaning": "以下、少於",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:選ぶ",
+  "deck": "n4-vocab",
+  "front": "選ぶ",
+  "reading": "えらぶ",
+  "meaning": "選擇、挑選",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～ばかり",
+  "deck": "n4-vocab",
+  "front": "～ばかり",
+  "reading": "～ばかり",
+  "meaning": "剛～、只有～",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:心",
+  "deck": "n4-vocab",
+  "front": "心",
+  "reading": "こころ",
+  "meaning": "心、內心",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～だす",
+  "deck": "n4-vocab",
+  "front": "～だす",
+  "reading": "～だす",
+  "meaning": "開始～起來",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:サラダ",
+  "deck": "n4-vocab",
+  "front": "サラダ",
+  "reading": "サラダ",
+  "meaning": "沙拉",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:届ける",
+  "deck": "n4-vocab",
+  "front": "届ける",
+  "reading": "とどける",
+  "pos": "他動詞",
+  "meaning": "送達、遞送",
+  "example": "この荷物を 事務所に 届けて ください。",
+  "exampleTrans": "請把這件行李送到辦公室。"
+ },
+ {
+  "id": "n4v:あいさつする",
+  "deck": "n4-vocab",
+  "front": "あいさつする",
+  "reading": "挨拶",
+  "meaning": "打招呼、問候",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:景色",
+  "deck": "n4-vocab",
+  "front": "景色",
+  "reading": "けしき",
+  "meaning": "景色、風景",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:確か",
+  "deck": "n4-vocab",
+  "front": "確か",
+  "reading": "たしか",
+  "meaning": "確實的、確定的；（沒記錯的話）應該是",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ステーキ",
+  "deck": "n4-vocab",
+  "front": "ステーキ",
+  "reading": "ステーキ",
+  "meaning": "牛排",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:食料品",
+  "deck": "n4-vocab",
+  "front": "食料品",
+  "reading": "しょくりょうひん",
+  "meaning": "食品、食材",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:森",
+  "deck": "n4-vocab",
+  "front": "森",
+  "reading": "もり",
+  "meaning": "森林",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:以内",
+  "deck": "n4-vocab",
+  "front": "以内",
+  "reading": "いない",
+  "meaning": "以內、不超過",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:予定",
+  "deck": "n4-vocab",
+  "front": "予定",
+  "reading": "よてい",
+  "pos": "名詞",
+  "meaning": "預定、計畫",
+  "example": "明日は 大阪へ 行く 予定です。",
+  "exampleTrans": "明天預定去大阪。"
+ },
+ {
+  "id": "n4v:オーバー",
+  "deck": "n4-vocab",
+  "front": "オーバー",
+  "reading": "オーバー",
+  "meaning": "大衣；超過、誇張",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:乾く",
+  "deck": "n4-vocab",
+  "front": "乾く",
+  "reading": "かわく",
+  "meaning": "乾、變乾",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:石",
+  "deck": "n4-vocab",
+  "front": "石",
+  "reading": "いし",
+  "meaning": "石頭",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:思い出す",
+  "deck": "n4-vocab",
+  "front": "思い出す",
+  "reading": "おもいだす",
+  "meaning": "想起、回憶起",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:踊る",
+  "deck": "n4-vocab",
+  "front": "踊る",
+  "reading": "おどる",
+  "meaning": "跳舞",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:細かい",
+  "deck": "n4-vocab",
+  "front": "細かい",
+  "reading": "こまかい",
+  "meaning": "細小的、細微的、零碎的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:塗る",
+  "deck": "n4-vocab",
+  "front": "塗る",
+  "reading": "ぬる",
+  "meaning": "塗、抹、刷",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ご主人",
+  "deck": "n4-vocab",
+  "front": "ご主人",
+  "reading": "ごしゅじん",
+  "meaning": "（尊稱他人的）先生、丈夫",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:珍しい",
+  "deck": "n4-vocab",
+  "front": "珍しい",
+  "reading": "めずらしい",
+  "meaning": "罕見的、稀奇的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:用",
+  "deck": "n4-vocab",
+  "front": "用",
+  "reading": "よう",
+  "meaning": "事情、要辦的事",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:公務員",
+  "deck": "n4-vocab",
+  "front": "公務員",
+  "reading": "こうむいん",
+  "meaning": "公務員",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:お嬢さん",
+  "deck": "n4-vocab",
+  "front": "お嬢さん",
+  "reading": "おじょうさん",
+  "meaning": "（尊稱他人的）女兒、令嬡",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:用意",
+  "deck": "n4-vocab",
+  "front": "用意",
+  "reading": "ようい",
+  "pos": "名詞・する",
+  "meaning": "準備、預備",
+  "example": "飲み物は こちらで 用意します。",
+  "exampleTrans": "飲料由我們這邊準備。"
+ },
+ {
+  "id": "n4v:探す",
+  "deck": "n4-vocab",
+  "front": "探す",
+  "reading": "さがす",
+  "meaning": "尋找、找",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:形",
+  "deck": "n4-vocab",
+  "front": "形",
+  "reading": "かたち",
+  "meaning": "形狀",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:運転",
+  "deck": "n4-vocab",
+  "front": "運転",
+  "reading": "うんてんする",
+  "meaning": "駕駛、開車",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:すっかり",
+  "deck": "n4-vocab",
+  "front": "すっかり",
+  "reading": "すっかり",
+  "meaning": "完全、全部",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:アナウンサー",
+  "deck": "n4-vocab",
+  "front": "アナウンサー",
+  "reading": "アナウンサー",
+  "meaning": "播報員、主播",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:お土産",
+  "deck": "n4-vocab",
+  "front": "お土産",
+  "reading": "おみやげ",
+  "meaning": "伴手禮、土產",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:消しゴム",
+  "deck": "n4-vocab",
+  "front": "消しゴム",
+  "reading": "けしゴム",
+  "meaning": "橡皮擦",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:旅館",
+  "deck": "n4-vocab",
+  "front": "旅館",
+  "reading": "りょかん",
+  "meaning": "日式旅館",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:海岸",
+  "deck": "n4-vocab",
+  "front": "海岸",
+  "reading": "かいがん",
+  "meaning": "海岸、海邊",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:寂しい",
+  "deck": "n4-vocab",
+  "front": "寂しい",
+  "reading": "さびしい",
+  "meaning": "寂寞的、孤單的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:火",
+  "deck": "n4-vocab",
+  "front": "火",
+  "reading": "ひ",
+  "meaning": "火",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:育てる",
+  "deck": "n4-vocab",
+  "front": "育てる",
+  "reading": "そだてる",
+  "meaning": "養育、培育（他動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:味噌",
+  "deck": "n4-vocab",
+  "front": "味噌",
+  "reading": "みそ",
+  "meaning": "味噌",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:お祝い",
+  "deck": "n4-vocab",
+  "front": "お祝い",
+  "reading": "おいわい",
+  "meaning": "祝賀、慶祝",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:乗り物",
+  "deck": "n4-vocab",
+  "front": "乗り物",
+  "reading": "のりもの",
+  "meaning": "交通工具",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:案内",
+  "deck": "n4-vocab",
+  "front": "案内",
+  "reading": "あんない",
+  "pos": "名詞・する",
+  "meaning": "導覽、引導",
+  "example": "京都を 案内して あげましょう。",
+  "exampleTrans": "我帶你逛逛京都吧。"
+ },
+ {
+  "id": "n4v:通う",
+  "deck": "n4-vocab",
+  "front": "通う",
+  "reading": "かよう",
+  "meaning": "往返、通勤、定期往來",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:連れる",
+  "deck": "n4-vocab",
+  "front": "連れる",
+  "reading": "つれる",
+  "meaning": "帶（人）、帶領",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:技術",
+  "deck": "n4-vocab",
+  "front": "技術",
+  "reading": "ぎじゅつ",
+  "meaning": "技術、技能",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:小鳥",
+  "deck": "n4-vocab",
+  "front": "小鳥",
+  "reading": "ことり",
+  "meaning": "小鳥",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:下宿",
+  "deck": "n4-vocab",
+  "front": "下宿",
+  "reading": "げしゅく",
+  "meaning": "寄宿、供膳宿舍",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ジャム",
+  "deck": "n4-vocab",
+  "front": "ジャム",
+  "reading": "ジャム",
+  "meaning": "果醬",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:招待",
+  "deck": "n4-vocab",
+  "front": "招待",
+  "reading": "しょうたい",
+  "pos": "名詞・する",
+  "meaning": "邀請",
+  "example": "結婚式に 招待されました。",
+  "exampleTrans": "我被邀請參加婚禮。"
+ },
+ {
+  "id": "n4v:鏡",
+  "deck": "n4-vocab",
+  "front": "鏡",
+  "reading": "かがみ",
+  "meaning": "鏡子",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:はず",
+  "deck": "n4-vocab",
+  "front": "はず",
+  "reading": "はず",
+  "meaning": "應該、照理說",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:法律",
+  "deck": "n4-vocab",
+  "front": "法律",
+  "reading": "ほうりつ",
+  "meaning": "法律",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:進む",
+  "deck": "n4-vocab",
+  "front": "進む",
+  "reading": "すすむ",
+  "meaning": "前進、進行",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:楽む",
+  "deck": "n4-vocab",
+  "front": "楽む",
+  "reading": "たのしむ",
+  "meaning": "享受、欣賞",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:貿易",
+  "deck": "n4-vocab",
+  "front": "貿易",
+  "reading": "ぼうえき",
+  "meaning": "貿易",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:反対",
+  "deck": "n4-vocab",
+  "front": "反対",
+  "reading": "はんたい",
+  "meaning": "反對、相反",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:おる",
+  "deck": "n4-vocab",
+  "front": "おる",
+  "reading": "おる",
+  "meaning": "「いる」的謙讓語（在）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:申す",
+  "deck": "n4-vocab",
+  "front": "申す",
+  "reading": "もうす",
+  "meaning": "「言う」的謙讓語（說）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:試験",
+  "deck": "n4-vocab",
+  "front": "試験",
+  "reading": "しけん",
+  "meaning": "考試",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:真面目",
+  "deck": "n4-vocab",
+  "front": "真面目",
+  "reading": "まじめ",
+  "meaning": "認真、正經",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:店員",
+  "deck": "n4-vocab",
+  "front": "店員",
+  "reading": "てんいん",
+  "meaning": "店員",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:泊まる",
+  "deck": "n4-vocab",
+  "front": "泊まる",
+  "reading": "とまる",
+  "meaning": "住宿、過夜（自動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:よろしい",
+  "deck": "n4-vocab",
+  "front": "よろしい",
+  "reading": "よろしい",
+  "meaning": "好、可以（客氣說法）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:今夜",
+  "deck": "n4-vocab",
+  "front": "今夜",
+  "reading": "こんや",
+  "meaning": "今晚",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:おつり",
+  "deck": "n4-vocab",
+  "front": "おつり",
+  "reading": "おつり",
+  "meaning": "找零、找回的零錢",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:チェックする",
+  "deck": "n4-vocab",
+  "front": "チェックする",
+  "reading": "チェックする",
+  "meaning": "檢查、確認",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:会話",
+  "deck": "n4-vocab",
+  "front": "会話",
+  "reading": "かいわ",
+  "meaning": "會話、對話",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:空気",
+  "deck": "n4-vocab",
+  "front": "空気",
+  "reading": "くうき",
+  "meaning": "空氣、氣氛",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:交通",
+  "deck": "n4-vocab",
+  "front": "交通",
+  "reading": "こうつう",
+  "meaning": "交通",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ワープロ",
+  "deck": "n4-vocab",
+  "front": "ワープロ",
+  "reading": "ワープロ",
+  "meaning": "文書處理機",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:喜ぶ",
+  "deck": "n4-vocab",
+  "front": "喜ぶ",
+  "reading": "よろこぶ",
+  "meaning": "高興、喜悅",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:急行",
+  "deck": "n4-vocab",
+  "front": "急行",
+  "reading": "きゅうこう",
+  "meaning": "快車（電車或巴士）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:皆",
+  "deck": "n4-vocab",
+  "front": "皆",
+  "reading": "みな",
+  "meaning": "大家、全部",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:味",
+  "deck": "n4-vocab",
+  "front": "味",
+  "reading": "あじ",
+  "meaning": "味道",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:空港",
+  "deck": "n4-vocab",
+  "front": "空港",
+  "reading": "くうこう",
+  "meaning": "機場",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:手袋",
+  "deck": "n4-vocab",
+  "front": "手袋",
+  "reading": "てぶくろ",
+  "meaning": "手套",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:校長",
+  "deck": "n4-vocab",
+  "front": "校長",
+  "reading": "こうちょう",
+  "meaning": "校長",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ごちそう",
+  "deck": "n4-vocab",
+  "front": "ごちそう",
+  "reading": "ごちそう",
+  "meaning": "大餐、款待",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:踊り",
+  "deck": "n4-vocab",
+  "front": "踊り",
+  "reading": "おどり",
+  "meaning": "舞蹈",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:興味",
+  "deck": "n4-vocab",
+  "front": "興味",
+  "reading": "きょうみ",
+  "pos": "名詞",
+  "meaning": "興趣",
+  "example": "日本の 文化に 興味が あります。",
+  "exampleTrans": "我對日本文化有興趣。"
+ },
+ {
+  "id": "n4v:引っ越す",
+  "deck": "n4-vocab",
+  "front": "引っ越す",
+  "reading": "ひっこす",
+  "meaning": "搬家",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:冷房",
+  "deck": "n4-vocab",
+  "front": "冷房",
+  "reading": "れいぼう",
+  "meaning": "冷氣",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:都合",
+  "deck": "n4-vocab",
+  "front": "都合",
+  "reading": "つごう",
+  "meaning": "情況、方便與否",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:遠慮",
+  "deck": "n4-vocab",
+  "front": "遠慮",
+  "reading": "えんりょ",
+  "pos": "名詞・する",
+  "meaning": "客氣、顧慮",
+  "example": "どうぞ 遠慮しないで 食べて ください。",
+  "exampleTrans": "請不要客氣，儘管吃。"
+ },
+ {
+  "id": "n4v:亡くなる",
+  "deck": "n4-vocab",
+  "front": "亡くなる",
+  "reading": "なくなる",
+  "meaning": "過世、去世",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:科学",
+  "deck": "n4-vocab",
+  "front": "科学",
+  "reading": "かがく",
+  "meaning": "科學",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:はっきり",
+  "deck": "n4-vocab",
+  "front": "はっきり",
+  "reading": "はっきり",
+  "meaning": "清楚地、明確地",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:差し上げる",
+  "deck": "n4-vocab",
+  "front": "差し上げる",
+  "reading": "さしあげる",
+  "meaning": "「あげる」的謙讓語（給、獻上）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:気持ち",
+  "deck": "n4-vocab",
+  "front": "気持ち",
+  "reading": "きもち",
+  "meaning": "心情、感覺",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:祖父",
+  "deck": "n4-vocab",
+  "front": "祖父",
+  "reading": "そふ",
+  "meaning": "祖父、爺爺",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:港",
+  "deck": "n4-vocab",
+  "front": "港",
+  "reading": "みなと",
+  "meaning": "港口",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:予約",
+  "deck": "n4-vocab",
+  "front": "予約",
+  "reading": "よやく",
+  "meaning": "預約",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:凄い",
+  "deck": "n4-vocab",
+  "front": "凄い",
+  "reading": "すごい",
+  "meaning": "厲害、驚人",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:入学",
+  "deck": "n4-vocab",
+  "front": "入学",
+  "reading": "にゅうがくする",
+  "meaning": "入學",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:片付ける",
+  "deck": "n4-vocab",
+  "front": "片付ける",
+  "reading": "かたづける",
+  "meaning": "整理、收拾",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:写す",
+  "deck": "n4-vocab",
+  "front": "写す",
+  "reading": "うつす",
+  "meaning": "抄寫、拍攝",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:パソコン",
+  "deck": "n4-vocab",
+  "front": "パソコン",
+  "reading": "パソコン",
+  "meaning": "個人電腦",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:部長",
+  "deck": "n4-vocab",
+  "front": "部長",
+  "reading": "ぶちょう",
+  "meaning": "部長、部門經理",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:火事",
+  "deck": "n4-vocab",
+  "front": "火事",
+  "reading": "かじ",
+  "meaning": "火災",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:足す",
+  "deck": "n4-vocab",
+  "front": "足す",
+  "reading": "たす",
+  "meaning": "加（數字）、添加",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:教会",
+  "deck": "n4-vocab",
+  "front": "教会",
+  "reading": "きょうかい",
+  "meaning": "教會、教堂",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:彼ら",
+  "deck": "n4-vocab",
+  "front": "彼ら",
+  "reading": "かれら",
+  "meaning": "他們（多指男性）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:いっぱい",
+  "deck": "n4-vocab",
+  "front": "いっぱい",
+  "reading": "一杯",
+  "meaning": "滿滿地、充滿",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:アメリカ",
+  "deck": "n4-vocab",
+  "front": "アメリカ",
+  "reading": "アメリカ",
+  "meaning": "美國",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:男性",
+  "deck": "n4-vocab",
+  "front": "男性",
+  "reading": "だんせい",
+  "meaning": "男性",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:理由",
+  "deck": "n4-vocab",
+  "front": "理由",
+  "reading": "りゆう",
+  "meaning": "理由、原因",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:生産",
+  "deck": "n4-vocab",
+  "front": "生産",
+  "reading": "せいさんする",
+  "meaning": "生產",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:着物",
+  "deck": "n4-vocab",
+  "front": "着物",
+  "reading": "きもの",
+  "meaning": "和服",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:おもちゃ",
+  "deck": "n4-vocab",
+  "front": "おもちゃ",
+  "reading": "おもちゃ",
+  "meaning": "玩具",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:暮れる",
+  "deck": "n4-vocab",
+  "front": "暮れる",
+  "reading": "くれる",
+  "meaning": "天黑、（季節、一年）將盡",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:釣る",
+  "deck": "n4-vocab",
+  "front": "釣る",
+  "reading": "つる",
+  "meaning": "釣（魚）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～ちゃん",
+  "deck": "n4-vocab",
+  "front": "～ちゃん",
+  "reading": "～ちゃん",
+  "meaning": "親暱稱呼後綴（多用於女性、小孩）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:打つ",
+  "deck": "n4-vocab",
+  "front": "打つ",
+  "reading": "うつ",
+  "meaning": "打、敲擊",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:あんな",
+  "deck": "n4-vocab",
+  "front": "あんな",
+  "reading": "あんな",
+  "meaning": "那樣的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:謝る",
+  "deck": "n4-vocab",
+  "front": "謝る",
+  "reading": "あやまる",
+  "meaning": "道歉",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:昼間",
+  "deck": "n4-vocab",
+  "front": "昼間",
+  "reading": "ひるま",
+  "meaning": "白天",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:教育",
+  "deck": "n4-vocab",
+  "front": "教育",
+  "reading": "きょういく",
+  "meaning": "教育",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:女性",
+  "deck": "n4-vocab",
+  "front": "女性",
+  "reading": "じょせい",
+  "meaning": "女性",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:米",
+  "deck": "n4-vocab",
+  "front": "米",
+  "reading": "こめ",
+  "meaning": "米、生米",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:邪魔",
+  "deck": "n4-vocab",
+  "front": "邪魔",
+  "reading": "じゃま",
+  "meaning": "妨礙、打擾",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:国際",
+  "deck": "n4-vocab",
+  "front": "国際",
+  "reading": "こくさい",
+  "meaning": "國際",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:隅",
+  "deck": "n4-vocab",
+  "front": "隅",
+  "reading": "すみ",
+  "meaning": "角落",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:伺う",
+  "deck": "n4-vocab",
+  "front": "伺う",
+  "reading": "うかがう",
+  "meaning": "「行く・聞く・来る」的謙讓語（拜訪、請教）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:再来週",
+  "deck": "n4-vocab",
+  "front": "再来週",
+  "reading": "さらいしゅう",
+  "meaning": "下下週",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:夢",
+  "deck": "n4-vocab",
+  "front": "夢",
+  "reading": "ゆめ",
+  "meaning": "夢、夢想",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:喉",
+  "deck": "n4-vocab",
+  "front": "喉",
+  "reading": "のど",
+  "meaning": "喉嚨",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:最近",
+  "deck": "n4-vocab",
+  "front": "最近",
+  "reading": "さいきん",
+  "pos": "名詞・副詞",
+  "meaning": "最近",
+  "example": "最近、日本語の 勉強を 始めました。",
+  "exampleTrans": "最近開始學日語了。"
+ },
+ {
+  "id": "n4v:周り",
+  "deck": "n4-vocab",
+  "front": "周り",
+  "reading": "まわり",
+  "meaning": "周圍",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:歴史",
+  "deck": "n4-vocab",
+  "front": "歴史",
+  "reading": "れきし",
+  "meaning": "歷史",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:不便",
+  "deck": "n4-vocab",
+  "front": "不便",
+  "reading": "ふべん",
+  "meaning": "不方便",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:血",
+  "deck": "n4-vocab",
+  "front": "血",
+  "reading": "ち",
+  "meaning": "血",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～続ける",
+  "deck": "n4-vocab",
+  "front": "～続ける",
+  "reading": "～つづける",
+  "meaning": "持續做～",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:毛",
+  "deck": "n4-vocab",
+  "front": "毛",
+  "reading": "け",
+  "meaning": "毛髮、毛",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ひどい",
+  "deck": "n4-vocab",
+  "front": "ひどい",
+  "reading": "ひどい",
+  "meaning": "過分、殘酷、糟糕",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:例えば",
+  "deck": "n4-vocab",
+  "front": "例えば",
+  "reading": "たとえば",
+  "meaning": "例如",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:中々",
+  "deck": "n4-vocab",
+  "front": "中々",
+  "reading": "なかなか",
+  "meaning": "相當、很",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:随分",
+  "deck": "n4-vocab",
+  "front": "随分",
+  "reading": "ずいぶん",
+  "meaning": "非常、相當",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～やすい",
+  "deck": "n4-vocab",
+  "front": "～やすい",
+  "reading": "～やすい",
+  "meaning": "容易做～",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:押し入れ",
+  "deck": "n4-vocab",
+  "front": "押し入れ",
+  "reading": "おしいれ",
+  "meaning": "壁櫥",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:電灯",
+  "deck": "n4-vocab",
+  "front": "電灯",
+  "reading": "でんとう",
+  "meaning": "電燈",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:叱る",
+  "deck": "n4-vocab",
+  "front": "叱る",
+  "reading": "しかる",
+  "meaning": "責罵、斥責",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:サンダル",
+  "deck": "n4-vocab",
+  "front": "サンダル",
+  "reading": "サンダル",
+  "meaning": "涼鞋",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:びっくりする",
+  "deck": "n4-vocab",
+  "front": "びっくりする",
+  "reading": "びっくりする",
+  "meaning": "嚇一跳、吃驚",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:うまい",
+  "deck": "n4-vocab",
+  "front": "うまい",
+  "reading": "うまい",
+  "meaning": "好吃、拿手、順利",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:変える",
+  "deck": "n4-vocab",
+  "front": "変える",
+  "reading": "かえる",
+  "meaning": "改變、變更",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:講堂",
+  "deck": "n4-vocab",
+  "front": "講堂",
+  "reading": "こうどう",
+  "meaning": "禮堂",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:子",
+  "deck": "n4-vocab",
+  "front": "子",
+  "reading": "こ",
+  "meaning": "孩子",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:沸かす",
+  "deck": "n4-vocab",
+  "front": "沸かす",
+  "reading": "わかす",
+  "meaning": "燒開、煮沸",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:レジ",
+  "deck": "n4-vocab",
+  "front": "レジ",
+  "reading": "レジ",
+  "meaning": "收銀台、收銀機",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:しばらく",
+  "deck": "n4-vocab",
+  "front": "しばらく",
+  "reading": "しばらく",
+  "meaning": "一會兒、暫時",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:特に",
+  "deck": "n4-vocab",
+  "front": "特に",
+  "reading": "とくに",
+  "meaning": "特別、尤其",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:空く",
+  "deck": "n4-vocab",
+  "front": "空く",
+  "reading": "あく",
+  "meaning": "空出、有空位",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:計画",
+  "deck": "n4-vocab",
+  "front": "計画",
+  "reading": "けいかくする",
+  "meaning": "計畫、規劃",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:通り",
+  "deck": "n4-vocab",
+  "front": "通り",
+  "reading": "とおり",
+  "meaning": "～街、～大道",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:下着",
+  "deck": "n4-vocab",
+  "front": "下着",
+  "reading": "したぎ",
+  "meaning": "內衣褲",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:経済",
+  "deck": "n4-vocab",
+  "front": "経済",
+  "reading": "けいざい",
+  "meaning": "經濟",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:こう",
+  "deck": "n4-vocab",
+  "front": "こう",
+  "reading": "こう",
+  "meaning": "這樣、如此",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:是非",
+  "deck": "n4-vocab",
+  "front": "是非",
+  "reading": "ぜひ",
+  "meaning": "務必、一定",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:裏",
+  "deck": "n4-vocab",
+  "front": "裏",
+  "reading": "うら",
+  "meaning": "背面、後面",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:為",
+  "deck": "n4-vocab",
+  "front": "為",
+  "reading": "ため",
+  "meaning": "為了、利益",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:おいでになる",
+  "deck": "n4-vocab",
+  "front": "おいでになる",
+  "reading": "おいでになる",
+  "meaning": "「いる」的尊敬語（在）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:変わる",
+  "deck": "n4-vocab",
+  "front": "変わる",
+  "reading": "かわる",
+  "meaning": "改變、變化（自動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:以外",
+  "deck": "n4-vocab",
+  "front": "以外",
+  "reading": "いがい",
+  "meaning": "以外、除了～之外",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:済む",
+  "deck": "n4-vocab",
+  "front": "済む",
+  "reading": "すむ",
+  "meaning": "結束、完成",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ハンバーグ",
+  "deck": "n4-vocab",
+  "front": "ハンバーグ",
+  "reading": "ハンバーグ",
+  "meaning": "漢堡排",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:市",
+  "deck": "n4-vocab",
+  "front": "市",
+  "reading": "し",
+  "meaning": "市、城市",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:引き出し",
+  "deck": "n4-vocab",
+  "front": "引き出し",
+  "reading": "ひきだし",
+  "meaning": "抽屜",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:遊び",
+  "deck": "n4-vocab",
+  "front": "遊び",
+  "reading": "あそび",
+  "meaning": "遊玩、遊戲",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:支度",
+  "deck": "n4-vocab",
+  "front": "支度",
+  "reading": "したく",
+  "pos": "名詞・する",
+  "meaning": "準備（外出、用餐等）",
+  "example": "出かける 支度を して います。",
+  "exampleTrans": "正在做出門的準備。"
+ },
+ {
+  "id": "n4v:～始める",
+  "deck": "n4-vocab",
+  "front": "～始める",
+  "reading": "～はじめる",
+  "meaning": "開始做～",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:見える",
+  "deck": "n4-vocab",
+  "front": "見える",
+  "reading": "みえる",
+  "meaning": "看得見；「來（来る）」的敬語",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:十分",
+  "deck": "n4-vocab",
+  "front": "十分",
+  "reading": "じゅうぶん",
+  "meaning": "足夠、充分",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:音",
+  "deck": "n4-vocab",
+  "front": "音",
+  "reading": "おと",
+  "meaning": "聲音、音",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:きっと",
+  "deck": "n4-vocab",
+  "front": "きっと",
+  "reading": "きっと",
+  "meaning": "一定、肯定、必定",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:まず",
+  "deck": "n4-vocab",
+  "front": "まず",
+  "reading": "まず",
+  "meaning": "首先、先",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:遠く",
+  "deck": "n4-vocab",
+  "front": "遠く",
+  "reading": "とおく",
+  "meaning": "遠處、遙遠",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:大体",
+  "deck": "n4-vocab",
+  "front": "大体",
+  "reading": "だいたい",
+  "meaning": "大致、大體上、本來（同もともと）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:折れる",
+  "deck": "n4-vocab",
+  "front": "折れる",
+  "reading": "おれる",
+  "meaning": "折斷、折疊、讓步、轉彎",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:正しい",
+  "deck": "n4-vocab",
+  "front": "正しい",
+  "reading": "ただしい",
+  "meaning": "正確的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:輸入",
+  "deck": "n4-vocab",
+  "front": "輸入",
+  "reading": "ゆにゅう",
+  "meaning": "進口、輸入",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:返事",
+  "deck": "n4-vocab",
+  "front": "返事",
+  "reading": "へんじ",
+  "meaning": "回覆、回答",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:都",
+  "deck": "n4-vocab",
+  "front": "都",
+  "reading": "と",
+  "meaning": "都（大都市行政區，如東京都）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:産業",
+  "deck": "n4-vocab",
+  "front": "産業",
+  "reading": "さんぎょう",
+  "meaning": "產業",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:伝える",
+  "deck": "n4-vocab",
+  "front": "伝える",
+  "reading": "つたえる",
+  "meaning": "傳達（訊息）、告訴、轉告",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:お金持ち",
+  "deck": "n4-vocab",
+  "front": "お金持ち",
+  "reading": "かねもち; おかねもち",
+  "meaning": "有錢人、富人",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:説明",
+  "deck": "n4-vocab",
+  "front": "説明",
+  "reading": "せつめい",
+  "pos": "名詞・する",
+  "meaning": "說明",
+  "example": "使い方を 説明して ください。",
+  "exampleTrans": "請說明使用方法。"
+ },
+ {
+  "id": "n4v:島",
+  "deck": "n4-vocab",
+  "front": "島",
+  "reading": "しま",
+  "meaning": "島、島嶼",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:道具",
+  "deck": "n4-vocab",
+  "front": "道具",
+  "reading": "どうぐ",
+  "meaning": "工具、道具",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:滑る",
+  "deck": "n4-vocab",
+  "front": "滑る",
+  "reading": "すべる",
+  "meaning": "滑、滑倒",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:それほど",
+  "deck": "n4-vocab",
+  "front": "それほど",
+  "reading": "それほど",
+  "meaning": "那麼、到那種程度",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:以上",
+  "deck": "n4-vocab",
+  "front": "以上",
+  "reading": "いじょう",
+  "meaning": "以上、超過；到此為止",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～まま",
+  "deck": "n4-vocab",
+  "front": "～まま",
+  "reading": "～まま",
+  "meaning": "保持原樣、照舊",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:特急",
+  "deck": "n4-vocab",
+  "front": "特急",
+  "reading": "とっきゅう",
+  "meaning": "特快車（比快車更快）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:プレゼント",
+  "deck": "n4-vocab",
+  "front": "プレゼント",
+  "reading": "プレゼント",
+  "meaning": "禮物",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～(に) よると",
+  "deck": "n4-vocab",
+  "front": "～(に) よると",
+  "reading": "～(に) よると",
+  "meaning": "根據～",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:妻",
+  "deck": "n4-vocab",
+  "front": "妻",
+  "reading": "つま",
+  "meaning": "妻子（謙稱）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:帰り",
+  "deck": "n4-vocab",
+  "front": "帰り",
+  "reading": "かえり",
+  "meaning": "回程、回來",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:具合",
+  "deck": "n4-vocab",
+  "front": "具合",
+  "reading": "ぐあい",
+  "meaning": "狀況、身體狀況",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:堅; 硬; 固い",
+  "deck": "n4-vocab",
+  "front": "堅; 硬; 固い",
+  "reading": "かたい",
+  "meaning": "硬的、堅固的、堅定的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:駐車場",
+  "deck": "n4-vocab",
+  "front": "駐車場",
+  "reading": "ちゅうしゃじょう",
+  "meaning": "停車場",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:スーツ",
+  "deck": "n4-vocab",
+  "front": "スーツ",
+  "reading": "スーツ",
+  "meaning": "西裝、套裝",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:危険",
+  "deck": "n4-vocab",
+  "front": "危険",
+  "reading": "きけん",
+  "meaning": "危險",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:髪",
+  "deck": "n4-vocab",
+  "front": "髪",
+  "reading": "かみ",
+  "meaning": "頭髮",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:天気予報",
+  "deck": "n4-vocab",
+  "front": "天気予報",
+  "reading": "てんきよほう",
+  "meaning": "天氣預報",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:彼女",
+  "deck": "n4-vocab",
+  "front": "彼女",
+  "reading": "かのじょ",
+  "meaning": "女朋友；她",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:間",
+  "deck": "n4-vocab",
+  "front": "間",
+  "reading": "あいだ",
+  "meaning": "之間、間隔",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:卒業",
+  "deck": "n4-vocab",
+  "front": "卒業",
+  "reading": "そつぎょう",
+  "meaning": "畢業",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:それで",
+  "deck": "n4-vocab",
+  "front": "それで",
+  "reading": "それで",
+  "meaning": "於是、因此",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:枝",
+  "deck": "n4-vocab",
+  "front": "枝",
+  "reading": "えだ",
+  "meaning": "樹枝",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:専門",
+  "deck": "n4-vocab",
+  "front": "専門",
+  "reading": "せんもん",
+  "meaning": "主修、專業",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:そろそろ",
+  "deck": "n4-vocab",
+  "front": "そろそろ",
+  "reading": "そろそろ",
+  "meaning": "差不多該～、漸漸",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:送る",
+  "deck": "n4-vocab",
+  "front": "送る",
+  "reading": "おくる",
+  "meaning": "寄送、發送",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:あげる",
+  "deck": "n4-vocab",
+  "front": "あげる",
+  "reading": "あげる",
+  "meaning": "給",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:騒ぐ",
+  "deck": "n4-vocab",
+  "front": "騒ぐ",
+  "reading": "さわぐ",
+  "meaning": "吵鬧、喧嘩",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:尋ねる",
+  "deck": "n4-vocab",
+  "front": "尋ねる",
+  "reading": "たずねる",
+  "meaning": "詢問（同質問する）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:放送",
+  "deck": "n4-vocab",
+  "front": "放送",
+  "reading": "ほうそうする",
+  "meaning": "廣播、播放",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:政治",
+  "deck": "n4-vocab",
+  "front": "政治",
+  "reading": "せいじ",
+  "meaning": "政治",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:市民",
+  "deck": "n4-vocab",
+  "front": "市民",
+  "reading": "しみん",
+  "meaning": "市民",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ファックス",
+  "deck": "n4-vocab",
+  "front": "ファックス",
+  "reading": "ファックス",
+  "meaning": "傳真",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:負ける",
+  "deck": "n4-vocab",
+  "front": "負ける",
+  "reading": "まける",
+  "meaning": "輸（比賽）、被打敗（自動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:指輪",
+  "deck": "n4-vocab",
+  "front": "指輪",
+  "reading": "ゆびわ",
+  "meaning": "戒指",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:田舎",
+  "deck": "n4-vocab",
+  "front": "田舎",
+  "reading": "いなか",
+  "meaning": "鄉下、農村",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:見つける",
+  "deck": "n4-vocab",
+  "front": "見つける",
+  "reading": "みつける",
+  "meaning": "發現、找到（他動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:高校生",
+  "deck": "n4-vocab",
+  "front": "高校生",
+  "reading": "こうこうせい",
+  "meaning": "高中生",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:講義",
+  "deck": "n4-vocab",
+  "front": "講義",
+  "reading": "こうぎ",
+  "meaning": "講課、講座",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:そんなに",
+  "deck": "n4-vocab",
+  "front": "そんなに",
+  "reading": "そんなに",
+  "meaning": "那麼、那樣地",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:昼休み",
+  "deck": "n4-vocab",
+  "front": "昼休み",
+  "reading": "ひるやすみ",
+  "meaning": "午休",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:忘れ物",
+  "deck": "n4-vocab",
+  "front": "忘れ物",
+  "reading": "わすれもの",
+  "meaning": "遺失物、忘記帶的東西",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:下りる",
+  "deck": "n4-vocab",
+  "front": "下りる",
+  "reading": "おりる",
+  "meaning": "下來、下（樓、車）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:腕",
+  "deck": "n4-vocab",
+  "front": "腕",
+  "reading": "うで",
+  "meaning": "手臂",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:訳",
+  "deck": "n4-vocab",
+  "front": "訳",
+  "reading": "わけ",
+  "meaning": "理由、緣故",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:承知",
+  "deck": "n4-vocab",
+  "front": "承知",
+  "reading": "しょうちする",
+  "meaning": "知道、答應、同意",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:日記",
+  "deck": "n4-vocab",
+  "front": "日記",
+  "reading": "にっき",
+  "meaning": "日記",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:高校; 高等学校",
+  "deck": "n4-vocab",
+  "front": "高校; 高等学校",
+  "reading": "こうこう; こうとうがっこう",
+  "meaning": "高中、高級中學",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:似る",
+  "deck": "n4-vocab",
+  "front": "似る",
+  "reading": "にる",
+  "meaning": "相似、像",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～おわる",
+  "deck": "n4-vocab",
+  "front": "～おわる",
+  "reading": "～おわる",
+  "meaning": "做完～",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:暖房",
+  "deck": "n4-vocab",
+  "front": "暖房",
+  "reading": "だんぼう",
+  "meaning": "暖氣",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:留守",
+  "deck": "n4-vocab",
+  "front": "留守",
+  "reading": "るす",
+  "meaning": "不在家、外出",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:割合",
+  "deck": "n4-vocab",
+  "front": "割合",
+  "reading": "わりあい",
+  "meaning": "比例、比率、百分比",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:寺",
+  "deck": "n4-vocab",
+  "front": "寺",
+  "reading": "てら",
+  "meaning": "寺廟、佛寺",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:慣れる",
+  "deck": "n4-vocab",
+  "front": "慣れる",
+  "reading": "なれる",
+  "meaning": "習慣、適應",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:普通",
+  "deck": "n4-vocab",
+  "front": "普通",
+  "reading": "ふつう",
+  "meaning": "普通、通常",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:手伝う",
+  "deck": "n4-vocab",
+  "front": "手伝う",
+  "reading": "てつだう",
+  "meaning": "幫忙",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:なるほど",
+  "deck": "n4-vocab",
+  "front": "なるほど",
+  "reading": "なるほど",
+  "meaning": "原來如此",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:くださる",
+  "deck": "n4-vocab",
+  "front": "くださる",
+  "reading": "くださる",
+  "meaning": "給（尊敬語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:息子",
+  "deck": "n4-vocab",
+  "front": "息子",
+  "reading": "むすこ",
+  "meaning": "兒子（謙稱）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:お子さん",
+  "deck": "n4-vocab",
+  "front": "お子さん",
+  "reading": "おこさん",
+  "meaning": "（別人的）小孩（敬稱）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:会場",
+  "deck": "n4-vocab",
+  "front": "会場",
+  "reading": "かいじょう",
+  "meaning": "會場",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:笑う",
+  "deck": "n4-vocab",
+  "front": "笑う",
+  "reading": "わらう",
+  "meaning": "笑、微笑",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:運ぶ",
+  "deck": "n4-vocab",
+  "front": "運ぶ",
+  "reading": "はこぶ",
+  "pos": "他動詞",
+  "meaning": "搬運",
+  "example": "机を 二階に 運びました。",
+  "exampleTrans": "把桌子搬到了二樓。"
+ },
+ {
+  "id": "n4v:文学",
+  "deck": "n4-vocab",
+  "front": "文学",
+  "reading": "ぶんがく",
+  "meaning": "文學",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:光",
+  "deck": "n4-vocab",
+  "front": "光",
+  "reading": "ひかり",
+  "meaning": "光、光線",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:お見舞い",
+  "deck": "n4-vocab",
+  "front": "お見舞い",
+  "reading": "おみまい",
+  "meaning": "探病、慰問",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:席",
+  "deck": "n4-vocab",
+  "front": "席",
+  "reading": "せき",
+  "meaning": "座位",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～様",
+  "deck": "n4-vocab",
+  "front": "～様",
+  "reading": "～さま",
+  "meaning": "～先生、～女士（敬稱）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ご存じ",
+  "deck": "n4-vocab",
+  "front": "ご存じ",
+  "reading": "ごぞんじ",
+  "meaning": "知道（尊敬語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:下る",
+  "deck": "n4-vocab",
+  "front": "下る",
+  "reading": "さがる",
+  "meaning": "下降、降低、落下",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:字",
+  "deck": "n4-vocab",
+  "front": "字",
+  "reading": "じ",
+  "meaning": "字、文字",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:アジア",
+  "deck": "n4-vocab",
+  "front": "アジア",
+  "reading": "アジア",
+  "meaning": "亞洲",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:褒める",
+  "deck": "n4-vocab",
+  "front": "褒める",
+  "reading": "ほめる",
+  "meaning": "稱讚、誇獎",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:空く~すく",
+  "deck": "n4-vocab",
+  "front": "空く",
+  "reading": "すく",
+  "meaning": "（人）變少、變空、不擁擠",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:あ",
+  "deck": "n4-vocab",
+  "front": "あ",
+  "reading": "あ",
+  "meaning": "啊",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:最も",
+  "deck": "n4-vocab",
+  "front": "最も",
+  "reading": "もっとも",
+  "meaning": "最",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:合う",
+  "deck": "n4-vocab",
+  "front": "合う",
+  "reading": "あう",
+  "meaning": "合適、相配",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～代",
+  "deck": "n4-vocab",
+  "front": "～代",
+  "reading": "～だい",
+  "meaning": "～年代、～多歲",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:最後",
+  "deck": "n4-vocab",
+  "front": "最後",
+  "reading": "さいご",
+  "meaning": "最後、結尾",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:値段",
+  "deck": "n4-vocab",
+  "front": "値段",
+  "reading": "ねだん",
+  "meaning": "價格",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:退院",
+  "deck": "n4-vocab",
+  "front": "退院",
+  "reading": "たいいんする",
+  "meaning": "出院",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:展覧会",
+  "deck": "n4-vocab",
+  "front": "展覧会",
+  "reading": "てんらんかい",
+  "meaning": "展覽會",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:久しぶり",
+  "deck": "n4-vocab",
+  "front": "久しぶり",
+  "reading": "ひさしぶり",
+  "meaning": "好久不見、隔了很久",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:カーテン",
+  "deck": "n4-vocab",
+  "front": "カーテン",
+  "reading": "カーテン",
+  "meaning": "窗簾",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:汽車",
+  "deck": "n4-vocab",
+  "front": "汽車",
+  "reading": "きしゃ",
+  "meaning": "火車（蒸汽）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:遅れる",
+  "deck": "n4-vocab",
+  "front": "遅れる",
+  "reading": "おくれる",
+  "pos": "自動詞",
+  "meaning": "遲到、延誤",
+  "example": "電車が 遅れて、会議に 間に合いませんでした。",
+  "exampleTrans": "電車誤點，趕不上會議。"
+ },
+ {
+  "id": "n4v:見つかる",
+  "deck": "n4-vocab",
+  "front": "見つかる",
+  "reading": "みつかる",
+  "meaning": "被找到、被發現（自動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:召し上がる",
+  "deck": "n4-vocab",
+  "front": "召し上がる",
+  "reading": "めしあがる",
+  "meaning": "吃、喝（食べる、飲む的尊敬語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:太る",
+  "deck": "n4-vocab",
+  "front": "太る",
+  "reading": "ふとる",
+  "meaning": "變胖",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:注射",
+  "deck": "n4-vocab",
+  "front": "注射",
+  "reading": "ちゅうしゃ",
+  "meaning": "打針、注射",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:様",
+  "deck": "n4-vocab",
+  "front": "様",
+  "reading": "よう",
+  "meaning": "樣子、方式、種類",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～おき",
+  "deck": "n4-vocab",
+  "front": "～おき",
+  "reading": "～おき",
+  "meaning": "每隔～",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:最初",
+  "deck": "n4-vocab",
+  "front": "最初",
+  "reading": "さいしょ",
+  "meaning": "最初、開頭",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:御～",
+  "deck": "n4-vocab",
+  "front": "御～",
+  "reading": "ご～",
+  "meaning": "御～（表敬意的接頭詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:安心",
+  "deck": "n4-vocab",
+  "front": "安心",
+  "reading": "あんしん",
+  "meaning": "安心、放心",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:直る",
+  "deck": "n4-vocab",
+  "front": "直る",
+  "reading": "なおる",
+  "meaning": "被修好、恢復（自動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:集める",
+  "deck": "n4-vocab",
+  "front": "集める",
+  "reading": "あつめる",
+  "meaning": "收集、聚集（他動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:直す",
+  "deck": "n4-vocab",
+  "front": "直す",
+  "reading": "なおす",
+  "meaning": "修理、改正（他動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:続く",
+  "deck": "n4-vocab",
+  "front": "続く",
+  "reading": "つづく",
+  "pos": "自動詞",
+  "meaning": "持續、繼續",
+  "example": "雨の日が 一週間 続いて います。",
+  "exampleTrans": "雨天已經持續一個星期了。"
+ },
+ {
+  "id": "n4v:先輩",
+  "deck": "n4-vocab",
+  "front": "先輩",
+  "reading": "せんぱい",
+  "meaning": "前輩、學長姐",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:約束",
+  "deck": "n4-vocab",
+  "front": "約束",
+  "reading": "やくそく",
+  "pos": "名詞・する",
+  "meaning": "約定",
+  "example": "友達と 会う 約束が あります。",
+  "exampleTrans": "我和朋友有約。"
+ },
+ {
+  "id": "n4v:世話",
+  "deck": "n4-vocab",
+  "front": "世話",
+  "reading": "せわ",
+  "pos": "名詞・する",
+  "meaning": "照顧、關照",
+  "example": "犬の 世話を するのは 大変です。",
+  "exampleTrans": "照顧狗很辛苦。"
+ },
+ {
+  "id": "n4v:近所",
+  "deck": "n4-vocab",
+  "front": "近所",
+  "reading": "きんじょ",
+  "meaning": "附近、鄰居",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:将来",
+  "deck": "n4-vocab",
+  "front": "将来",
+  "reading": "しょうらい",
+  "meaning": "將來、未來",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:億",
+  "deck": "n4-vocab",
+  "front": "億",
+  "reading": "おく",
+  "meaning": "億",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:数学",
+  "deck": "n4-vocab",
+  "front": "数学",
+  "reading": "すうがく",
+  "meaning": "數學",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:文化",
+  "deck": "n4-vocab",
+  "front": "文化",
+  "reading": "ぶんか",
+  "meaning": "文化",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:払う",
+  "deck": "n4-vocab",
+  "front": "払う",
+  "reading": "はらう",
+  "meaning": "支付、付錢",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:習慣",
+  "deck": "n4-vocab",
+  "front": "習慣",
+  "reading": "しゅうかん",
+  "meaning": "習慣、風俗",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:焼ける",
+  "deck": "n4-vocab",
+  "front": "焼ける",
+  "reading": "やける",
+  "meaning": "燃燒、烤熟（自動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:君",
+  "deck": "n4-vocab",
+  "front": "君",
+  "reading": "きみ",
+  "meaning": "你（男性用，非正式）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:冷える",
+  "deck": "n4-vocab",
+  "front": "冷える",
+  "reading": "ひえる",
+  "meaning": "變冷、變涼",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:点く",
+  "deck": "n4-vocab",
+  "front": "点く",
+  "reading": "つく",
+  "meaning": "點亮、（電源）打開",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:この間",
+  "deck": "n4-vocab",
+  "front": "この間",
+  "reading": "このあいだ",
+  "meaning": "前幾天、最近",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:かっこう",
+  "deck": "n4-vocab",
+  "front": "かっこう",
+  "reading": "格好",
+  "meaning": "外表、樣子、姿態、形狀",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:続ける",
+  "deck": "n4-vocab",
+  "front": "続ける",
+  "reading": "つづける",
+  "meaning": "繼續、持續（他動詞）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:落す",
+  "deck": "n4-vocab",
+  "front": "落す",
+  "reading": "おとす",
+  "meaning": "弄掉、弄丟",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:明日",
+  "deck": "n4-vocab",
+  "front": "明日",
+  "reading": "あす",
+  "meaning": "明天",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:出発",
+  "deck": "n4-vocab",
+  "front": "出発",
+  "reading": "しゅっぱつする",
+  "meaning": "出發",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:拝見",
+  "deck": "n4-vocab",
+  "front": "拝見",
+  "reading": "はいけんする",
+  "meaning": "拜見、看（謙讓語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:割れる",
+  "deck": "n4-vocab",
+  "front": "割れる",
+  "reading": "われる",
+  "meaning": "破裂、碎掉",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:背中",
+  "deck": "n4-vocab",
+  "front": "背中",
+  "reading": "せなか",
+  "meaning": "背部、後背",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:新聞社",
+  "deck": "n4-vocab",
+  "front": "新聞社",
+  "reading": "しんぶんしゃ",
+  "meaning": "報社",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:いじめる",
+  "deck": "n4-vocab",
+  "front": "いじめる",
+  "reading": "いじめる",
+  "meaning": "欺負、霸凌",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:回る、回す",
+  "deck": "n4-vocab",
+  "front": "回る、回す",
+  "reading": "まわる、まわす",
+  "meaning": "轉動、旋轉",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～君",
+  "deck": "n4-vocab",
+  "front": "～君",
+  "reading": "～くん",
+  "meaning": "～君（對晚輩或男性的稱呼）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:おっしゃる",
+  "deck": "n4-vocab",
+  "front": "おっしゃる",
+  "reading": "おっしゃる",
+  "meaning": "說（いう的尊敬語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:眠い",
+  "deck": "n4-vocab",
+  "front": "眠い",
+  "reading": "ねむい",
+  "meaning": "想睡的、睏的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:濡れる",
+  "deck": "n4-vocab",
+  "front": "濡れる",
+  "reading": "ぬれる",
+  "meaning": "淋濕、弄濕",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:倒れる",
+  "deck": "n4-vocab",
+  "front": "倒れる",
+  "reading": "たおれる",
+  "meaning": "倒下、病倒",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:スーパー (マーケット)",
+  "deck": "n4-vocab",
+  "front": "スーパー (マーケット)",
+  "reading": "スーパー (マーケット)",
+  "meaning": "超市",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:アクセサリー",
+  "deck": "n4-vocab",
+  "front": "アクセサリー",
+  "reading": "アクセサリー",
+  "meaning": "飾品、配件",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:考える",
+  "deck": "n4-vocab",
+  "front": "考える",
+  "reading": "かんがえる",
+  "meaning": "思考、考慮",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:向かう",
+  "deck": "n4-vocab",
+  "front": "向かう",
+  "reading": "むかう",
+  "meaning": "面向、前往",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:自由",
+  "deck": "n4-vocab",
+  "front": "自由",
+  "reading": "じゆう",
+  "meaning": "自由",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:仕方",
+  "deck": "n4-vocab",
+  "front": "仕方",
+  "reading": "しかた",
+  "meaning": "做法、方法",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:首",
+  "deck": "n4-vocab",
+  "front": "首",
+  "reading": "くび",
+  "meaning": "脖子、頸部",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:程",
+  "deck": "n4-vocab",
+  "front": "程",
+  "reading": "ほど",
+  "meaning": "程度、限度",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:代わり",
+  "deck": "n4-vocab",
+  "front": "代わり",
+  "reading": "かわり",
+  "meaning": "代替、替代品",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:失敗",
+  "deck": "n4-vocab",
+  "front": "失敗",
+  "reading": "しっぱい",
+  "meaning": "失敗、過失",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:工業",
+  "deck": "n4-vocab",
+  "front": "工業",
+  "reading": "こうぎょう",
+  "meaning": "工業（製造業）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:移る",
+  "deck": "n4-vocab",
+  "front": "移る",
+  "reading": "うつる",
+  "meaning": "搬遷、調動、轉移",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:スーツケース",
+  "deck": "n4-vocab",
+  "front": "スーツケース",
+  "reading": "スーツケース",
+  "meaning": "行李箱",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ひげ",
+  "deck": "n4-vocab",
+  "front": "ひげ",
+  "reading": "ひげ",
+  "meaning": "鬍子",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:研究室",
+  "deck": "n4-vocab",
+  "front": "研究室",
+  "reading": "けんきゅうしつ",
+  "meaning": "研究室、教授辦公室",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:工場",
+  "deck": "n4-vocab",
+  "front": "工場",
+  "reading": "こうじょう",
+  "meaning": "工廠",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:紹介",
+  "deck": "n4-vocab",
+  "front": "紹介",
+  "reading": "しょうかい",
+  "pos": "名詞・する",
+  "meaning": "介紹",
+  "example": "友達を 紹介します。",
+  "exampleTrans": "我來介紹朋友。"
+ },
+ {
+  "id": "n4v:けれど; けれども",
+  "deck": "n4-vocab",
+  "front": "けれど; けれども",
+  "reading": "けれど; けれども",
+  "meaning": "但是、雖然",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:舟",
+  "deck": "n4-vocab",
+  "front": "舟",
+  "reading": "ふね",
+  "meaning": "船、小船",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:動く",
+  "deck": "n4-vocab",
+  "front": "動く",
+  "reading": "うごく",
+  "meaning": "動、移動、運轉",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～(に) ついて",
+  "deck": "n4-vocab",
+  "front": "～(に) ついて",
+  "reading": "～(に) ついて",
+  "meaning": "關於～",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:コンサート",
+  "deck": "n4-vocab",
+  "front": "コンサート",
+  "reading": "コンサート",
+  "meaning": "音樂會、演唱會",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:虫",
+  "deck": "n4-vocab",
+  "front": "虫",
+  "reading": "むし",
+  "meaning": "蟲、昆蟲",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:優しい",
+  "deck": "n4-vocab",
+  "front": "優しい",
+  "reading": "やさしい",
+  "meaning": "溫柔的、體貼的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:コンピュータ; コンピューター",
+  "deck": "n4-vocab",
+  "front": "コンピュータ; コンピューター",
+  "reading": "コンピュータ; コンピューター",
+  "meaning": "電腦",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:植える",
+  "deck": "n4-vocab",
+  "front": "植える",
+  "reading": "うえる",
+  "meaning": "種植、栽種",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:両方",
+  "deck": "n4-vocab",
+  "front": "両方",
+  "reading": "りょうほう",
+  "meaning": "雙方、兩邊",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:汚れる",
+  "deck": "n4-vocab",
+  "front": "汚れる",
+  "reading": "よごれる",
+  "meaning": "變髒、弄髒",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:水泳",
+  "deck": "n4-vocab",
+  "front": "水泳",
+  "reading": "すいえい",
+  "meaning": "游泳",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:経験",
+  "deck": "n4-vocab",
+  "front": "経験",
+  "reading": "けいけん",
+  "pos": "名詞・する",
+  "meaning": "經驗",
+  "example": "外国で 働いた 経験が あります。",
+  "exampleTrans": "我有在國外工作的經驗。"
+ },
+ {
+  "id": "n4v:勝つ",
+  "deck": "n4-vocab",
+  "front": "勝つ",
+  "reading": "かつ",
+  "meaning": "獲勝、贏",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:砂",
+  "deck": "n4-vocab",
+  "front": "砂",
+  "reading": "すな",
+  "meaning": "沙子",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:警察",
+  "deck": "n4-vocab",
+  "front": "警察",
+  "reading": "けいさつ",
+  "meaning": "警察、警察局",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:取り替える",
+  "deck": "n4-vocab",
+  "front": "取り替える",
+  "reading": "とりかえる",
+  "meaning": "交換、更換",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:急ぐ",
+  "deck": "n4-vocab",
+  "front": "急ぐ",
+  "reading": "いそぐ",
+  "meaning": "趕快、著急",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:簡単",
+  "deck": "n4-vocab",
+  "front": "簡単",
+  "reading": "かんたん",
+  "meaning": "簡單",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:参る",
+  "deck": "n4-vocab",
+  "front": "参る",
+  "reading": "まいる",
+  "meaning": "去、來（行く／来る的謙讓語）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:全然",
+  "deck": "n4-vocab",
+  "front": "全然",
+  "reading": "ぜんぜん",
+  "meaning": "完全（不）、一點也（不）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:特別",
+  "deck": "n4-vocab",
+  "front": "特別",
+  "reading": "とくべつ",
+  "meaning": "特別",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:復習",
+  "deck": "n4-vocab",
+  "front": "復習",
+  "reading": "ふくしゅう",
+  "meaning": "複習",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:間に合う",
+  "deck": "n4-vocab",
+  "front": "間に合う",
+  "reading": "まにあう",
+  "pos": "自動詞",
+  "meaning": "來得及、趕上",
+  "example": "急げば、最終電車に 間に合いますよ。",
+  "exampleTrans": "快一點的話還趕得上末班車喔。"
+ },
+ {
+  "id": "n4v:役に立つ",
+  "deck": "n4-vocab",
+  "front": "役に立つ",
+  "reading": "やくにたつ",
+  "meaning": "有幫助、有用",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:もうすぐ",
+  "deck": "n4-vocab",
+  "front": "もうすぐ",
+  "reading": "もうすぐ",
+  "meaning": "馬上、快要",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:真中",
+  "deck": "n4-vocab",
+  "front": "真中",
+  "reading": "まんなか",
+  "meaning": "正中間、中央",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:戻る",
+  "deck": "n4-vocab",
+  "front": "戻る",
+  "reading": "もどる",
+  "meaning": "返回、回來",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:研究",
+  "deck": "n4-vocab",
+  "front": "研究",
+  "reading": "けんきゅう",
+  "meaning": "研究、調查",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ケーキ",
+  "deck": "n4-vocab",
+  "front": "ケーキ",
+  "reading": "ケーキ",
+  "meaning": "蛋糕",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:草",
+  "deck": "n4-vocab",
+  "front": "草",
+  "reading": "くさ",
+  "meaning": "草",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:込む",
+  "deck": "n4-vocab",
+  "front": "込む",
+  "reading": "こむ",
+  "meaning": "擁擠",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:この頃",
+  "deck": "n4-vocab",
+  "front": "この頃",
+  "reading": "このごろ",
+  "meaning": "最近、近來",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:訪ねる",
+  "deck": "n4-vocab",
+  "front": "訪ねる",
+  "reading": "たずねる",
+  "meaning": "拜訪、造訪",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:下げる",
+  "deck": "n4-vocab",
+  "front": "下げる",
+  "reading": "さげる",
+  "meaning": "降低、掛上",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:花見",
+  "deck": "n4-vocab",
+  "front": "花見",
+  "reading": "はなみ",
+  "meaning": "賞櫻、賞花",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:途中",
+  "deck": "n4-vocab",
+  "front": "途中",
+  "reading": "とちゅう",
+  "pos": "名詞",
+  "meaning": "途中",
+  "example": "会社へ 行く 途中で、先生に 会いました。",
+  "exampleTrans": "去公司的途中遇到了老師。"
+ },
+ {
+  "id": "n4v:入院",
+  "deck": "n4-vocab",
+  "front": "入院",
+  "reading": "にゅういんする",
+  "meaning": "住院",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:乗り換える",
+  "deck": "n4-vocab",
+  "front": "乗り換える",
+  "reading": "のりかえる",
+  "meaning": "轉乘、換車",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:別れる",
+  "deck": "n4-vocab",
+  "front": "別れる",
+  "reading": "わかれる",
+  "meaning": "分別、分手",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～町",
+  "deck": "n4-vocab",
+  "front": "～町",
+  "reading": "～ちょう",
+  "meaning": "～町、～鎮",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:安全",
+  "deck": "n4-vocab",
+  "front": "安全",
+  "reading": "あんぜん",
+  "meaning": "安全",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:看護婦",
+  "deck": "n4-vocab",
+  "front": "看護婦",
+  "reading": "かんごふ",
+  "meaning": "（女）護理師、護士",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:見物",
+  "deck": "n4-vocab",
+  "front": "見物",
+  "reading": "けんぶつ",
+  "meaning": "遊覽、參觀",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:相談",
+  "deck": "n4-vocab",
+  "front": "相談",
+  "reading": "そうだんする",
+  "meaning": "商量、諮詢",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ガソリンスタンド",
+  "deck": "n4-vocab",
+  "front": "ガソリンスタンド",
+  "reading": "ガソリンスタンド",
+  "meaning": "加油站",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:テニス",
+  "deck": "n4-vocab",
+  "front": "テニス",
+  "reading": "テニス",
+  "meaning": "網球",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:眠る",
+  "deck": "n4-vocab",
+  "front": "眠る",
+  "reading": "ねむる",
+  "meaning": "睡覺、入睡",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:上がる",
+  "deck": "n4-vocab",
+  "front": "上がる",
+  "reading": "あがる",
+  "meaning": "上升、上漲",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:翻訳",
+  "deck": "n4-vocab",
+  "front": "翻訳",
+  "reading": "ほんやく",
+  "pos": "名詞・する",
+  "meaning": "翻譯",
+  "example": "この文章を 中国語に 翻訳して ください。",
+  "exampleTrans": "請把這篇文章翻譯成中文。"
+ },
+ {
+  "id": "n4v:食事",
+  "deck": "n4-vocab",
+  "front": "食事",
+  "reading": "しょくじする",
+  "meaning": "用餐、吃飯",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:おかげ",
+  "deck": "n4-vocab",
+  "front": "おかげ",
+  "reading": "お陰",
+  "meaning": "多虧、託～的福",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:娘",
+  "deck": "n4-vocab",
+  "front": "娘",
+  "reading": "むすめ",
+  "meaning": "女兒（謙稱）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:湯",
+  "deck": "n4-vocab",
+  "front": "湯",
+  "reading": "ゆ",
+  "meaning": "熱水",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:競争",
+  "deck": "n4-vocab",
+  "front": "競争",
+  "reading": "きょうそう",
+  "meaning": "競爭、比賽",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:会議",
+  "deck": "n4-vocab",
+  "front": "会議",
+  "reading": "かいぎ",
+  "pos": "名詞",
+  "meaning": "會議",
+  "example": "会議は 三時から 始まります。",
+  "exampleTrans": "會議三點開始。"
+ },
+ {
+  "id": "n4v:湖",
+  "deck": "n4-vocab",
+  "front": "湖",
+  "reading": "みずうみ",
+  "meaning": "湖",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:集まる",
+  "deck": "n4-vocab",
+  "front": "集まる",
+  "reading": "あつまる",
+  "pos": "自動詞",
+  "meaning": "聚集、集合",
+  "example": "駅の前に みんな 集まって ください。",
+  "exampleTrans": "請大家在車站前集合。"
+ },
+ {
+  "id": "n4v:～にくい",
+  "deck": "n4-vocab",
+  "front": "～にくい",
+  "reading": "～にくい",
+  "meaning": "難以～、不容易～",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:生活",
+  "deck": "n4-vocab",
+  "front": "生活",
+  "reading": "せいかつする",
+  "meaning": "生活、過日子",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:糸",
+  "deck": "n4-vocab",
+  "front": "糸",
+  "reading": "いと",
+  "meaning": "線、絲線",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:関係",
+  "deck": "n4-vocab",
+  "front": "関係",
+  "reading": "かんけい",
+  "meaning": "關係、關聯",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ピアノ",
+  "deck": "n4-vocab",
+  "front": "ピアノ",
+  "reading": "ピアノ",
+  "meaning": "鋼琴",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:～目",
+  "deck": "n4-vocab",
+  "front": "～目",
+  "reading": "～め",
+  "meaning": "第～（順序）",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:番組",
+  "deck": "n4-vocab",
+  "front": "番組",
+  "reading": "ばんぐみ",
+  "meaning": "（電視、廣播）節目",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:急",
+  "deck": "n4-vocab",
+  "front": "急",
+  "reading": "きゅう",
+  "meaning": "緊急、突然、陡峭",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:棚",
+  "deck": "n4-vocab",
+  "front": "棚",
+  "reading": "たな",
+  "meaning": "架子、置物架",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:木綿",
+  "deck": "n4-vocab",
+  "front": "木綿",
+  "reading": "もめん",
+  "meaning": "棉、棉布",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:輸出",
+  "deck": "n4-vocab",
+  "front": "輸出",
+  "reading": "ゆしゅつする",
+  "meaning": "出口、輸出",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:タイプ",
+  "deck": "n4-vocab",
+  "front": "タイプ",
+  "reading": "タイプ",
+  "meaning": "類型、款式",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:すり",
+  "deck": "n4-vocab",
+  "front": "すり",
+  "reading": "すり",
+  "meaning": "扒手",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:うれしい",
+  "deck": "n4-vocab",
+  "front": "うれしい",
+  "reading": "嬉しい",
+  "meaning": "高興的、開心的",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:アルコール",
+  "deck": "n4-vocab",
+  "front": "アルコール",
+  "reading": "アルコール",
+  "meaning": "酒精、酒類",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ソフト",
+  "deck": "n4-vocab",
+  "front": "ソフト",
+  "reading": "ソフト",
+  "meaning": "柔軟的、軟體",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:神社",
+  "deck": "n4-vocab",
+  "front": "神社",
+  "reading": "じんじゃ",
+  "meaning": "神社",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:大分",
+  "deck": "n4-vocab",
+  "front": "大分",
+  "reading": "だいぶ",
+  "meaning": "相當、頗、很大程度上",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:楽しみ",
+  "deck": "n4-vocab",
+  "front": "楽しみ",
+  "reading": "たのしみ",
+  "meaning": "樂趣、期待",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:趣味",
+  "deck": "n4-vocab",
+  "front": "趣味",
+  "reading": "しゅみ",
+  "meaning": "興趣、嗜好",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:電報",
+  "deck": "n4-vocab",
+  "front": "電報",
+  "reading": "でんぽう",
+  "meaning": "電報",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:家内",
+  "deck": "n4-vocab",
+  "front": "家内",
+  "reading": "かない",
+  "meaning": "內人、（自己的）妻子",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:指",
+  "deck": "n4-vocab",
+  "front": "指",
+  "reading": "ゆび",
+  "meaning": "手指",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:これから",
+  "deck": "n4-vocab",
+  "front": "これから",
+  "reading": "これから",
+  "meaning": "從現在起、今後",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:たまに",
+  "deck": "n4-vocab",
+  "front": "たまに",
+  "reading": "たまに",
+  "meaning": "偶爾",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:社会",
+  "deck": "n4-vocab",
+  "front": "社会",
+  "reading": "しゃかい",
+  "meaning": "社會",
+  "category": "N4"
+ },
+ {
+  "id": "n4v:ああ",
+  "deck": "n4-vocab",
+  "front": "ああ",
+  "reading": "ああ",
+  "meaning": "啊！哦！（感嘆）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:会う",
+  "deck": "n4-vocab",
+  "front": "会う",
+  "reading": "あう",
+  "meaning": "見面、遇見",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:青",
+  "deck": "n4-vocab",
+  "front": "青",
+  "reading": "あお",
+  "meaning": "藍色",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:青い",
+  "deck": "n4-vocab",
+  "front": "青い",
+  "reading": "あおい",
+  "meaning": "藍色的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:赤",
+  "deck": "n4-vocab",
+  "front": "赤",
+  "reading": "あか",
+  "meaning": "紅色",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:赤い",
+  "deck": "n4-vocab",
+  "front": "赤い",
+  "reading": "あかい",
+  "meaning": "紅色的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:明るい",
+  "deck": "n4-vocab",
+  "front": "明るい",
+  "reading": "あかるい",
+  "meaning": "明亮的、開朗的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:秋",
+  "deck": "n4-vocab",
+  "front": "秋",
+  "reading": "あき",
+  "meaning": "秋天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:開く~あく",
+  "deck": "n4-vocab",
+  "front": "開く",
+  "reading": "あく",
+  "meaning": "開、打開（自動詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:開ける",
+  "deck": "n4-vocab",
+  "front": "開ける",
+  "reading": "あける",
+  "meaning": "打開（他動詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:上げる",
+  "deck": "n4-vocab",
+  "front": "上げる",
+  "reading": "あげる",
+  "meaning": "舉起、抬高",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:朝",
+  "deck": "n4-vocab",
+  "front": "朝",
+  "reading": "あさ",
+  "meaning": "早上",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:朝御飯",
+  "deck": "n4-vocab",
+  "front": "朝御飯",
+  "reading": "あさごはん",
+  "meaning": "早餐",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:明後日",
+  "deck": "n4-vocab",
+  "front": "明後日",
+  "reading": "あさって",
+  "meaning": "後天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:足; 脚",
+  "deck": "n4-vocab",
+  "front": "足; 脚",
+  "reading": "あし",
+  "meaning": "腳、腿",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:明日~あした",
+  "deck": "n4-vocab",
+  "front": "明日",
+  "reading": "あした",
+  "meaning": "明天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:あそこ",
+  "deck": "n4-vocab",
+  "front": "あそこ",
+  "reading": "あそこ",
+  "meaning": "那裡、那邊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:遊ぶ",
+  "deck": "n4-vocab",
+  "front": "遊ぶ",
+  "reading": "あそぶ",
+  "meaning": "玩、遊玩",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:暖かい",
+  "deck": "n4-vocab",
+  "front": "暖かい",
+  "reading": "あたたかい",
+  "meaning": "溫暖的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:頭",
+  "deck": "n4-vocab",
+  "front": "頭",
+  "reading": "あたま",
+  "meaning": "頭",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:新しい",
+  "deck": "n4-vocab",
+  "front": "新しい",
+  "reading": "あたらしい",
+  "meaning": "新的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:あちら",
+  "deck": "n4-vocab",
+  "front": "あちら",
+  "reading": "あちら",
+  "meaning": "那邊（禮貌說法）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:暑い",
+  "deck": "n4-vocab",
+  "front": "暑い",
+  "reading": "あつい",
+  "meaning": "熱的（天氣）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:熱い",
+  "deck": "n4-vocab",
+  "front": "熱い",
+  "reading": "あつい",
+  "meaning": "燙的、熱的（物品）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:厚い",
+  "deck": "n4-vocab",
+  "front": "厚い",
+  "reading": "あつい",
+  "meaning": "厚的、深厚的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:あっち",
+  "deck": "n4-vocab",
+  "front": "あっち",
+  "reading": "あっち",
+  "meaning": "那邊（口語）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:後",
+  "deck": "n4-vocab",
+  "front": "後",
+  "reading": "あと",
+  "meaning": "之後、以後、其餘",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:あなた",
+  "deck": "n4-vocab",
+  "front": "あなた",
+  "reading": "あなた",
+  "meaning": "你",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:兄",
+  "deck": "n4-vocab",
+  "front": "兄",
+  "reading": "あに",
+  "meaning": "哥哥（謙稱自己的）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:姉",
+  "deck": "n4-vocab",
+  "front": "姉",
+  "reading": "あね",
+  "meaning": "姊姊（謙稱自己的）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:アパート",
+  "deck": "n4-vocab",
+  "front": "アパート",
+  "reading": "アパート",
+  "meaning": "公寓（略稱）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:あの",
+  "deck": "n4-vocab",
+  "front": "あの",
+  "reading": "あの",
+  "meaning": "那個（遠處的）、那樣、嗯…",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:浴びる",
+  "deck": "n4-vocab",
+  "front": "浴びる",
+  "reading": "あびる",
+  "meaning": "淋浴、沖澡",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:危ない",
+  "deck": "n4-vocab",
+  "front": "危ない",
+  "reading": "あぶない",
+  "meaning": "危險的、緊急的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:甘い",
+  "deck": "n4-vocab",
+  "front": "甘い",
+  "reading": "あまい",
+  "meaning": "甜的、寬容的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:余り",
+  "deck": "n4-vocab",
+  "front": "余り",
+  "reading": "あまり",
+  "meaning": "不太（接否定）、剩餘",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:雨",
+  "deck": "n4-vocab",
+  "front": "雨",
+  "reading": "あめ",
+  "meaning": "雨",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:飴",
+  "deck": "n4-vocab",
+  "front": "飴",
+  "reading": "あめ",
+  "meaning": "糖果",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:洗う",
+  "deck": "n4-vocab",
+  "front": "洗う",
+  "reading": "あらう",
+  "meaning": "洗",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:在る",
+  "deck": "n4-vocab",
+  "front": "在る",
+  "reading": "ある",
+  "meaning": "有、在",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:有る",
+  "deck": "n4-vocab",
+  "front": "有る",
+  "reading": "ある",
+  "meaning": "有、在",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:歩く",
+  "deck": "n4-vocab",
+  "front": "歩く",
+  "reading": "あるく",
+  "meaning": "走路",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:あれ",
+  "deck": "n4-vocab",
+  "front": "あれ",
+  "reading": "あれ",
+  "meaning": "那個（遠處的東西）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:いい; よい",
+  "deck": "n4-vocab",
+  "front": "いい; よい",
+  "reading": "いい; よい",
+  "meaning": "好的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:いいえ",
+  "deck": "n4-vocab",
+  "front": "いいえ",
+  "reading": "いいえ",
+  "meaning": "不、不是",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:言う",
+  "deck": "n4-vocab",
+  "front": "言う",
+  "reading": "いう",
+  "meaning": "說",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:家",
+  "deck": "n4-vocab",
+  "front": "家",
+  "reading": "いえ",
+  "meaning": "房子、家",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:いかが",
+  "deck": "n4-vocab",
+  "front": "いかが",
+  "reading": "いかが",
+  "meaning": "如何、怎麼樣",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:行く",
+  "deck": "n4-vocab",
+  "front": "行く",
+  "reading": "いく; ゆく",
+  "meaning": "去",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:いくつ",
+  "deck": "n4-vocab",
+  "front": "いくつ",
+  "reading": "いくつ",
+  "meaning": "幾個、幾歲",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:いくら",
+  "deck": "n4-vocab",
+  "front": "いくら",
+  "reading": "いくら",
+  "meaning": "多少錢、多少",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:池",
+  "deck": "n4-vocab",
+  "front": "池",
+  "reading": "いけ",
+  "meaning": "池塘",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:医者",
+  "deck": "n4-vocab",
+  "front": "医者",
+  "reading": "いしゃ",
+  "meaning": "醫生",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:椅子",
+  "deck": "n4-vocab",
+  "front": "椅子",
+  "reading": "いす",
+  "meaning": "椅子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:忙しい",
+  "deck": "n4-vocab",
+  "front": "忙しい",
+  "reading": "いそがしい",
+  "meaning": "忙碌的（人、日子）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:痛い",
+  "deck": "n4-vocab",
+  "front": "痛い",
+  "reading": "いたい",
+  "meaning": "痛的、疼痛的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:一",
+  "deck": "n4-vocab",
+  "front": "一",
+  "reading": "いち",
+  "meaning": "一",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:一日",
+  "deck": "n4-vocab",
+  "front": "一日",
+  "reading": "いちにち",
+  "meaning": "一天（期間）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:一番",
+  "deck": "n4-vocab",
+  "front": "一番",
+  "reading": "いちばん",
+  "meaning": "最、第一、最好",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:いつ",
+  "deck": "n4-vocab",
+  "front": "いつ",
+  "reading": "いつ",
+  "meaning": "什麼時候",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:五日",
+  "deck": "n4-vocab",
+  "front": "五日",
+  "reading": "いつか",
+  "meaning": "五天、（每月）五號",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:一緒",
+  "deck": "n4-vocab",
+  "front": "一緒",
+  "reading": "いっしょ",
+  "meaning": "一起",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:五つ",
+  "deck": "n4-vocab",
+  "front": "五つ",
+  "reading": "いつつ",
+  "meaning": "五個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:いつも",
+  "deck": "n4-vocab",
+  "front": "いつも",
+  "reading": "いつも",
+  "meaning": "總是、平常、每次；（接否定）從不",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:犬",
+  "deck": "n4-vocab",
+  "front": "犬",
+  "reading": "いぬ",
+  "meaning": "狗",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:今",
+  "deck": "n4-vocab",
+  "front": "今",
+  "reading": "いま",
+  "meaning": "現在",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:意味",
+  "deck": "n4-vocab",
+  "front": "意味",
+  "reading": "いみ",
+  "meaning": "意思、意義",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:妹",
+  "deck": "n4-vocab",
+  "front": "妹",
+  "reading": "いもうと",
+  "meaning": "妹妹（謙稱自己的）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:嫌",
+  "deck": "n4-vocab",
+  "front": "嫌",
+  "reading": "いや",
+  "meaning": "討厭的、令人不快的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:入口",
+  "deck": "n4-vocab",
+  "front": "入口",
+  "reading": "いりぐち",
+  "meaning": "入口",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:居る",
+  "deck": "n4-vocab",
+  "front": "居る",
+  "reading": "いる",
+  "meaning": "在、有（有生命的）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:要る",
+  "deck": "n4-vocab",
+  "front": "要る",
+  "reading": "いる",
+  "meaning": "需要",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:入れる",
+  "deck": "n4-vocab",
+  "front": "入れる",
+  "reading": "いれる",
+  "meaning": "放入、裝進",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:色",
+  "deck": "n4-vocab",
+  "front": "色",
+  "reading": "いろ",
+  "meaning": "顏色",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:色々",
+  "deck": "n4-vocab",
+  "front": "色々",
+  "reading": "いろいろ",
+  "meaning": "各式各樣",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:上",
+  "deck": "n4-vocab",
+  "front": "上",
+  "reading": "うえ",
+  "meaning": "上面、上方",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:後ろ",
+  "deck": "n4-vocab",
+  "front": "後ろ",
+  "reading": "うしろ",
+  "meaning": "後面、後方",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:薄い",
+  "deck": "n4-vocab",
+  "front": "薄い",
+  "reading": "うすい",
+  "meaning": "薄的、淡的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:歌",
+  "deck": "n4-vocab",
+  "front": "歌",
+  "reading": "うた",
+  "meaning": "歌",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:歌う",
+  "deck": "n4-vocab",
+  "front": "歌う",
+  "reading": "うたう",
+  "meaning": "唱歌",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:うち",
+  "deck": "n4-vocab",
+  "front": "うち",
+  "reading": "うち",
+  "meaning": "家、我家",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:生まれる",
+  "deck": "n4-vocab",
+  "front": "生まれる",
+  "reading": "うまれる",
+  "meaning": "出生",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:海",
+  "deck": "n4-vocab",
+  "front": "海",
+  "reading": "うみ",
+  "meaning": "海、海邊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:売る",
+  "deck": "n4-vocab",
+  "front": "売る",
+  "reading": "うる",
+  "meaning": "賣",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:うるさい",
+  "deck": "n4-vocab",
+  "front": "うるさい",
+  "reading": "うるさい",
+  "meaning": "吵鬧的、煩人的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:上着",
+  "deck": "n4-vocab",
+  "front": "上着",
+  "reading": "うわぎ",
+  "meaning": "外套、上衣",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:絵",
+  "deck": "n4-vocab",
+  "front": "絵",
+  "reading": "え",
+  "meaning": "畫、圖畫",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:映画",
+  "deck": "n4-vocab",
+  "front": "映画",
+  "reading": "えいが",
+  "meaning": "電影",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:映画館",
+  "deck": "n4-vocab",
+  "front": "映画館",
+  "reading": "えいがかん",
+  "meaning": "電影院",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:英語",
+  "deck": "n4-vocab",
+  "front": "英語",
+  "reading": "えいご",
+  "meaning": "英語",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ええ",
+  "deck": "n4-vocab",
+  "front": "ええ",
+  "reading": "ええ",
+  "meaning": "是、對",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:駅",
+  "deck": "n4-vocab",
+  "front": "駅",
+  "reading": "えき",
+  "meaning": "車站",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:エレベーター",
+  "deck": "n4-vocab",
+  "front": "エレベーター",
+  "reading": "エレベーター",
+  "meaning": "電梯",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～円",
+  "deck": "n4-vocab",
+  "front": "～円",
+  "reading": "～えん",
+  "meaning": "～日圓",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:鉛筆",
+  "deck": "n4-vocab",
+  "front": "鉛筆",
+  "reading": "えんぴつ",
+  "meaning": "鉛筆",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お～",
+  "deck": "n4-vocab",
+  "front": "お～",
+  "reading": "お～",
+  "meaning": "御～（敬語接頭詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:美味しい",
+  "deck": "n4-vocab",
+  "front": "美味しい",
+  "reading": "おいしい",
+  "meaning": "好吃的、美味的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:多い",
+  "deck": "n4-vocab",
+  "front": "多い",
+  "reading": "おおい",
+  "meaning": "多的、很多",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:大きい",
+  "deck": "n4-vocab",
+  "front": "大きい",
+  "reading": "おおきい",
+  "meaning": "大的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:大きな",
+  "deck": "n4-vocab",
+  "front": "大きな",
+  "reading": "おおきな",
+  "meaning": "大的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:大勢",
+  "deck": "n4-vocab",
+  "front": "大勢",
+  "reading": "おおぜい",
+  "meaning": "許多人",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お母さん",
+  "deck": "n4-vocab",
+  "front": "お母さん",
+  "reading": "おかあさん",
+  "meaning": "媽媽（尊稱）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お菓子",
+  "deck": "n4-vocab",
+  "front": "お菓子",
+  "reading": "おかし",
+  "meaning": "點心、糖果、零食",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お金",
+  "deck": "n4-vocab",
+  "front": "お金",
+  "reading": "おかね",
+  "meaning": "錢",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:起きる",
+  "deck": "n4-vocab",
+  "front": "起きる",
+  "reading": "おきる",
+  "meaning": "起床、發生",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:置く",
+  "deck": "n4-vocab",
+  "front": "置く",
+  "reading": "おく",
+  "meaning": "放、放置",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:奥さん",
+  "deck": "n4-vocab",
+  "front": "奥さん",
+  "reading": "おくさん",
+  "meaning": "太太（尊稱他人的）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お酒",
+  "deck": "n4-vocab",
+  "front": "お酒",
+  "reading": "おさけ",
+  "meaning": "酒、日本酒",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お皿",
+  "deck": "n4-vocab",
+  "front": "お皿",
+  "reading": "おさら",
+  "meaning": "盤子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:伯父; 叔父さん",
+  "deck": "n4-vocab",
+  "front": "伯父; 叔父さん",
+  "reading": "おじさん",
+  "meaning": "伯父、叔叔、中年男子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:おじいさん",
+  "deck": "n4-vocab",
+  "front": "おじいさん",
+  "reading": "おじいさん",
+  "meaning": "爺爺、老爺爺",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:教える",
+  "deck": "n4-vocab",
+  "front": "教える",
+  "reading": "おしえる",
+  "meaning": "教、告訴",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:押す",
+  "deck": "n4-vocab",
+  "front": "押す",
+  "reading": "おす",
+  "meaning": "推、按、蓋（章等）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:遅い",
+  "deck": "n4-vocab",
+  "front": "遅い",
+  "reading": "おそい",
+  "meaning": "慢的、晚的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お茶",
+  "deck": "n4-vocab",
+  "front": "お茶",
+  "reading": "おちゃ",
+  "meaning": "茶（綠茶）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お手洗い",
+  "deck": "n4-vocab",
+  "front": "お手洗い",
+  "reading": "おてあらい",
+  "meaning": "洗手間、廁所",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お父さん",
+  "deck": "n4-vocab",
+  "front": "お父さん",
+  "reading": "おとうさん",
+  "meaning": "爸爸（尊稱）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:弟",
+  "deck": "n4-vocab",
+  "front": "弟",
+  "reading": "おとうと",
+  "meaning": "弟弟",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:男",
+  "deck": "n4-vocab",
+  "front": "男",
+  "reading": "おとこ",
+  "meaning": "男人、男性",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:男の子",
+  "deck": "n4-vocab",
+  "front": "男の子",
+  "reading": "おとこのこ",
+  "meaning": "男孩",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:一昨日",
+  "deck": "n4-vocab",
+  "front": "一昨日",
+  "reading": "おととい",
+  "meaning": "前天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:おととし",
+  "deck": "n4-vocab",
+  "front": "おととし",
+  "reading": "おととし",
+  "meaning": "前年",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:大人",
+  "deck": "n4-vocab",
+  "front": "大人",
+  "reading": "おとな",
+  "meaning": "大人、成人",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お腹",
+  "deck": "n4-vocab",
+  "front": "お腹",
+  "reading": "おなか",
+  "meaning": "肚子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:同じ",
+  "deck": "n4-vocab",
+  "front": "同じ",
+  "reading": "おなじ",
+  "meaning": "相同、一樣",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お兄さん",
+  "deck": "n4-vocab",
+  "front": "お兄さん",
+  "reading": "おにいさん",
+  "meaning": "哥哥（尊稱他人的）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お姉さん",
+  "deck": "n4-vocab",
+  "front": "お姉さん",
+  "reading": "おねえさん",
+  "meaning": "姊姊（尊稱）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:伯母さん; 叔母さん",
+  "deck": "n4-vocab",
+  "front": "伯母さん; 叔母さん",
+  "reading": "おばさん",
+  "meaning": "伯母、阿姨",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:おばあさん",
+  "deck": "n4-vocab",
+  "front": "おばあさん",
+  "reading": "おばあさん",
+  "meaning": "奶奶、老奶奶",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お風呂",
+  "deck": "n4-vocab",
+  "front": "お風呂",
+  "reading": "おふろ",
+  "meaning": "洗澡、浴缸",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:お弁当",
+  "deck": "n4-vocab",
+  "front": "お弁当",
+  "reading": "おべんとう",
+  "meaning": "便當",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:覚える",
+  "deck": "n4-vocab",
+  "front": "覚える",
+  "reading": "おぼえる",
+  "meaning": "記住、學會、背起來",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:おまわりさん",
+  "deck": "n4-vocab",
+  "front": "おまわりさん",
+  "reading": "おまわりさん",
+  "meaning": "警察（親切稱呼）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:重い",
+  "deck": "n4-vocab",
+  "front": "重い",
+  "reading": "おもい",
+  "meaning": "重的、嚴重的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:面白い",
+  "deck": "n4-vocab",
+  "front": "面白い",
+  "reading": "おもしろい",
+  "meaning": "有趣的、好笑的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:泳ぐ",
+  "deck": "n4-vocab",
+  "front": "泳ぐ",
+  "reading": "およぐ",
+  "meaning": "游泳",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:降りる",
+  "deck": "n4-vocab",
+  "front": "降りる",
+  "reading": "おりる",
+  "meaning": "下（車）、下來",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:終る",
+  "deck": "n4-vocab",
+  "front": "終る",
+  "reading": "おわる",
+  "meaning": "結束、完結",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:音楽",
+  "deck": "n4-vocab",
+  "front": "音楽",
+  "reading": "おんがく",
+  "meaning": "音樂",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:女",
+  "deck": "n4-vocab",
+  "front": "女",
+  "reading": "おんな",
+  "meaning": "女人、女性",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:女の子",
+  "deck": "n4-vocab",
+  "front": "女の子",
+  "reading": "おんなのこ",
+  "meaning": "女孩",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～回",
+  "deck": "n4-vocab",
+  "front": "～回",
+  "reading": "～かい",
+  "meaning": "～次（次數量詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～階",
+  "deck": "n4-vocab",
+  "front": "～階",
+  "reading": "～かい",
+  "meaning": "～樓（樓層量詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:外国",
+  "deck": "n4-vocab",
+  "front": "外国",
+  "reading": "がいこく",
+  "meaning": "外國、國外",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:外国人",
+  "deck": "n4-vocab",
+  "front": "外国人",
+  "reading": "がいこくじん",
+  "meaning": "外國人",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:会社",
+  "deck": "n4-vocab",
+  "front": "会社",
+  "reading": "かいしゃ",
+  "meaning": "公司",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:階段",
+  "deck": "n4-vocab",
+  "front": "階段",
+  "reading": "かいだん",
+  "meaning": "樓梯",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:買い物",
+  "deck": "n4-vocab",
+  "front": "買い物",
+  "reading": "かいもの",
+  "meaning": "購物、買東西",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:買う",
+  "deck": "n4-vocab",
+  "front": "買う",
+  "reading": "かう",
+  "meaning": "買",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:返す",
+  "deck": "n4-vocab",
+  "front": "返す",
+  "reading": "かえす",
+  "meaning": "歸還、還（東西）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:帰る",
+  "deck": "n4-vocab",
+  "front": "帰る",
+  "reading": "かえる",
+  "meaning": "回去、回家",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:顔",
+  "deck": "n4-vocab",
+  "front": "顔",
+  "reading": "かお",
+  "meaning": "臉",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:かかる",
+  "deck": "n4-vocab",
+  "front": "かかる",
+  "reading": "かかる",
+  "meaning": "花費（時間、金錢）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:鍵",
+  "deck": "n4-vocab",
+  "front": "鍵",
+  "reading": "かぎ",
+  "meaning": "鑰匙、鎖",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:書く",
+  "deck": "n4-vocab",
+  "front": "書く",
+  "reading": "かく",
+  "meaning": "寫",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:学生",
+  "deck": "n4-vocab",
+  "front": "学生",
+  "reading": "がくせい",
+  "meaning": "學生",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～か月",
+  "deck": "n4-vocab",
+  "front": "～か月",
+  "reading": "～かげつ",
+  "meaning": "～個月",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:掛ける",
+  "deck": "n4-vocab",
+  "front": "掛ける",
+  "reading": "かける",
+  "meaning": "戴（眼鏡等）、掛（牆上等）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:かける",
+  "deck": "n4-vocab",
+  "front": "かける",
+  "reading": "かける",
+  "meaning": "打（電話等）、坐下",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:傘",
+  "deck": "n4-vocab",
+  "front": "傘",
+  "reading": "かさ",
+  "meaning": "傘、陽傘",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:貸す",
+  "deck": "n4-vocab",
+  "front": "貸す",
+  "reading": "かす",
+  "meaning": "借出、借給",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:風",
+  "deck": "n4-vocab",
+  "front": "風",
+  "reading": "かぜ",
+  "meaning": "風、微風",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:風邪",
+  "deck": "n4-vocab",
+  "front": "風邪",
+  "reading": "かぜ",
+  "meaning": "感冒",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:方",
+  "deck": "n4-vocab",
+  "front": "方",
+  "reading": "かた",
+  "meaning": "位（人的敬稱）、做法",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:家族",
+  "deck": "n4-vocab",
+  "front": "家族",
+  "reading": "かぞく",
+  "meaning": "家人、家族",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:片仮名",
+  "deck": "n4-vocab",
+  "front": "片仮名",
+  "reading": "かたかな",
+  "meaning": "片假名",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～月~～がつ",
+  "deck": "n4-vocab",
+  "front": "～月",
+  "reading": "～がつ",
+  "meaning": "～月（月份）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:学校",
+  "deck": "n4-vocab",
+  "front": "学校",
+  "reading": "がっこう",
+  "meaning": "學校",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:カップ",
+  "deck": "n4-vocab",
+  "front": "カップ",
+  "reading": "カップ",
+  "meaning": "杯子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:家庭",
+  "deck": "n4-vocab",
+  "front": "家庭",
+  "reading": "かてい",
+  "meaning": "家庭",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:角",
+  "deck": "n4-vocab",
+  "front": "角",
+  "reading": "かど",
+  "meaning": "角、轉角（桌角、街角等）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:かばん",
+  "deck": "n4-vocab",
+  "front": "かばん",
+  "reading": "かばん",
+  "meaning": "皮包、提包",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:花瓶",
+  "deck": "n4-vocab",
+  "front": "花瓶",
+  "reading": "かびん",
+  "meaning": "花瓶",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:かぶる",
+  "deck": "n4-vocab",
+  "front": "かぶる",
+  "reading": "かぶる",
+  "meaning": "戴（帽子等）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:紙",
+  "deck": "n4-vocab",
+  "front": "紙",
+  "reading": "かみ",
+  "meaning": "紙",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:カメラ",
+  "deck": "n4-vocab",
+  "front": "カメラ",
+  "reading": "カメラ",
+  "meaning": "相機",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:火曜日",
+  "deck": "n4-vocab",
+  "front": "火曜日",
+  "reading": "かようび",
+  "meaning": "星期二",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:辛い",
+  "deck": "n4-vocab",
+  "front": "辛い",
+  "reading": "からい",
+  "meaning": "辣的、鹹的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:体",
+  "deck": "n4-vocab",
+  "front": "体",
+  "reading": "からだ",
+  "meaning": "身體、健康",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:借りる",
+  "deck": "n4-vocab",
+  "front": "借りる",
+  "reading": "かりる",
+  "meaning": "借（入）、借用",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～がる",
+  "deck": "n4-vocab",
+  "front": "～がる",
+  "reading": "～がる",
+  "meaning": "覺得～、感到～",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:軽い",
+  "deck": "n4-vocab",
+  "front": "軽い",
+  "reading": "かるい",
+  "meaning": "輕的、輕微的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:カレー",
+  "deck": "n4-vocab",
+  "front": "カレー",
+  "reading": "カレー",
+  "meaning": "咖哩（咖哩飯的簡稱）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:カレンダー",
+  "deck": "n4-vocab",
+  "front": "カレンダー",
+  "reading": "カレンダー",
+  "meaning": "月曆、日曆",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:川; 河",
+  "deck": "n4-vocab",
+  "front": "川; 河",
+  "reading": "かわ",
+  "meaning": "河川",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～側",
+  "deck": "n4-vocab",
+  "front": "～側",
+  "reading": "～がわ",
+  "meaning": "～側、～邊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:可愛い",
+  "deck": "n4-vocab",
+  "front": "可愛い",
+  "reading": "かわいい",
+  "meaning": "可愛的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:漢字",
+  "deck": "n4-vocab",
+  "front": "漢字",
+  "reading": "かんじ",
+  "meaning": "漢字",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:木",
+  "deck": "n4-vocab",
+  "front": "木",
+  "reading": "き",
+  "meaning": "樹、木材",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:黄色",
+  "deck": "n4-vocab",
+  "front": "黄色",
+  "reading": "きいろ",
+  "meaning": "黃色",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:黄色い",
+  "deck": "n4-vocab",
+  "front": "黄色い",
+  "reading": "きいろい",
+  "meaning": "黃色的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:消える",
+  "deck": "n4-vocab",
+  "front": "消える",
+  "reading": "きえる",
+  "meaning": "消失、不見",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:聞く",
+  "deck": "n4-vocab",
+  "front": "聞く",
+  "reading": "きく",
+  "meaning": "聽、詢問",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:北",
+  "deck": "n4-vocab",
+  "front": "北",
+  "reading": "きた",
+  "meaning": "北、北方",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ギター",
+  "deck": "n4-vocab",
+  "front": "ギター",
+  "reading": "ギター",
+  "meaning": "吉他",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:汚い",
+  "deck": "n4-vocab",
+  "front": "汚い",
+  "reading": "きたない",
+  "meaning": "髒的、不乾淨的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:喫茶店",
+  "deck": "n4-vocab",
+  "front": "喫茶店",
+  "reading": "きっさてん",
+  "meaning": "咖啡廳",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:切手",
+  "deck": "n4-vocab",
+  "front": "切手",
+  "reading": "きって",
+  "meaning": "郵票",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:切符",
+  "deck": "n4-vocab",
+  "front": "切符",
+  "reading": "きっぷ",
+  "meaning": "票、車票",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:昨日",
+  "deck": "n4-vocab",
+  "front": "昨日",
+  "reading": "きのう",
+  "meaning": "昨天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:九",
+  "deck": "n4-vocab",
+  "front": "九",
+  "reading": "きゅう",
+  "meaning": "九",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:牛肉",
+  "deck": "n4-vocab",
+  "front": "牛肉",
+  "reading": "ぎゅうにく",
+  "meaning": "牛肉",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:牛乳",
+  "deck": "n4-vocab",
+  "front": "牛乳",
+  "reading": "ぎゅうにゅう",
+  "meaning": "牛奶",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:今日",
+  "deck": "n4-vocab",
+  "front": "今日",
+  "reading": "きょう",
+  "meaning": "今天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:教室",
+  "deck": "n4-vocab",
+  "front": "教室",
+  "reading": "きょうしつ",
+  "meaning": "教室",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:兄弟",
+  "deck": "n4-vocab",
+  "front": "兄弟",
+  "reading": "きょうだい",
+  "meaning": "兄弟姊妹（謙稱）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:去年",
+  "deck": "n4-vocab",
+  "front": "去年",
+  "reading": "きょねん",
+  "meaning": "去年",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:嫌い",
+  "deck": "n4-vocab",
+  "front": "嫌い",
+  "reading": "きらい",
+  "meaning": "討厭、不喜歡",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:切る",
+  "deck": "n4-vocab",
+  "front": "切る",
+  "reading": "きる",
+  "meaning": "切、剪、掛斷（電話）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:着る",
+  "deck": "n4-vocab",
+  "front": "着る",
+  "reading": "きる",
+  "meaning": "穿（上半身衣物）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:綺麗",
+  "deck": "n4-vocab",
+  "front": "綺麗",
+  "reading": "きれい",
+  "meaning": "漂亮、乾淨、整潔",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:キロ; キログラム",
+  "deck": "n4-vocab",
+  "front": "キロ; キログラム",
+  "reading": "キロ; キログラム",
+  "meaning": "公斤（簡稱）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:キロ; キロメートル",
+  "deck": "n4-vocab",
+  "front": "キロ; キロメートル",
+  "reading": "キロ; キロメートル",
+  "meaning": "公里（簡稱）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:銀行",
+  "deck": "n4-vocab",
+  "front": "銀行",
+  "reading": "ぎんこう",
+  "meaning": "銀行",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:金曜日",
+  "deck": "n4-vocab",
+  "front": "金曜日",
+  "reading": "きんようび",
+  "meaning": "星期五",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:九~く",
+  "deck": "n4-vocab",
+  "front": "九",
+  "reading": "く",
+  "meaning": "九",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:薬",
+  "deck": "n4-vocab",
+  "front": "薬",
+  "reading": "くすり",
+  "meaning": "藥",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:下さい",
+  "deck": "n4-vocab",
+  "front": "下さい",
+  "reading": "ください",
+  "meaning": "請（做）～（接て形動詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:果物",
+  "deck": "n4-vocab",
+  "front": "果物",
+  "reading": "くだもの",
+  "meaning": "水果",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:口",
+  "deck": "n4-vocab",
+  "front": "口",
+  "reading": "くち",
+  "meaning": "嘴巴、（工作）職缺",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:靴",
+  "deck": "n4-vocab",
+  "front": "靴",
+  "reading": "くつ",
+  "meaning": "鞋子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:靴下",
+  "deck": "n4-vocab",
+  "front": "靴下",
+  "reading": "くつした",
+  "meaning": "襪子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:国",
+  "deck": "n4-vocab",
+  "front": "国",
+  "reading": "くに",
+  "meaning": "國家、故鄉",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:曇り",
+  "deck": "n4-vocab",
+  "front": "曇り",
+  "reading": "くもり",
+  "meaning": "陰天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:曇る",
+  "deck": "n4-vocab",
+  "front": "曇る",
+  "reading": "くもる",
+  "meaning": "變陰、變模糊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:暗い",
+  "deck": "n4-vocab",
+  "front": "暗い",
+  "reading": "くらい",
+  "meaning": "暗的、陰沉的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～くらい; ぐらい",
+  "deck": "n4-vocab",
+  "front": "～くらい; ぐらい",
+  "reading": "～くらい; ぐらい",
+  "meaning": "大約、～左右（數量）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:クラス",
+  "deck": "n4-vocab",
+  "front": "クラス",
+  "reading": "クラス",
+  "meaning": "班級",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:グラム",
+  "deck": "n4-vocab",
+  "front": "グラム",
+  "reading": "グラム",
+  "meaning": "公克",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:来る",
+  "deck": "n4-vocab",
+  "front": "来る",
+  "reading": "くる",
+  "meaning": "來",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:車",
+  "deck": "n4-vocab",
+  "front": "車",
+  "reading": "くるま",
+  "meaning": "車、汽車",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:黒",
+  "deck": "n4-vocab",
+  "front": "黒",
+  "reading": "くろ",
+  "meaning": "黑色",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:黒い",
+  "deck": "n4-vocab",
+  "front": "黒い",
+  "reading": "くろい",
+  "meaning": "黑色的、黑暗的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:警官",
+  "deck": "n4-vocab",
+  "front": "警官",
+  "reading": "けいかん",
+  "meaning": "警察、警官",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:今朝",
+  "deck": "n4-vocab",
+  "front": "今朝",
+  "reading": "けさ",
+  "meaning": "今天早上",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:消す",
+  "deck": "n4-vocab",
+  "front": "消す",
+  "reading": "けす",
+  "meaning": "擦掉、刪除、關（電源）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:結構",
+  "deck": "n4-vocab",
+  "front": "結構",
+  "reading": "けっこう",
+  "meaning": "很好、足夠、相當",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:結婚",
+  "deck": "n4-vocab",
+  "front": "結婚",
+  "reading": "けっこん (する)",
+  "meaning": "結婚",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:月曜日",
+  "deck": "n4-vocab",
+  "front": "月曜日",
+  "reading": "げつようび",
+  "meaning": "星期一",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:玄関",
+  "deck": "n4-vocab",
+  "front": "玄関",
+  "reading": "げんかん",
+  "meaning": "玄關（房屋或建築物的入口）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:元気",
+  "deck": "n4-vocab",
+  "front": "元気",
+  "reading": "げんき",
+  "meaning": "健康、有精神",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～個",
+  "deck": "n4-vocab",
+  "front": "～個",
+  "reading": "～こ",
+  "meaning": "～個（小物品的量詞，如水果、杯子）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:五",
+  "deck": "n4-vocab",
+  "front": "五",
+  "reading": "ご",
+  "meaning": "五",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～語",
+  "deck": "n4-vocab",
+  "front": "～語",
+  "reading": "～ご",
+  "meaning": "～語（語言）、詞",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:公園",
+  "deck": "n4-vocab",
+  "front": "公園",
+  "reading": "こうえん",
+  "meaning": "公園",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:交差点",
+  "deck": "n4-vocab",
+  "front": "交差点",
+  "reading": "こうさてん",
+  "meaning": "十字路口",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:紅茶",
+  "deck": "n4-vocab",
+  "front": "紅茶",
+  "reading": "こうちゃ",
+  "meaning": "紅茶",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:交番",
+  "deck": "n4-vocab",
+  "front": "交番",
+  "reading": "こうばん",
+  "meaning": "派出所",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:声",
+  "deck": "n4-vocab",
+  "front": "声",
+  "reading": "こえ",
+  "meaning": "聲音、嗓音",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:コート",
+  "deck": "n4-vocab",
+  "front": "コート",
+  "reading": "コート",
+  "meaning": "大衣、外套；（網球等）球場",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:コーヒー",
+  "deck": "n4-vocab",
+  "front": "コーヒー",
+  "reading": "コーヒー",
+  "meaning": "咖啡",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ここ",
+  "deck": "n4-vocab",
+  "front": "ここ",
+  "reading": "ここ",
+  "meaning": "這裡",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:午後",
+  "deck": "n4-vocab",
+  "front": "午後",
+  "reading": "ごご",
+  "meaning": "下午",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:九日",
+  "deck": "n4-vocab",
+  "front": "九日",
+  "reading": "ここのか",
+  "meaning": "九天、九號",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:九つ",
+  "deck": "n4-vocab",
+  "front": "九つ",
+  "reading": "ここのつ",
+  "meaning": "九個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:午前",
+  "deck": "n4-vocab",
+  "front": "午前",
+  "reading": "ごぜん",
+  "meaning": "上午",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:答える",
+  "deck": "n4-vocab",
+  "front": "答える",
+  "reading": "こたえる",
+  "meaning": "回答",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:こちら",
+  "deck": "n4-vocab",
+  "front": "こちら",
+  "reading": "こちら",
+  "meaning": "這位、這邊（禮貌說法）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:こっち",
+  "deck": "n4-vocab",
+  "front": "こっち",
+  "reading": "こっち",
+  "meaning": "這邊、這個人",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:コップ",
+  "deck": "n4-vocab",
+  "front": "コップ",
+  "reading": "コップ",
+  "meaning": "杯子、玻璃杯",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:今年",
+  "deck": "n4-vocab",
+  "front": "今年",
+  "reading": "ことし",
+  "meaning": "今年",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:言葉",
+  "deck": "n4-vocab",
+  "front": "言葉",
+  "reading": "ことば",
+  "meaning": "語言、詞語、說法",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:子供",
+  "deck": "n4-vocab",
+  "front": "子供",
+  "reading": "こども",
+  "meaning": "小孩、孩子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:この",
+  "deck": "n4-vocab",
+  "front": "この",
+  "reading": "この",
+  "meaning": "這個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:御飯",
+  "deck": "n4-vocab",
+  "front": "御飯",
+  "reading": "ごはん",
+  "meaning": "（煮好的）飯、餐",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:コピーする",
+  "deck": "n4-vocab",
+  "front": "コピーする",
+  "reading": "コピーする",
+  "meaning": "影印、複製",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:困る",
+  "deck": "n4-vocab",
+  "front": "困る",
+  "reading": "こまる",
+  "meaning": "困擾、為難",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:これ",
+  "deck": "n4-vocab",
+  "front": "これ",
+  "reading": "これ",
+  "meaning": "這個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～ころ; ～ごろ",
+  "deck": "n4-vocab",
+  "front": "～ころ; ～ごろ",
+  "reading": "～ころ; ～ごろ",
+  "meaning": "～左右、～前後（時間）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:今月",
+  "deck": "n4-vocab",
+  "front": "今月",
+  "reading": "こんげつ",
+  "meaning": "這個月",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:今週",
+  "deck": "n4-vocab",
+  "front": "今週",
+  "reading": "こんしゅう",
+  "meaning": "這星期",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:こんな",
+  "deck": "n4-vocab",
+  "front": "こんな",
+  "reading": "こんな",
+  "meaning": "這樣的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:今晩",
+  "deck": "n4-vocab",
+  "front": "今晩",
+  "reading": "こんばん",
+  "meaning": "今晚",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:さあ",
+  "deck": "n4-vocab",
+  "front": "さあ",
+  "reading": "さあ",
+  "meaning": "來吧、嗯（表遲疑）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～歳",
+  "deck": "n4-vocab",
+  "front": "～歳",
+  "reading": "～さい",
+  "meaning": "～歲",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:財布",
+  "deck": "n4-vocab",
+  "front": "財布",
+  "reading": "さいふ",
+  "meaning": "錢包",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:魚",
+  "deck": "n4-vocab",
+  "front": "魚",
+  "reading": "さかな",
+  "meaning": "魚",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:先",
+  "deck": "n4-vocab",
+  "front": "先",
+  "reading": "さき",
+  "meaning": "前方、將來；先前",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:咲く",
+  "deck": "n4-vocab",
+  "front": "咲く",
+  "reading": "さく",
+  "meaning": "開（花）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:作文",
+  "deck": "n4-vocab",
+  "front": "作文",
+  "reading": "さくぶん",
+  "meaning": "作文",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:差す",
+  "deck": "n4-vocab",
+  "front": "差す",
+  "reading": "さす",
+  "meaning": "舉（手）、撐（傘等）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～冊",
+  "deck": "n4-vocab",
+  "front": "～冊",
+  "reading": "～さつ",
+  "meaning": "～本、～冊（書的量詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:雑誌",
+  "deck": "n4-vocab",
+  "front": "雑誌",
+  "reading": "ざっし",
+  "meaning": "雜誌、期刊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:砂糖",
+  "deck": "n4-vocab",
+  "front": "砂糖",
+  "reading": "さとう",
+  "meaning": "砂糖",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:寒い",
+  "deck": "n4-vocab",
+  "front": "寒い",
+  "reading": "さむい",
+  "meaning": "寒冷的（指天氣）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:さ来年",
+  "deck": "n4-vocab",
+  "front": "さ来年",
+  "reading": "さらいねん",
+  "meaning": "後年",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～さん",
+  "deck": "n4-vocab",
+  "front": "～さん",
+  "reading": "～さん",
+  "meaning": "～先生、～小姐",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:三",
+  "deck": "n4-vocab",
+  "front": "三",
+  "reading": "さん",
+  "meaning": "三",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:散歩",
+  "deck": "n4-vocab",
+  "front": "散歩",
+  "reading": "さんぽ (する)",
+  "meaning": "散步",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:四",
+  "deck": "n4-vocab",
+  "front": "四",
+  "reading": "し",
+  "meaning": "四",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～時",
+  "deck": "n4-vocab",
+  "front": "～時",
+  "reading": "～じ",
+  "meaning": "～點（時刻）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:塩",
+  "deck": "n4-vocab",
+  "front": "塩",
+  "reading": "しお",
+  "meaning": "鹽",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:しかし",
+  "deck": "n4-vocab",
+  "front": "しかし",
+  "reading": "しかし",
+  "meaning": "但是、然而",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:時間",
+  "deck": "n4-vocab",
+  "front": "時間",
+  "reading": "じかん",
+  "meaning": "時間",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～時間",
+  "deck": "n4-vocab",
+  "front": "～時間",
+  "reading": "～じかん",
+  "meaning": "～小時",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:仕事",
+  "deck": "n4-vocab",
+  "front": "仕事",
+  "reading": "しごと",
+  "meaning": "工作、職業",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:辞書",
+  "deck": "n4-vocab",
+  "front": "辞書",
+  "reading": "じしょ",
+  "meaning": "字典、辭典",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:静か",
+  "deck": "n4-vocab",
+  "front": "静か",
+  "reading": "しずか",
+  "meaning": "安靜、平靜",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:下",
+  "deck": "n4-vocab",
+  "front": "下",
+  "reading": "した",
+  "meaning": "下面、底下",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:七",
+  "deck": "n4-vocab",
+  "front": "七",
+  "reading": "しち",
+  "meaning": "七",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:質問",
+  "deck": "n4-vocab",
+  "front": "質問",
+  "reading": "しつもん",
+  "meaning": "問題、提問",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:自転車",
+  "deck": "n4-vocab",
+  "front": "自転車",
+  "reading": "じてんしゃ",
+  "meaning": "腳踏車",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:自動車",
+  "deck": "n4-vocab",
+  "front": "自動車",
+  "reading": "じどうしゃ",
+  "meaning": "汽車",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:死ぬ",
+  "deck": "n4-vocab",
+  "front": "死ぬ",
+  "reading": "しぬ",
+  "meaning": "死、死亡",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:字引",
+  "deck": "n4-vocab",
+  "front": "字引",
+  "reading": "じびき",
+  "meaning": "字典",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:自分",
+  "deck": "n4-vocab",
+  "front": "自分",
+  "reading": "じぶん",
+  "meaning": "自己、自身",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:閉まる",
+  "deck": "n4-vocab",
+  "front": "閉まる",
+  "reading": "しまる",
+  "meaning": "關閉、關上（自動詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:閉める",
+  "deck": "n4-vocab",
+  "front": "閉める",
+  "reading": "しめる",
+  "meaning": "關上、關閉",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:締める",
+  "deck": "n4-vocab",
+  "front": "締める",
+  "reading": "しめる",
+  "meaning": "繫緊、綁緊、勒緊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:じゃ; じゃあ",
+  "deck": "n4-vocab",
+  "front": "じゃ; じゃあ",
+  "reading": "じゃ; じゃあ",
+  "meaning": "那麼、那就",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:写真",
+  "deck": "n4-vocab",
+  "front": "写真",
+  "reading": "しゃしん",
+  "meaning": "照片、相片",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:シャツ",
+  "deck": "n4-vocab",
+  "front": "シャツ",
+  "reading": "シャツ",
+  "meaning": "襯衫",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:シャワー",
+  "deck": "n4-vocab",
+  "front": "シャワー",
+  "reading": "シャワー",
+  "meaning": "淋浴",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:十",
+  "deck": "n4-vocab",
+  "front": "十",
+  "reading": "じゅう",
+  "meaning": "十",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～中",
+  "deck": "n4-vocab",
+  "front": "～中",
+  "reading": "～じゅう",
+  "meaning": "整個～期間、全～",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～週間",
+  "deck": "n4-vocab",
+  "front": "～週間",
+  "reading": "～しゅうかん",
+  "meaning": "～週、～個星期",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:授業",
+  "deck": "n4-vocab",
+  "front": "授業",
+  "reading": "じゅぎょう",
+  "meaning": "課、上課",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:宿題",
+  "deck": "n4-vocab",
+  "front": "宿題",
+  "reading": "しゅくだい",
+  "meaning": "作業、功課",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:上手",
+  "deck": "n4-vocab",
+  "front": "上手",
+  "reading": "じょうず",
+  "meaning": "擅長、拿手",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:丈夫",
+  "deck": "n4-vocab",
+  "front": "丈夫",
+  "reading": "じょうぶ",
+  "meaning": "堅固、結實、耐用",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:醤油",
+  "deck": "n4-vocab",
+  "front": "醤油",
+  "reading": "しょうゆ",
+  "meaning": "醬油",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:食堂",
+  "deck": "n4-vocab",
+  "front": "食堂",
+  "reading": "しょくどう",
+  "meaning": "食堂、餐廳",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:知る",
+  "deck": "n4-vocab",
+  "front": "知る",
+  "reading": "しる",
+  "meaning": "知道、了解",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:白",
+  "deck": "n4-vocab",
+  "front": "白",
+  "reading": "しろ",
+  "meaning": "白色",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:白い",
+  "deck": "n4-vocab",
+  "front": "白い",
+  "reading": "しろい",
+  "meaning": "白色的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～人",
+  "deck": "n4-vocab",
+  "front": "～人",
+  "reading": "～じん",
+  "meaning": "～人（計算人數的量詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:新聞",
+  "deck": "n4-vocab",
+  "front": "新聞",
+  "reading": "しんぶん",
+  "meaning": "報紙",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:水曜日",
+  "deck": "n4-vocab",
+  "front": "水曜日",
+  "reading": "すいようび",
+  "meaning": "星期三",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:吸う",
+  "deck": "n4-vocab",
+  "front": "吸う",
+  "reading": "すう",
+  "meaning": "吸入、吸",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:スカート",
+  "deck": "n4-vocab",
+  "front": "スカート",
+  "reading": "スカート",
+  "meaning": "裙子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:好き",
+  "deck": "n4-vocab",
+  "front": "好き",
+  "reading": "すき",
+  "meaning": "喜歡、喜愛",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～すぎ",
+  "deck": "n4-vocab",
+  "front": "～すぎ",
+  "reading": "～すぎ",
+  "meaning": "超過～、過於～、太～",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:少ない",
+  "deck": "n4-vocab",
+  "front": "少ない",
+  "reading": "すくない",
+  "meaning": "少的、不多的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:すぐに",
+  "deck": "n4-vocab",
+  "front": "すぐに",
+  "reading": "すぐに",
+  "meaning": "立刻、馬上",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:少し",
+  "deck": "n4-vocab",
+  "front": "少し",
+  "reading": "すこし",
+  "meaning": "一點、少許",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:涼しい",
+  "deck": "n4-vocab",
+  "front": "涼しい",
+  "reading": "すずしい",
+  "meaning": "涼爽的（天氣）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～ずつ",
+  "deck": "n4-vocab",
+  "front": "～ずつ",
+  "reading": "～ずつ",
+  "meaning": "每次～、各～",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ストーブ",
+  "deck": "n4-vocab",
+  "front": "ストーブ",
+  "reading": "ストーブ",
+  "meaning": "暖爐",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:スプーン",
+  "deck": "n4-vocab",
+  "front": "スプーン",
+  "reading": "スプーン",
+  "meaning": "湯匙",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:スポーツ",
+  "deck": "n4-vocab",
+  "front": "スポーツ",
+  "reading": "スポーツ",
+  "meaning": "運動",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ズボン",
+  "deck": "n4-vocab",
+  "front": "ズボン",
+  "reading": "ズボン",
+  "meaning": "褲子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:住む",
+  "deck": "n4-vocab",
+  "front": "住む",
+  "reading": "すむ",
+  "meaning": "居住、住在",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:する",
+  "deck": "n4-vocab",
+  "front": "する",
+  "reading": "する",
+  "meaning": "做；配戴（領帶、手錶等小物）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:座る",
+  "deck": "n4-vocab",
+  "front": "座る",
+  "reading": "すわる",
+  "meaning": "坐",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:背",
+  "deck": "n4-vocab",
+  "front": "背",
+  "reading": "せい",
+  "meaning": "身高、個子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:生徒",
+  "deck": "n4-vocab",
+  "front": "生徒",
+  "reading": "せいと",
+  "meaning": "學生",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:セーター",
+  "deck": "n4-vocab",
+  "front": "セーター",
+  "reading": "セーター",
+  "meaning": "毛衣",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:石鹸",
+  "deck": "n4-vocab",
+  "front": "石鹸",
+  "reading": "せっけん",
+  "meaning": "肥皂",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:背広",
+  "deck": "n4-vocab",
+  "front": "背広",
+  "reading": "せびろ",
+  "meaning": "男用西裝",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:狭い",
+  "deck": "n4-vocab",
+  "front": "狭い",
+  "reading": "せまい",
+  "meaning": "狹窄的、不寬敞的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ゼロ",
+  "deck": "n4-vocab",
+  "front": "ゼロ",
+  "reading": "ゼロ",
+  "meaning": "零",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:千",
+  "deck": "n4-vocab",
+  "front": "千",
+  "reading": "せん",
+  "meaning": "千",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:先月",
+  "deck": "n4-vocab",
+  "front": "先月",
+  "reading": "せんげつ",
+  "meaning": "上個月",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:先週",
+  "deck": "n4-vocab",
+  "front": "先週",
+  "reading": "せんしゅう",
+  "meaning": "上週、上星期",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:先生",
+  "deck": "n4-vocab",
+  "front": "先生",
+  "reading": "せんせい",
+  "meaning": "老師、教授；醫師",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:洗濯",
+  "deck": "n4-vocab",
+  "front": "洗濯",
+  "reading": "せんたく",
+  "meaning": "洗衣、洗滌",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:全部",
+  "deck": "n4-vocab",
+  "front": "全部",
+  "reading": "ぜんぶ",
+  "meaning": "全部、所有",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:そう; そうです",
+  "deck": "n4-vocab",
+  "front": "そう; そうです",
+  "reading": "そう; そうです",
+  "meaning": "是的；好像是那樣",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:掃除",
+  "deck": "n4-vocab",
+  "front": "掃除",
+  "reading": "そうじ (する)",
+  "meaning": "打掃、清掃",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:そうして; そして",
+  "deck": "n4-vocab",
+  "front": "そうして; そして",
+  "reading": "そうして; そして",
+  "meaning": "然後、接著",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:そこ",
+  "deck": "n4-vocab",
+  "front": "そこ",
+  "reading": "そこ",
+  "meaning": "那裡；底部",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:そちら",
+  "deck": "n4-vocab",
+  "front": "そちら",
+  "reading": "そちら",
+  "meaning": "那邊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:そっち",
+  "deck": "n4-vocab",
+  "front": "そっち",
+  "reading": "そっち",
+  "meaning": "那邊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:外",
+  "deck": "n4-vocab",
+  "front": "外",
+  "reading": "そと",
+  "meaning": "外面、外部",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:その",
+  "deck": "n4-vocab",
+  "front": "その",
+  "reading": "その",
+  "meaning": "那個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:そば",
+  "deck": "n4-vocab",
+  "front": "そば",
+  "reading": "そば",
+  "meaning": "旁邊、附近；蕎麥麵",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:空",
+  "deck": "n4-vocab",
+  "front": "空",
+  "reading": "そら",
+  "meaning": "天空",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:それ",
+  "deck": "n4-vocab",
+  "front": "それ",
+  "reading": "それ",
+  "meaning": "那個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:それから",
+  "deck": "n4-vocab",
+  "front": "それから",
+  "reading": "それから",
+  "meaning": "然後、在那之後",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:それでは",
+  "deck": "n4-vocab",
+  "front": "それでは",
+  "reading": "それでは",
+  "meaning": "那麼、那就",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～台",
+  "deck": "n4-vocab",
+  "front": "～台",
+  "reading": "～だい",
+  "meaning": "～台（車輛、機器的量詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:大学",
+  "deck": "n4-vocab",
+  "front": "大学",
+  "reading": "だいがく",
+  "meaning": "大學",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:大使館",
+  "deck": "n4-vocab",
+  "front": "大使館",
+  "reading": "たいしかん",
+  "meaning": "大使館",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:大丈夫",
+  "deck": "n4-vocab",
+  "front": "大丈夫",
+  "reading": "だいじょうぶ",
+  "meaning": "沒問題、不要緊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:大好き",
+  "deck": "n4-vocab",
+  "front": "大好き",
+  "reading": "だいすき",
+  "meaning": "非常喜歡",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:大切",
+  "deck": "n4-vocab",
+  "front": "大切",
+  "reading": "たいせつ",
+  "meaning": "重要、珍貴",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:台所",
+  "deck": "n4-vocab",
+  "front": "台所",
+  "reading": "だいどころ",
+  "meaning": "廚房",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:大変",
+  "deck": "n4-vocab",
+  "front": "大変",
+  "reading": "たいへん",
+  "meaning": "非常；辛苦、不容易",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:高い",
+  "deck": "n4-vocab",
+  "front": "高い",
+  "reading": "たかい",
+  "meaning": "高的；貴的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～だけ",
+  "deck": "n4-vocab",
+  "front": "～だけ",
+  "reading": "～だけ",
+  "meaning": "只有～、僅～",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:沢山",
+  "deck": "n4-vocab",
+  "front": "沢山",
+  "reading": "たくさん",
+  "meaning": "很多、大量",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:タクシー",
+  "deck": "n4-vocab",
+  "front": "タクシー",
+  "reading": "タクシー",
+  "meaning": "計程車",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:出す",
+  "deck": "n4-vocab",
+  "front": "出す",
+  "reading": "だす",
+  "meaning": "拿出；交出、提交",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～たち",
+  "deck": "n4-vocab",
+  "front": "～たち",
+  "reading": "～たち",
+  "meaning": "～們（複數接尾詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:立つ",
+  "deck": "n4-vocab",
+  "front": "立つ",
+  "reading": "たつ",
+  "meaning": "站立、站起來",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:たて",
+  "deck": "n4-vocab",
+  "front": "たて",
+  "reading": "たて",
+  "meaning": "縱向、直向；長度",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:建物",
+  "deck": "n4-vocab",
+  "front": "建物",
+  "reading": "たてもの",
+  "meaning": "建築物",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:楽しい",
+  "deck": "n4-vocab",
+  "front": "楽しい",
+  "reading": "たのしい",
+  "meaning": "快樂的、有趣的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:頼む",
+  "deck": "n4-vocab",
+  "front": "頼む",
+  "reading": "たのむ",
+  "meaning": "請求、拜託",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:たばこ",
+  "deck": "n4-vocab",
+  "front": "たばこ",
+  "reading": "たばこ",
+  "meaning": "香菸、菸草",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:多分",
+  "deck": "n4-vocab",
+  "front": "多分",
+  "reading": "たぶん",
+  "meaning": "大概、也許",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:食べ物",
+  "deck": "n4-vocab",
+  "front": "食べ物",
+  "reading": "たべもの",
+  "meaning": "食物",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:食べる",
+  "deck": "n4-vocab",
+  "front": "食べる",
+  "reading": "たべる",
+  "meaning": "吃",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:卵",
+  "deck": "n4-vocab",
+  "front": "卵",
+  "reading": "たまご",
+  "meaning": "蛋、雞蛋",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:誰",
+  "deck": "n4-vocab",
+  "front": "誰",
+  "reading": "だれ",
+  "meaning": "誰",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:誰か",
+  "deck": "n4-vocab",
+  "front": "誰か",
+  "reading": "だれか",
+  "meaning": "某人、有人",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:誕生日",
+  "deck": "n4-vocab",
+  "front": "誕生日",
+  "reading": "たんじょうび",
+  "meaning": "生日",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:段々",
+  "deck": "n4-vocab",
+  "front": "段々",
+  "reading": "だんだん",
+  "meaning": "漸漸地、逐漸",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:小さい",
+  "deck": "n4-vocab",
+  "front": "小さい",
+  "reading": "ちいさい",
+  "meaning": "小的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:小さな",
+  "deck": "n4-vocab",
+  "front": "小さな",
+  "reading": "ちいさな",
+  "meaning": "小的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:近い",
+  "deck": "n4-vocab",
+  "front": "近い",
+  "reading": "ちかい",
+  "meaning": "近的、附近的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:違う",
+  "deck": "n4-vocab",
+  "front": "違う",
+  "reading": "ちがう",
+  "meaning": "不同；不對、錯",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:近く",
+  "deck": "n4-vocab",
+  "front": "近く",
+  "reading": "ちかく",
+  "meaning": "附近",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:地下鉄",
+  "deck": "n4-vocab",
+  "front": "地下鉄",
+  "reading": "ちかてつ",
+  "meaning": "地下鐵、捷運",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:地図",
+  "deck": "n4-vocab",
+  "front": "地図",
+  "reading": "ちず",
+  "meaning": "地圖",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:父",
+  "deck": "n4-vocab",
+  "front": "父",
+  "reading": "ちち",
+  "meaning": "（我的）父親、家父",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:茶色",
+  "deck": "n4-vocab",
+  "front": "茶色",
+  "reading": "ちゃいろ",
+  "meaning": "棕色、咖啡色",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:茶碗",
+  "deck": "n4-vocab",
+  "front": "茶碗",
+  "reading": "ちゃわん",
+  "meaning": "飯碗",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～中~～ちゅう",
+  "deck": "n4-vocab",
+  "front": "～中",
+  "reading": "～ちゅう",
+  "meaning": "～中、正在～",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:丁度",
+  "deck": "n4-vocab",
+  "front": "丁度",
+  "reading": "ちょうど",
+  "meaning": "剛好、正好",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ちょっと",
+  "deck": "n4-vocab",
+  "front": "ちょっと",
+  "reading": "ちょっと",
+  "meaning": "一點、稍微",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:一日~ついたち",
+  "deck": "n4-vocab",
+  "front": "一日",
+  "reading": "ついたち",
+  "meaning": "一天；（每月）一號",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:使う",
+  "deck": "n4-vocab",
+  "front": "使う",
+  "reading": "つかう",
+  "meaning": "使用",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:疲れる",
+  "deck": "n4-vocab",
+  "front": "疲れる",
+  "reading": "つかれる",
+  "meaning": "疲倦、累",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:次",
+  "deck": "n4-vocab",
+  "front": "次",
+  "reading": "つぎ",
+  "meaning": "下一個、其次",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:着く",
+  "deck": "n4-vocab",
+  "front": "着く",
+  "reading": "つく",
+  "meaning": "到達、抵達",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:机",
+  "deck": "n4-vocab",
+  "front": "机",
+  "reading": "つくえ",
+  "meaning": "書桌、桌子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:作る",
+  "deck": "n4-vocab",
+  "front": "作る",
+  "reading": "つくる",
+  "meaning": "做、製作",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:つける",
+  "deck": "n4-vocab",
+  "front": "つける",
+  "reading": "つける",
+  "meaning": "打開（燈等）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:勤める",
+  "deck": "n4-vocab",
+  "front": "勤める",
+  "reading": "つとめる",
+  "meaning": "工作、任職（於）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:つまらない",
+  "deck": "n4-vocab",
+  "front": "つまらない",
+  "reading": "つまらない",
+  "meaning": "無聊的、無趣的；微不足道的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:冷たい",
+  "deck": "n4-vocab",
+  "front": "冷たい",
+  "reading": "つめたい",
+  "meaning": "冰冷的；冷淡的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:強い",
+  "deck": "n4-vocab",
+  "front": "強い",
+  "reading": "つよい",
+  "meaning": "強的、強壯的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:手",
+  "deck": "n4-vocab",
+  "front": "手",
+  "reading": "て",
+  "meaning": "手",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:テープ",
+  "deck": "n4-vocab",
+  "front": "テープ",
+  "reading": "テープ",
+  "meaning": "膠帶、磁帶",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:テープレコーダー",
+  "deck": "n4-vocab",
+  "front": "テープレコーダー",
+  "reading": "テープレコーダー",
+  "meaning": "錄音機",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:テーブル",
+  "deck": "n4-vocab",
+  "front": "テーブル",
+  "reading": "テーブル",
+  "meaning": "桌子、餐桌",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:出かける",
+  "deck": "n4-vocab",
+  "front": "出かける",
+  "reading": "でかける",
+  "meaning": "外出、出門",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:手紙",
+  "deck": "n4-vocab",
+  "front": "手紙",
+  "reading": "てがみ",
+  "meaning": "信、書信",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:できる",
+  "deck": "n4-vocab",
+  "front": "できる",
+  "reading": "できる",
+  "meaning": "會、能夠、辦得到",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:出口",
+  "deck": "n4-vocab",
+  "front": "出口",
+  "reading": "でぐち",
+  "meaning": "出口",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:テスト",
+  "deck": "n4-vocab",
+  "front": "テスト",
+  "reading": "テスト",
+  "meaning": "測驗、考試",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:では",
+  "deck": "n4-vocab",
+  "front": "では",
+  "reading": "では",
+  "meaning": "那麼、那就",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:デパート",
+  "deck": "n4-vocab",
+  "front": "デパート",
+  "reading": "デパート",
+  "meaning": "百貨公司",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:でも",
+  "deck": "n4-vocab",
+  "front": "でも",
+  "reading": "でも",
+  "meaning": "但是、不過",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:出る",
+  "deck": "n4-vocab",
+  "front": "出る",
+  "reading": "でる",
+  "meaning": "出去、離開；出現",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:テレビ",
+  "deck": "n4-vocab",
+  "front": "テレビ",
+  "reading": "テレビ",
+  "meaning": "電視",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:天気",
+  "deck": "n4-vocab",
+  "front": "天気",
+  "reading": "てんき",
+  "meaning": "天氣",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:電気",
+  "deck": "n4-vocab",
+  "front": "電気",
+  "reading": "でんき",
+  "meaning": "電、電燈",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:電車",
+  "deck": "n4-vocab",
+  "front": "電車",
+  "reading": "でんしゃ",
+  "meaning": "電車",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:電話",
+  "deck": "n4-vocab",
+  "front": "電話",
+  "reading": "でんわ",
+  "meaning": "電話",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:戸",
+  "deck": "n4-vocab",
+  "front": "戸",
+  "reading": "と",
+  "meaning": "門（日式）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～度",
+  "deck": "n4-vocab",
+  "front": "～度",
+  "reading": "～ど",
+  "meaning": "～次（次數）；～度（溫度、角度）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ドア",
+  "deck": "n4-vocab",
+  "front": "ドア",
+  "reading": "ドア",
+  "meaning": "門（西式）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:トイレ",
+  "deck": "n4-vocab",
+  "front": "トイレ",
+  "reading": "トイレ",
+  "meaning": "廁所、洗手間",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:どう",
+  "deck": "n4-vocab",
+  "front": "どう",
+  "reading": "どう",
+  "meaning": "如何、怎麼樣",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:どうして",
+  "deck": "n4-vocab",
+  "front": "どうして",
+  "reading": "どうして",
+  "meaning": "為什麼、為何",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:どうぞ",
+  "deck": "n4-vocab",
+  "front": "どうぞ",
+  "reading": "どうぞ",
+  "meaning": "請、請用",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:動物",
+  "deck": "n4-vocab",
+  "front": "動物",
+  "reading": "どうぶつ",
+  "meaning": "動物",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:どうも",
+  "deck": "n4-vocab",
+  "front": "どうも",
+  "reading": "どうも",
+  "meaning": "謝謝、總覺得、怎麼也（無法）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:十~(〜を) とお",
+  "deck": "n4-vocab",
+  "front": "十",
+  "reading": "(〜を) とお",
+  "meaning": "十（個）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:遠い",
+  "deck": "n4-vocab",
+  "front": "遠い",
+  "reading": "とおい",
+  "meaning": "遠的、遙遠的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:十日",
+  "deck": "n4-vocab",
+  "front": "十日",
+  "reading": "とおか",
+  "meaning": "十天、（每月）十日",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～時~～とき",
+  "deck": "n4-vocab",
+  "front": "～時",
+  "reading": "～とき",
+  "meaning": "…的時候",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:時々",
+  "deck": "n4-vocab",
+  "front": "時々",
+  "reading": "ときどき",
+  "meaning": "有時、偶爾",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:時計",
+  "deck": "n4-vocab",
+  "front": "時計",
+  "reading": "とけい",
+  "meaning": "手錶、時鐘",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:どこ",
+  "deck": "n4-vocab",
+  "front": "どこ",
+  "reading": "どこ",
+  "meaning": "哪裡、什麼地方",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:所",
+  "deck": "n4-vocab",
+  "front": "所",
+  "reading": "ところ",
+  "meaning": "地方、場所",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:年",
+  "deck": "n4-vocab",
+  "front": "年",
+  "reading": "とし",
+  "meaning": "年、年齡",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:図書館",
+  "deck": "n4-vocab",
+  "front": "図書館",
+  "reading": "としょかん",
+  "meaning": "圖書館",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:どちら",
+  "deck": "n4-vocab",
+  "front": "どちら",
+  "reading": "どちら",
+  "meaning": "哪一個、哪邊、哪裡（禮貌說法）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:どっち",
+  "deck": "n4-vocab",
+  "front": "どっち",
+  "reading": "どっち",
+  "meaning": "哪一個、哪邊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:とても",
+  "deck": "n4-vocab",
+  "front": "とても",
+  "reading": "とても",
+  "meaning": "非常、很",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:どなた",
+  "deck": "n4-vocab",
+  "front": "どなた",
+  "reading": "どなた",
+  "meaning": "哪位（誰的禮貌說法）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:隣",
+  "deck": "n4-vocab",
+  "front": "隣",
+  "reading": "となり",
+  "meaning": "隔壁、旁邊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:どの",
+  "deck": "n4-vocab",
+  "front": "どの",
+  "reading": "どの",
+  "meaning": "哪個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:飛ぶ",
+  "deck": "n4-vocab",
+  "front": "飛ぶ",
+  "reading": "とぶ",
+  "meaning": "飛、跳躍",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:止まる",
+  "deck": "n4-vocab",
+  "front": "止まる",
+  "reading": "とまる",
+  "meaning": "停止、停下",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:友達",
+  "deck": "n4-vocab",
+  "front": "友達",
+  "reading": "ともだち",
+  "meaning": "朋友",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:土曜日",
+  "deck": "n4-vocab",
+  "front": "土曜日",
+  "reading": "どようび",
+  "meaning": "星期六",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:鳥",
+  "deck": "n4-vocab",
+  "front": "鳥",
+  "reading": "とり",
+  "meaning": "鳥、雞",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:鶏肉",
+  "deck": "n4-vocab",
+  "front": "鶏肉",
+  "reading": "とりにく",
+  "meaning": "雞肉",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:取る",
+  "deck": "n4-vocab",
+  "front": "取る",
+  "reading": "とる",
+  "meaning": "拿、取；修（課程）、取得（成績）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:撮る",
+  "deck": "n4-vocab",
+  "front": "撮る",
+  "reading": "とる",
+  "meaning": "拍（照片）、拍攝（影片）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:どれ",
+  "deck": "n4-vocab",
+  "front": "どれ",
+  "reading": "どれ",
+  "meaning": "哪一個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:どんな",
+  "deck": "n4-vocab",
+  "front": "どんな",
+  "reading": "どんな",
+  "meaning": "什麼樣的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ない",
+  "deck": "n4-vocab",
+  "front": "ない",
+  "reading": "ない",
+  "meaning": "沒有、不存在",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ナイフ",
+  "deck": "n4-vocab",
+  "front": "ナイフ",
+  "reading": "ナイフ",
+  "meaning": "刀子、小刀",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:中",
+  "deck": "n4-vocab",
+  "front": "中",
+  "reading": "なか",
+  "meaning": "裡面、中間、之中",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:長い",
+  "deck": "n4-vocab",
+  "front": "長い",
+  "reading": "ながい",
+  "meaning": "長的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:鳴く",
+  "deck": "n4-vocab",
+  "front": "鳴く",
+  "reading": "なく",
+  "meaning": "（動物）鳴叫",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:無くす",
+  "deck": "n4-vocab",
+  "front": "無くす",
+  "reading": "なくす",
+  "meaning": "弄丟、遺失",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:なぜ",
+  "deck": "n4-vocab",
+  "front": "なぜ",
+  "reading": "なぜ",
+  "meaning": "為什麼（同どうして）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:夏",
+  "deck": "n4-vocab",
+  "front": "夏",
+  "reading": "なつ",
+  "meaning": "夏天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:夏休み",
+  "deck": "n4-vocab",
+  "front": "夏休み",
+  "reading": "なつやすみ",
+  "meaning": "暑假",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～など",
+  "deck": "n4-vocab",
+  "front": "～など",
+  "reading": "～など",
+  "meaning": "…等等",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:七つ",
+  "deck": "n4-vocab",
+  "front": "七つ",
+  "reading": "ななつ",
+  "meaning": "七個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:何",
+  "deck": "n4-vocab",
+  "front": "何",
+  "reading": "なん; なに",
+  "meaning": "什麼",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:七日",
+  "deck": "n4-vocab",
+  "front": "七日",
+  "reading": "なのか",
+  "meaning": "七天、（每月）七日",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:名前",
+  "deck": "n4-vocab",
+  "front": "名前",
+  "reading": "なまえ",
+  "meaning": "名字",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:習う",
+  "deck": "n4-vocab",
+  "front": "習う",
+  "reading": "ならう",
+  "meaning": "學習",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:並ぶ",
+  "deck": "n4-vocab",
+  "front": "並ぶ",
+  "reading": "ならぶ",
+  "meaning": "排隊、排成一列（自動詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:並べる",
+  "deck": "n4-vocab",
+  "front": "並べる",
+  "reading": "ならべる",
+  "meaning": "排列、擺放",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:なる",
+  "deck": "n4-vocab",
+  "front": "なる",
+  "reading": "なる",
+  "meaning": "成為、變成",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:何～",
+  "deck": "n4-vocab",
+  "front": "何～",
+  "reading": "なん～",
+  "meaning": "什麼樣的…",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:二",
+  "deck": "n4-vocab",
+  "front": "二",
+  "reading": "に",
+  "meaning": "二",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:にぎやか",
+  "deck": "n4-vocab",
+  "front": "にぎやか",
+  "reading": "にぎやか",
+  "meaning": "熱鬧、繁華",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:肉",
+  "deck": "n4-vocab",
+  "front": "肉",
+  "reading": "にく",
+  "meaning": "肉",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:西",
+  "deck": "n4-vocab",
+  "front": "西",
+  "reading": "にし",
+  "meaning": "西、西邊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～日",
+  "deck": "n4-vocab",
+  "front": "～日",
+  "reading": "～にち",
+  "meaning": "（每月）…日、…天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:日曜日",
+  "deck": "n4-vocab",
+  "front": "日曜日",
+  "reading": "にちようび",
+  "meaning": "星期日",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:荷物",
+  "deck": "n4-vocab",
+  "front": "荷物",
+  "reading": "にもつ",
+  "meaning": "行李、貨物",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ニュース",
+  "deck": "n4-vocab",
+  "front": "ニュース",
+  "reading": "ニュース",
+  "meaning": "新聞",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:庭",
+  "deck": "n4-vocab",
+  "front": "庭",
+  "reading": "にわ",
+  "meaning": "庭院",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～人~～にん",
+  "deck": "n4-vocab",
+  "front": "～人",
+  "reading": "～にん",
+  "meaning": "…人（計算人數的量詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:脱ぐ",
+  "deck": "n4-vocab",
+  "front": "脱ぐ",
+  "reading": "ぬぐ",
+  "meaning": "脫（衣服、鞋子）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:温い",
+  "deck": "n4-vocab",
+  "front": "温い",
+  "reading": "ぬるい",
+  "meaning": "溫的、不夠熱的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ネクタイ",
+  "deck": "n4-vocab",
+  "front": "ネクタイ",
+  "reading": "ネクタイ",
+  "meaning": "領帶",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:猫",
+  "deck": "n4-vocab",
+  "front": "猫",
+  "reading": "ねこ",
+  "meaning": "貓",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:寝る",
+  "deck": "n4-vocab",
+  "front": "寝る",
+  "reading": "ねる",
+  "meaning": "睡覺、就寢",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～年",
+  "deck": "n4-vocab",
+  "front": "～年",
+  "reading": "～ねん",
+  "meaning": "…年",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ノート",
+  "deck": "n4-vocab",
+  "front": "ノート",
+  "reading": "ノート",
+  "meaning": "筆記本",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:登る",
+  "deck": "n4-vocab",
+  "front": "登る",
+  "reading": "のぼる",
+  "meaning": "爬、攀登",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:飲み物",
+  "deck": "n4-vocab",
+  "front": "飲み物",
+  "reading": "のみもの",
+  "meaning": "飲料",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:飲む",
+  "deck": "n4-vocab",
+  "front": "飲む",
+  "reading": "のむ",
+  "meaning": "喝",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:乗る",
+  "deck": "n4-vocab",
+  "front": "乗る",
+  "reading": "のる",
+  "meaning": "搭乘、坐（車）、上（車）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:歯",
+  "deck": "n4-vocab",
+  "front": "歯",
+  "reading": "は",
+  "meaning": "牙齒",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:パーティー",
+  "deck": "n4-vocab",
+  "front": "パーティー",
+  "reading": "パーティー",
+  "meaning": "派對",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:はい",
+  "deck": "n4-vocab",
+  "front": "はい",
+  "reading": "はい",
+  "meaning": "是、好",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～杯",
+  "deck": "n4-vocab",
+  "front": "～杯",
+  "reading": "～はい",
+  "meaning": "…杯（計算杯數的量詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:灰皿",
+  "deck": "n4-vocab",
+  "front": "灰皿",
+  "reading": "はいざら",
+  "meaning": "菸灰缸",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:入る",
+  "deck": "n4-vocab",
+  "front": "入る",
+  "reading": "はいる",
+  "meaning": "進入、裝入、容納",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:葉書",
+  "deck": "n4-vocab",
+  "front": "葉書",
+  "reading": "はがき",
+  "meaning": "明信片",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:はく",
+  "deck": "n4-vocab",
+  "front": "はく",
+  "reading": "はく",
+  "meaning": "穿（褲子、鞋子等下半身衣物）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:箱",
+  "deck": "n4-vocab",
+  "front": "箱",
+  "reading": "はこ",
+  "meaning": "箱子、盒子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:橋",
+  "deck": "n4-vocab",
+  "front": "橋",
+  "reading": "はし",
+  "meaning": "橋",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:箸",
+  "deck": "n4-vocab",
+  "front": "箸",
+  "reading": "はし",
+  "meaning": "筷子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:始まる",
+  "deck": "n4-vocab",
+  "front": "始まる",
+  "reading": "はじまる",
+  "meaning": "開始（自動詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:初め; 始め",
+  "deck": "n4-vocab",
+  "front": "初め; 始め",
+  "reading": "はじめ",
+  "meaning": "開始、起初",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:初めて",
+  "deck": "n4-vocab",
+  "front": "初めて",
+  "reading": "はじめて",
+  "meaning": "第一次、初次",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:走る",
+  "deck": "n4-vocab",
+  "front": "走る",
+  "reading": "はしる",
+  "meaning": "跑",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:バス",
+  "deck": "n4-vocab",
+  "front": "バス",
+  "reading": "バス",
+  "meaning": "公車、巴士；浴缸；男低音",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:バター",
+  "deck": "n4-vocab",
+  "front": "バター",
+  "reading": "バター",
+  "meaning": "奶油",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:二十歳",
+  "deck": "n4-vocab",
+  "front": "二十歳",
+  "reading": "はたち",
+  "meaning": "二十歲",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:働く",
+  "deck": "n4-vocab",
+  "front": "働く",
+  "reading": "はたらく",
+  "meaning": "工作",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:八",
+  "deck": "n4-vocab",
+  "front": "八",
+  "reading": "はち",
+  "meaning": "八",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:二十日",
+  "deck": "n4-vocab",
+  "front": "二十日",
+  "reading": "はつか",
+  "meaning": "二十天、（每月）二十日",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:花",
+  "deck": "n4-vocab",
+  "front": "花",
+  "reading": "はな",
+  "meaning": "花",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:鼻",
+  "deck": "n4-vocab",
+  "front": "鼻",
+  "reading": "はな",
+  "meaning": "鼻子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:話",
+  "deck": "n4-vocab",
+  "front": "話",
+  "reading": "はなし",
+  "meaning": "談話、故事",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:話す",
+  "deck": "n4-vocab",
+  "front": "話す",
+  "reading": "はなす",
+  "meaning": "說、講",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:母",
+  "deck": "n4-vocab",
+  "front": "母",
+  "reading": "はは",
+  "meaning": "（我的）母親",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:早い",
+  "deck": "n4-vocab",
+  "front": "早い",
+  "reading": "はやい",
+  "meaning": "早的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:速い",
+  "deck": "n4-vocab",
+  "front": "速い",
+  "reading": "はやい",
+  "meaning": "快的、迅速的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:春",
+  "deck": "n4-vocab",
+  "front": "春",
+  "reading": "はる",
+  "meaning": "春天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:貼る",
+  "deck": "n4-vocab",
+  "front": "貼る",
+  "reading": "はる",
+  "meaning": "貼、黏貼、張貼",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:晴れ",
+  "deck": "n4-vocab",
+  "front": "晴れ",
+  "reading": "はれ",
+  "meaning": "晴天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:晴れる",
+  "deck": "n4-vocab",
+  "front": "晴れる",
+  "reading": "はれる",
+  "meaning": "放晴",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:半",
+  "deck": "n4-vocab",
+  "front": "半",
+  "reading": "はん",
+  "meaning": "半（如：兩點半）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:晩",
+  "deck": "n4-vocab",
+  "front": "晩",
+  "reading": "ばん",
+  "meaning": "晚上、傍晚",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～番",
+  "deck": "n4-vocab",
+  "front": "～番",
+  "reading": "～ばん",
+  "meaning": "第…號、第…名",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:パン",
+  "deck": "n4-vocab",
+  "front": "パン",
+  "reading": "パン",
+  "meaning": "麵包",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ハンカチ",
+  "deck": "n4-vocab",
+  "front": "ハンカチ",
+  "reading": "ハンカチ",
+  "meaning": "手帕",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:番号",
+  "deck": "n4-vocab",
+  "front": "番号",
+  "reading": "ばんごう",
+  "meaning": "號碼",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:晩御飯",
+  "deck": "n4-vocab",
+  "front": "晩御飯",
+  "reading": "ばんごはん",
+  "meaning": "晚餐",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:半分",
+  "deck": "n4-vocab",
+  "front": "半分",
+  "reading": "はんぶん",
+  "meaning": "一半",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:東",
+  "deck": "n4-vocab",
+  "front": "東",
+  "reading": "ひがし",
+  "meaning": "東、東邊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～匹",
+  "deck": "n4-vocab",
+  "front": "～匹",
+  "reading": "～ひき",
+  "meaning": "…隻（計算小動物的量詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:引く",
+  "deck": "n4-vocab",
+  "front": "引く",
+  "reading": "ひく",
+  "meaning": "拉、拔、查（字典）；減（法）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:弾く",
+  "deck": "n4-vocab",
+  "front": "弾く",
+  "reading": "ひく",
+  "meaning": "彈奏（鋼琴、弦樂器）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:低い",
+  "deck": "n4-vocab",
+  "front": "低い",
+  "reading": "ひくい",
+  "meaning": "低的、矮的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:飛行機",
+  "deck": "n4-vocab",
+  "front": "飛行機",
+  "reading": "ひこうき",
+  "meaning": "飛機",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:左",
+  "deck": "n4-vocab",
+  "front": "左",
+  "reading": "ひだり",
+  "meaning": "左邊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:人",
+  "deck": "n4-vocab",
+  "front": "人",
+  "reading": "ひと",
+  "meaning": "人",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:一つ",
+  "deck": "n4-vocab",
+  "front": "一つ",
+  "reading": "ひとつ",
+  "meaning": "一個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:一月",
+  "deck": "n4-vocab",
+  "front": "一月",
+  "reading": "ひとつき",
+  "meaning": "一個月",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:一人",
+  "deck": "n4-vocab",
+  "front": "一人",
+  "reading": "ひとり",
+  "meaning": "一個人",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:暇",
+  "deck": "n4-vocab",
+  "front": "暇",
+  "reading": "ひま",
+  "meaning": "空閒、閒暇",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:百",
+  "deck": "n4-vocab",
+  "front": "百",
+  "reading": "ひゃく",
+  "meaning": "一百",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:病院",
+  "deck": "n4-vocab",
+  "front": "病院",
+  "reading": "びょういん",
+  "meaning": "醫院",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:病気",
+  "deck": "n4-vocab",
+  "front": "病気",
+  "reading": "びょうき",
+  "meaning": "生病、疾病",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:平仮名",
+  "deck": "n4-vocab",
+  "front": "平仮名",
+  "reading": "ひらがな",
+  "meaning": "平假名",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:昼",
+  "deck": "n4-vocab",
+  "front": "昼",
+  "reading": "ひる",
+  "meaning": "中午、白天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:昼御飯",
+  "deck": "n4-vocab",
+  "front": "昼御飯",
+  "reading": "ひるごはん",
+  "meaning": "午餐",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:広い",
+  "deck": "n4-vocab",
+  "front": "広い",
+  "reading": "ひろい",
+  "meaning": "寬敞的、寬廣的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:フィルム",
+  "deck": "n4-vocab",
+  "front": "フィルム",
+  "reading": "フィルム",
+  "meaning": "底片、膠捲",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:封筒",
+  "deck": "n4-vocab",
+  "front": "封筒",
+  "reading": "ふうとう",
+  "meaning": "信封",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:プール",
+  "deck": "n4-vocab",
+  "front": "プール",
+  "reading": "プール",
+  "meaning": "游泳池",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:フォーク",
+  "deck": "n4-vocab",
+  "front": "フォーク",
+  "reading": "フォーク",
+  "meaning": "叉子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:吹く",
+  "deck": "n4-vocab",
+  "front": "吹く",
+  "reading": "ふく",
+  "meaning": "吹（風等）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:服",
+  "deck": "n4-vocab",
+  "front": "服",
+  "reading": "ふく",
+  "meaning": "衣服",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:二つ",
+  "deck": "n4-vocab",
+  "front": "二つ",
+  "reading": "ふたつ",
+  "meaning": "兩個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:豚肉",
+  "deck": "n4-vocab",
+  "front": "豚肉",
+  "reading": "ぶたにく",
+  "meaning": "豬肉",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:二人",
+  "deck": "n4-vocab",
+  "front": "二人",
+  "reading": "ふたり",
+  "meaning": "兩個人、兩人",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:二日",
+  "deck": "n4-vocab",
+  "front": "二日",
+  "reading": "ふつか",
+  "meaning": "兩天、（每月）二號",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:太い",
+  "deck": "n4-vocab",
+  "front": "太い",
+  "reading": "ふとい",
+  "meaning": "粗的、胖的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:冬",
+  "deck": "n4-vocab",
+  "front": "冬",
+  "reading": "ふゆ",
+  "meaning": "冬天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:降る",
+  "deck": "n4-vocab",
+  "front": "降る",
+  "reading": "ふる",
+  "meaning": "下（雨、雪等）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:古い",
+  "deck": "n4-vocab",
+  "front": "古い",
+  "reading": "ふるい",
+  "meaning": "舊的（指物品）、古老的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～分",
+  "deck": "n4-vocab",
+  "front": "～分",
+  "reading": "～ふん",
+  "meaning": "～分（時間）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:文章",
+  "deck": "n4-vocab",
+  "front": "文章",
+  "reading": "ぶんしょう",
+  "meaning": "文章、句子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ページ",
+  "deck": "n4-vocab",
+  "front": "ページ",
+  "reading": "ページ",
+  "meaning": "頁",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:下手",
+  "deck": "n4-vocab",
+  "front": "下手",
+  "reading": "へた",
+  "meaning": "不擅長、笨拙",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ベッド",
+  "deck": "n4-vocab",
+  "front": "ベッド",
+  "reading": "ベッド",
+  "meaning": "床",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ペット",
+  "deck": "n4-vocab",
+  "front": "ペット",
+  "reading": "ペット",
+  "meaning": "寵物",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:部屋",
+  "deck": "n4-vocab",
+  "front": "部屋",
+  "reading": "へや",
+  "meaning": "房間",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:辺",
+  "deck": "n4-vocab",
+  "front": "辺",
+  "reading": "へん",
+  "meaning": "附近、一帶",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ペン",
+  "deck": "n4-vocab",
+  "front": "ペン",
+  "reading": "ペン",
+  "meaning": "筆",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:勉強",
+  "deck": "n4-vocab",
+  "front": "勉強",
+  "reading": "べんきょう (する)",
+  "meaning": "學習、讀書",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:便利",
+  "deck": "n4-vocab",
+  "front": "便利",
+  "reading": "べんり",
+  "meaning": "方便、便利",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:帽子",
+  "deck": "n4-vocab",
+  "front": "帽子",
+  "reading": "ぼうし",
+  "meaning": "帽子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ボールペン",
+  "deck": "n4-vocab",
+  "front": "ボールペン",
+  "reading": "ボールペン",
+  "meaning": "原子筆",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:外~ほか",
+  "deck": "n4-vocab",
+  "front": "外",
+  "reading": "ほか",
+  "meaning": "其他、另外",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ポケット",
+  "deck": "n4-vocab",
+  "front": "ポケット",
+  "reading": "ポケット",
+  "meaning": "口袋",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:欲しい",
+  "deck": "n4-vocab",
+  "front": "欲しい",
+  "reading": "ほしい",
+  "meaning": "想要",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ポスト",
+  "deck": "n4-vocab",
+  "front": "ポスト",
+  "reading": "ポスト",
+  "meaning": "郵筒、信箱；職位",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:細い",
+  "deck": "n4-vocab",
+  "front": "細い",
+  "reading": "ほそい",
+  "meaning": "細的、瘦的、纖細",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ボタン",
+  "deck": "n4-vocab",
+  "front": "ボタン",
+  "reading": "ボタン",
+  "meaning": "按鈕、鈕扣",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ホテル",
+  "deck": "n4-vocab",
+  "front": "ホテル",
+  "reading": "ホテル",
+  "meaning": "飯店、旅館",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:本",
+  "deck": "n4-vocab",
+  "front": "本",
+  "reading": "ほん",
+  "meaning": "書",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～本",
+  "deck": "n4-vocab",
+  "front": "～本",
+  "reading": "～ほん",
+  "meaning": "～支、～條（細長物的量詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:本棚",
+  "deck": "n4-vocab",
+  "front": "本棚",
+  "reading": "ほんだな",
+  "meaning": "書架、書櫃",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:本当",
+  "deck": "n4-vocab",
+  "front": "本当",
+  "reading": "ほんとう",
+  "meaning": "真的、真實",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～枚",
+  "deck": "n4-vocab",
+  "front": "～枚",
+  "reading": "～まい",
+  "meaning": "～張、～片（扁平物的量詞）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:毎朝",
+  "deck": "n4-vocab",
+  "front": "毎朝",
+  "reading": "まいあさ",
+  "meaning": "每天早上",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:毎月",
+  "deck": "n4-vocab",
+  "front": "毎月",
+  "reading": "まいげつ; まいつき",
+  "meaning": "每個月、每月",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:毎週",
+  "deck": "n4-vocab",
+  "front": "毎週",
+  "reading": "まいしゅう",
+  "meaning": "每週",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:毎日",
+  "deck": "n4-vocab",
+  "front": "毎日",
+  "reading": "まいにち",
+  "meaning": "每天",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:毎年",
+  "deck": "n4-vocab",
+  "front": "毎年",
+  "reading": "まいねん; まいとし",
+  "meaning": "每年",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:毎晩",
+  "deck": "n4-vocab",
+  "front": "毎晩",
+  "reading": "まいばん",
+  "meaning": "每天晚上",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:前",
+  "deck": "n4-vocab",
+  "front": "前",
+  "reading": "まえ",
+  "meaning": "前面、之前",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～前",
+  "deck": "n4-vocab",
+  "front": "～前",
+  "reading": "～まえ",
+  "meaning": "～前面、～之前",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:曲る",
+  "deck": "n4-vocab",
+  "front": "曲る",
+  "reading": "まがる",
+  "meaning": "轉彎、彎曲",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:まずい",
+  "deck": "n4-vocab",
+  "front": "まずい",
+  "reading": "まずい",
+  "meaning": "難吃的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:また",
+  "deck": "n4-vocab",
+  "front": "また",
+  "reading": "また",
+  "meaning": "又、再；還有",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:まだ",
+  "deck": "n4-vocab",
+  "front": "まだ",
+  "reading": "まだ",
+  "meaning": "還、尚未、仍然",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:町",
+  "deck": "n4-vocab",
+  "front": "町",
+  "reading": "まち",
+  "meaning": "城鎮、街市",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:待つ",
+  "deck": "n4-vocab",
+  "front": "待つ",
+  "reading": "まつ",
+  "meaning": "等待",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:まっすぐ",
+  "deck": "n4-vocab",
+  "front": "まっすぐ",
+  "reading": "まっすぐ",
+  "meaning": "筆直、直直地",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:マッチ",
+  "deck": "n4-vocab",
+  "front": "マッチ",
+  "reading": "マッチ",
+  "meaning": "火柴",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:窓",
+  "deck": "n4-vocab",
+  "front": "窓",
+  "reading": "まど",
+  "meaning": "窗戶",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:丸い; 円い",
+  "deck": "n4-vocab",
+  "front": "丸い; 円い",
+  "reading": "まるい",
+  "meaning": "圓的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:万",
+  "deck": "n4-vocab",
+  "front": "万",
+  "reading": "まん",
+  "meaning": "萬",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:万年筆",
+  "deck": "n4-vocab",
+  "front": "万年筆",
+  "reading": "まんねんひつ",
+  "meaning": "鋼筆",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:磨く",
+  "deck": "n4-vocab",
+  "front": "磨く",
+  "reading": "みがく",
+  "meaning": "刷（牙）、擦亮",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:右",
+  "deck": "n4-vocab",
+  "front": "右",
+  "reading": "みぎ",
+  "meaning": "右邊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:短い",
+  "deck": "n4-vocab",
+  "front": "短い",
+  "reading": "みじかい",
+  "meaning": "短的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:水",
+  "deck": "n4-vocab",
+  "front": "水",
+  "reading": "みず",
+  "meaning": "水",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:店",
+  "deck": "n4-vocab",
+  "front": "店",
+  "reading": "みせ",
+  "meaning": "商店、店",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:見せる",
+  "deck": "n4-vocab",
+  "front": "見せる",
+  "reading": "みせる",
+  "meaning": "給人看、出示",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:道",
+  "deck": "n4-vocab",
+  "front": "道",
+  "reading": "みち",
+  "meaning": "道路、街道；路線",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:三日",
+  "deck": "n4-vocab",
+  "front": "三日",
+  "reading": "みっか",
+  "meaning": "三天、（每月）三號",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:三つ",
+  "deck": "n4-vocab",
+  "front": "三つ",
+  "reading": "みっつ",
+  "meaning": "三個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:緑",
+  "deck": "n4-vocab",
+  "front": "緑",
+  "reading": "みどり",
+  "meaning": "綠色",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:皆さん",
+  "deck": "n4-vocab",
+  "front": "皆さん",
+  "reading": "みなさん",
+  "meaning": "大家、各位",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:南",
+  "deck": "n4-vocab",
+  "front": "南",
+  "reading": "みなみ",
+  "meaning": "南邊、南方",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:耳",
+  "deck": "n4-vocab",
+  "front": "耳",
+  "reading": "みみ",
+  "meaning": "耳朵",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:見る",
+  "deck": "n4-vocab",
+  "front": "見る",
+  "reading": "みる",
+  "meaning": "看",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:みんな",
+  "deck": "n4-vocab",
+  "front": "みんな",
+  "reading": "みんな",
+  "meaning": "大家、全部",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:六日",
+  "deck": "n4-vocab",
+  "front": "六日",
+  "reading": "むいか",
+  "meaning": "六天、（每月）六號",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:向こう",
+  "deck": "n4-vocab",
+  "front": "向こう",
+  "reading": "むこう",
+  "meaning": "對面、那邊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:難しい",
+  "deck": "n4-vocab",
+  "front": "難しい",
+  "reading": "むずかしい",
+  "meaning": "難的、困難",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:六つ",
+  "deck": "n4-vocab",
+  "front": "六つ",
+  "reading": "むっつ",
+  "meaning": "六個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:村",
+  "deck": "n4-vocab",
+  "front": "村",
+  "reading": "むら",
+  "meaning": "村莊、村子",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:目",
+  "deck": "n4-vocab",
+  "front": "目",
+  "reading": "め",
+  "meaning": "眼睛",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:メートル",
+  "deck": "n4-vocab",
+  "front": "メートル",
+  "reading": "メートル",
+  "meaning": "公尺",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:眼鏡",
+  "deck": "n4-vocab",
+  "front": "眼鏡",
+  "reading": "めがね",
+  "meaning": "眼鏡",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:もう",
+  "deck": "n4-vocab",
+  "front": "もう",
+  "reading": "もう",
+  "meaning": "已經；再、還",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:木曜日",
+  "deck": "n4-vocab",
+  "front": "木曜日",
+  "reading": "もくようび",
+  "meaning": "星期四",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:もしもし",
+  "deck": "n4-vocab",
+  "front": "もしもし",
+  "reading": "もしもし",
+  "meaning": "喂（電話用語）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:持つ",
+  "deck": "n4-vocab",
+  "front": "持つ",
+  "reading": "もつ",
+  "meaning": "拿、帶；擁有",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:もっと",
+  "deck": "n4-vocab",
+  "front": "もっと",
+  "reading": "もっと",
+  "meaning": "更、更加",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:物",
+  "deck": "n4-vocab",
+  "front": "物",
+  "reading": "もの",
+  "meaning": "東西、物品",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:門",
+  "deck": "n4-vocab",
+  "front": "門",
+  "reading": "もん",
+  "meaning": "門、大門",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:問題",
+  "deck": "n4-vocab",
+  "front": "問題",
+  "reading": "もんだい",
+  "meaning": "問題",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:～屋",
+  "deck": "n4-vocab",
+  "front": "～屋",
+  "reading": "～や",
+  "meaning": "～店",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:八百屋",
+  "deck": "n4-vocab",
+  "front": "八百屋",
+  "reading": "やおや",
+  "meaning": "蔬果店",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:野菜",
+  "deck": "n4-vocab",
+  "front": "野菜",
+  "reading": "やさい",
+  "meaning": "蔬菜",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:易しい",
+  "deck": "n4-vocab",
+  "front": "易しい",
+  "reading": "やさしい",
+  "meaning": "容易的、簡單",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:安い",
+  "deck": "n4-vocab",
+  "front": "安い",
+  "reading": "やすい",
+  "meaning": "便宜的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:休み",
+  "deck": "n4-vocab",
+  "front": "休み",
+  "reading": "やすみ",
+  "meaning": "休假、休息；缺席",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:休む",
+  "deck": "n4-vocab",
+  "front": "休む",
+  "reading": "やすむ",
+  "meaning": "休息、請假",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:八つ",
+  "deck": "n4-vocab",
+  "front": "八つ",
+  "reading": "やっつ",
+  "meaning": "八個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:山",
+  "deck": "n4-vocab",
+  "front": "山",
+  "reading": "やま",
+  "meaning": "山",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:やる",
+  "deck": "n4-vocab",
+  "front": "やる",
+  "reading": "やる",
+  "meaning": "做；給（寵物、晚輩等）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:夕方",
+  "deck": "n4-vocab",
+  "front": "夕方",
+  "reading": "ゆうがた",
+  "meaning": "傍晚",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:夕飯",
+  "deck": "n4-vocab",
+  "front": "夕飯",
+  "reading": "ゆうはん",
+  "meaning": "晚餐、晚飯",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:郵便局",
+  "deck": "n4-vocab",
+  "front": "郵便局",
+  "reading": "ゆうびんきょく",
+  "meaning": "郵局",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:昨夜",
+  "deck": "n4-vocab",
+  "front": "昨夜",
+  "reading": "ゆうべ",
+  "meaning": "昨晚",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:有名",
+  "deck": "n4-vocab",
+  "front": "有名",
+  "reading": "ゆうめい",
+  "meaning": "有名",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:雪",
+  "deck": "n4-vocab",
+  "front": "雪",
+  "reading": "ゆき",
+  "meaning": "雪",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ゆっくりと",
+  "deck": "n4-vocab",
+  "front": "ゆっくりと",
+  "reading": "ゆっくりと",
+  "meaning": "慢慢地、悠閒地",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:八日",
+  "deck": "n4-vocab",
+  "front": "八日",
+  "reading": "ようか",
+  "meaning": "八天、（每月）八號",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:洋服",
+  "deck": "n4-vocab",
+  "front": "洋服",
+  "reading": "ようふく",
+  "meaning": "西式服裝、衣服",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:よく",
+  "deck": "n4-vocab",
+  "front": "よく",
+  "reading": "よく",
+  "meaning": "常常、經常；好好地",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:横",
+  "deck": "n4-vocab",
+  "front": "横",
+  "reading": "よこ",
+  "meaning": "旁邊；橫向；寬度",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:四日",
+  "deck": "n4-vocab",
+  "front": "四日",
+  "reading": "よっか",
+  "meaning": "四天、（每月）四號",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:四つ",
+  "deck": "n4-vocab",
+  "front": "四つ",
+  "reading": "よっつ",
+  "meaning": "四個",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:呼ぶ",
+  "deck": "n4-vocab",
+  "front": "呼ぶ",
+  "reading": "よぶ",
+  "meaning": "叫、呼喚；邀請",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:読む",
+  "deck": "n4-vocab",
+  "front": "読む",
+  "reading": "よむ",
+  "meaning": "讀、唸",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:夜",
+  "deck": "n4-vocab",
+  "front": "夜",
+  "reading": "よる",
+  "meaning": "夜晚、晚上",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:弱い",
+  "deck": "n4-vocab",
+  "front": "弱い",
+  "reading": "よわい",
+  "meaning": "弱的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:来月",
+  "deck": "n4-vocab",
+  "front": "来月",
+  "reading": "らいげつ",
+  "meaning": "下個月",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:来週",
+  "deck": "n4-vocab",
+  "front": "来週",
+  "reading": "らいしゅう",
+  "meaning": "下週",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:来年",
+  "deck": "n4-vocab",
+  "front": "来年",
+  "reading": "らいねん",
+  "meaning": "明年",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ラジオ",
+  "deck": "n4-vocab",
+  "front": "ラジオ",
+  "reading": "ラジオ",
+  "meaning": "收音機",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ラジオカセ",
+  "deck": "n4-vocab",
+  "front": "ラジオカセ",
+  "reading": "ラジオカセ",
+  "meaning": "收錄音機",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:りっぱ",
+  "deck": "n4-vocab",
+  "front": "りっぱ",
+  "reading": "りっぱ",
+  "meaning": "出色、氣派",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:留学生",
+  "deck": "n4-vocab",
+  "front": "留学生",
+  "reading": "りゅうがくせい",
+  "meaning": "留學生",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:両親",
+  "deck": "n4-vocab",
+  "front": "両親",
+  "reading": "りょうしん",
+  "meaning": "父母、雙親",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:料理",
+  "deck": "n4-vocab",
+  "front": "料理",
+  "reading": "りょうり",
+  "meaning": "料理、烹飪",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:旅行",
+  "deck": "n4-vocab",
+  "front": "旅行",
+  "reading": "りょこう",
+  "meaning": "旅行",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:零",
+  "deck": "n4-vocab",
+  "front": "零",
+  "reading": "れい",
+  "meaning": "零",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:冷蔵庫",
+  "deck": "n4-vocab",
+  "front": "冷蔵庫",
+  "reading": "れいぞうこ",
+  "meaning": "冰箱",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:レコード",
+  "deck": "n4-vocab",
+  "front": "レコード",
+  "reading": "レコード",
+  "meaning": "唱片",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:レストラン",
+  "deck": "n4-vocab",
+  "front": "レストラン",
+  "reading": "レストラン",
+  "meaning": "餐廳",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:練習",
+  "deck": "n4-vocab",
+  "front": "練習",
+  "reading": "れんしゅう (する)",
+  "meaning": "練習",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:廊下",
+  "deck": "n4-vocab",
+  "front": "廊下",
+  "reading": "ろうか",
+  "meaning": "走廊",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:六",
+  "deck": "n4-vocab",
+  "front": "六",
+  "reading": "ろく",
+  "meaning": "六",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:ワイシャツ",
+  "deck": "n4-vocab",
+  "front": "ワイシャツ",
+  "reading": "ワイシャツ",
+  "meaning": "襯衫（白襯衫）",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:若い",
+  "deck": "n4-vocab",
+  "front": "若い",
+  "reading": "わかい",
+  "meaning": "年輕的",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:分かる",
+  "deck": "n4-vocab",
+  "front": "分かる",
+  "reading": "わかる",
+  "meaning": "明白、懂",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:忘れる",
+  "deck": "n4-vocab",
+  "front": "忘れる",
+  "reading": "わすれる",
+  "meaning": "忘記",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:私",
+  "deck": "n4-vocab",
+  "front": "私",
+  "reading": "わたし",
+  "meaning": "我",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:私~わたくし",
+  "deck": "n4-vocab",
+  "front": "私",
+  "reading": "わたくし",
+  "meaning": "我（正式）；私事",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:渡す",
+  "deck": "n4-vocab",
+  "front": "渡す",
+  "reading": "わたす",
+  "meaning": "交給、遞給",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:渡る",
+  "deck": "n4-vocab",
+  "front": "渡る",
+  "reading": "わたる",
+  "meaning": "渡過、穿越",
+  "category": "N5"
+ },
+ {
+  "id": "n4v:悪い",
+  "deck": "n4-vocab",
+  "front": "悪い",
+  "reading": "わるい",
+  "meaning": "壞的、不好的",
+  "category": "N5"
+ }
 ]
