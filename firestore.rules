@@ -1,10 +1,23 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // 單人 app：只有本人（Google 登入）能讀寫任何文件
-    match /{document=**} {
-      allow read, write: if request.auth != null
-        && request.auth.token.email == "bryan472017@gmail.com";
+    // 白名單：只有這兩個 Google 帳號能用
+    function allowed() {
+      return request.auth != null
+        && request.auth.token.email in ['bryan472017@gmail.com', 'han89024@gmail.com'];
+    }
+
+    // 每人只能讀寫自己 uid 底下的資料（進度各自獨立）
+    match /users/{uid}/{document=**} {
+      allow read, write: if allowed() && request.auth.uid == uid;
+    }
+    match /users/{uid} {
+      allow read, write: if allowed() && request.auth.uid == uid;
+    }
+
+    // 共用題庫（W5 AI 出題快取）：兩人皆可讀寫，題目共享省額度
+    match /questionBank/{doc} {
+      allow read, write: if allowed();
     }
   }
 }
