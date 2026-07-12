@@ -50,7 +50,9 @@ export function describeAuthError(err: unknown): string {
       return 'Firebase 尚未啟用 Google 登入，請到 Authentication → Sign-in method 開啟。'
     case 'auth/network-request-failed':
       return '網路連線失敗，請確認網路後再試。'
-    default:
-      return `登入失敗${code ? `（${code}）` : ''}，請再試一次。`
+    default: {
+      const msg = (err as { message?: string })?.message ?? String(err)
+      return `登入失敗：${code || msg}`
+    }
   }
 }

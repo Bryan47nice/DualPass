@@ -38,6 +38,7 @@ npm run build    # 型別檢查 + 產出 dist/
 
 版號遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)，規範見 [.claude/rules/versioning.md](.claude/rules/versioning.md)，完整紀錄見 [CHANGELOG.md](CHANGELOG.md)。App 內「設定 → 版本」也可查看更新紀錄。
 
+- **v0.3.3**（2026-07-12）— 日文卡顯示假名讀音 + 🔊 發音按鈕
 - **v0.3.2**（2026-07-12）— 修正手機／PWA Google 登入（改 redirect）＋錯誤提示
 - **v0.3.1**（2026-07-12）— N4 詞彙 +169，教材總計 2,198 筆
 - **v0.3.0**（2026-07-12）— 雙人模式（各自進度、共用題庫）

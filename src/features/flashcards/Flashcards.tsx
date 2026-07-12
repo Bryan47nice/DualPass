@@ -5,6 +5,24 @@ import { SEED_BY_ID } from '@/data'
 import { useUiStore } from '@/stores/uiStore'
 import { useSrsStore } from '@/stores/srsStore'
 import { useQuestStore } from '@/stores/questStore'
+import { speak, ttsSupported } from '@/lib/tts'
+
+/** 小喇叭發音按鈕 */
+function SpeakButton({ text, lang }: { text: string; lang: 'ja-JP' | 'en-US' }) {
+  if (!ttsSupported()) return null
+  return (
+    <button
+      onClick={(e) => {
+        e.stopPropagation()
+        speak(text, lang)
+      }}
+      aria-label={t.flashcards.play}
+      className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-slate-700 text-base active:bg-slate-600"
+    >
+      🔊
+    </button>
+  )
+}
 
 export default function Flashcards() {
   const { lang, settings } = useUiStore()
@@ -61,6 +79,7 @@ export default function Flashcards() {
   }
 
   const accent = lang === 'en' ? 'text-sky-400' : 'text-rose-400'
+  const ttsLang: 'ja-JP' | 'en-US' = lang === 'en' ? 'en-US' : 'ja-JP'
 
   return (
     <div className="flex min-h-[70dvh] flex-col">
@@ -74,21 +93,25 @@ export default function Flashcards() {
       {/* 卡片 */}
       <div className="flex flex-1 flex-col rounded-2xl bg-slate-800 p-6">
         <div className="flex flex-1 flex-col items-center justify-center text-center">
-          <div className={`text-3xl font-bold ${accent}`}>{item.front}</div>
+          <div className="flex items-center gap-2">
+            <div className={`text-3xl font-bold ${accent}`}>{item.front}</div>
+            <SpeakButton text={item.front} lang={ttsLang} />
+          </div>
+          {/* 日文卡：正面就顯示假名讀音，讓不熟漢字也念得出來 */}
+          {item.reading && item.reading !== item.front && (
+            <div className="mt-1 text-base text-slate-400">{item.reading}</div>
+          )}
           {item.pos && <div className="mt-2 text-xs text-slate-500">{item.pos}</div>}
 
           {revealed && (
             <div className="mt-6 w-full space-y-4 border-t border-slate-700 pt-6 text-left">
-              {item.reading && (
-                <div>
-                  <div className="text-xs text-slate-500">{t.flashcards.reading}</div>
-                  <div className="text-lg">{item.reading}</div>
-                </div>
-              )}
               <div className="text-center text-xl font-semibold">{item.meaning}</div>
               {item.example && (
                 <div className="rounded-xl bg-slate-900/60 p-3 text-sm">
-                  <div className="text-xs text-slate-500">{t.flashcards.example}</div>
+                  <div className="mb-1 flex items-center justify-between">
+                    <span className="text-xs text-slate-500">{t.flashcards.example}</span>
+                    <SpeakButton text={item.example} lang={ttsLang} />
+                  </div>
                   <div className="mt-1">{item.example}</div>
                   {item.exampleTrans && (
                     <div className="mt-1 text-slate-400">{item.exampleTrans}</div>

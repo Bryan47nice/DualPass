@@ -39,6 +39,7 @@ export const t = {
     finished: '本輪複習完成！',
     reading: '讀音',
     example: '例句',
+    play: '發音',
   },
   quiz: {
     title: 'AI 刷題',

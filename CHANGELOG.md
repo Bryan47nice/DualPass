@@ -3,6 +3,11 @@
 本專案版號遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)。
 規範見 [.claude/rules/versioning.md](.claude/rules/versioning.md)；單一事實來源為 [src/version.ts](src/version.ts)。
 
+## [0.3.3] - 2026-07-12
+- 日文單字卡正面直接顯示假名讀音，漢字不再不會念
+- 新增 🔊 發音按鈕：單字與例句都能用日文／英文語音朗讀
+- 登入失敗改顯示完整錯誤原因，方便排查
+
 ## [0.3.2] - 2026-07-12
 - 修正 Google 登入：手機／PWA 改用整頁跳轉（redirect），不再依賴會被擋的彈窗
 - 登入失敗時顯示明確錯誤原因（授權網域、彈窗被擋、未啟用等）

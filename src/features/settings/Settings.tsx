@@ -16,6 +16,7 @@ export default function Settings() {
     try {
       await signIn()
     } catch (err) {
+      console.error('[auth] sign-in failed', err)
       setSignInError(describeAuthError(err))
     }
   }

@@ -2,7 +2,7 @@
  * 版號與 Changelog 的單一事實來源（Single Source of Truth）。
  * 修改版本時請遵循 .claude/rules/versioning.md 的四步驟。
  */
-export const APP_VERSION = '0.3.2'
+export const APP_VERSION = '0.3.3'
 
 export interface ChangelogEntry {
   version: string
@@ -12,6 +12,15 @@ export interface ChangelogEntry {
 
 /** 最新版本排最前面 */
 export const CHANGELOG: ChangelogEntry[] = [
+  {
+    version: '0.3.3',
+    date: '2026-07-12',
+    changes: [
+      '日文單字卡正面直接顯示假名讀音，漢字不再不會念',
+      '新增 🔊 發音按鈕：單字與例句都能用日文／英文語音朗讀',
+      '登入失敗改顯示完整錯誤原因，方便排查',
+    ],
+  },
   {
     version: '0.3.2',
     date: '2026-07-12',
