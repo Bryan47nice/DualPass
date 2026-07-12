@@ -10,3 +10,6 @@ dev-dist
 
 # W2 種子資料的中間產物（最終資料已在 src/data/）
 scripts/source/
+
+# 暫存的 env pull 檔
+scratch-env.txt
