@@ -39,6 +39,17 @@ function mergeDeck({ finalPath, curated, parts, requiredFields }) {
   }
   for (const item of curated) byId.set(item.id, item)
 
+  // 正規化日文 level：舊資料把 N4/N5 放在 category，統一搬到 level
+  for (const item of byId.values()) {
+    if (item.deck === 'n4-vocab' || item.deck === 'n4-grammar') {
+      if (!item.level && (item.category === 'N4' || item.category === 'N5')) {
+        item.level = item.category
+        delete item.category
+      }
+      if (item.deck === 'n4-vocab' && !item.level) item.level = 'N4'
+    }
+  }
+
   const list = [...byId.values()]
   writeFileSync(finalPath, JSON.stringify(list, null, 1), 'utf8')
   console.log(`${path.basename(finalPath)}: ${list.length} 筆（過濾 ${dropped} 筆欄位不全）`)

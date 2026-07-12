@@ -10,6 +10,9 @@ export type DeckId =
   | 'n4-grammar'    // N4 文法句型
   | 'mistakes'      // 測驗錯題轉入
 
+/** JLPT 等級（僅日文牌組適用） */
+export type JlptLevel = 'N4' | 'N5'
+
 /** 種子內容：一筆學習項目（打包進 bundle 的靜態資料） */
 export interface SeedItem {
   id: string           // 例 "toeic:negotiate"、"n4v:あつまる"、"n4g:〜たことがある"
@@ -20,7 +23,8 @@ export interface SeedItem {
   meaning: string      // zh-TW 釋義
   example?: string     // 例句
   exampleTrans?: string // 例句翻譯
-  category?: string    // 商業情境 / 文法分類
+  category?: string    // 商業情境 / 文法主題分類
+  level?: JlptLevel    // 日文牌組的 JLPT 等級（N4/N5）
 }
 
 /** SRS 卡片排程狀態（ts-fsrs Card + 我們的識別欄位） */

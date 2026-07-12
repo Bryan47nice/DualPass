@@ -2,7 +2,7 @@
  * 版號與 Changelog 的單一事實來源（Single Source of Truth）。
  * 修改版本時請遵循 .claude/rules/versioning.md 的四步驟。
  */
-export const APP_VERSION = '0.3.3'
+export const APP_VERSION = '0.4.0'
 
 export interface ChangelogEntry {
   version: string
@@ -12,6 +12,15 @@ export interface ChangelogEntry {
 
 /** 最新版本排最前面 */
 export const CHANGELOG: ChangelogEntry[] = [
+  {
+    version: '0.4.0',
+    date: '2026-07-12',
+    changes: [
+      '日文單字卡新增篩選：可分開複習「單字」與「文法」，並依 N5／N4 等級篩選',
+      '每張日文卡標上 JLPT 等級（N5／N4）與類型徽章',
+      '每個篩選組合各有獨立的每日新卡額度，單字與文法進度分開累積',
+    ],
+  },
   {
     version: '0.3.3',
     date: '2026-07-12',

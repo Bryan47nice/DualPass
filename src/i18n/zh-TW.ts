@@ -40,6 +40,11 @@ export const t = {
     reading: '讀音',
     example: '例句',
     play: '發音',
+    filterAll: '全部',
+    vocab: '單字',
+    grammar: '文法',
+    toeic: '多益',
+    mistakes: '錯題',
   },
   quiz: {
     title: 'AI 刷題',

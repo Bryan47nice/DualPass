@@ -3,6 +3,11 @@
 本專案版號遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)。
 規範見 [.claude/rules/versioning.md](.claude/rules/versioning.md)；單一事實來源為 [src/version.ts](src/version.ts)。
 
+## [0.4.0] - 2026-07-12
+- 日文單字卡新增篩選：可分開複習「單字」與「文法」，並依 N5／N4 等級篩選
+- 每張日文卡標上 JLPT 等級（N5／N4）與類型徽章
+- 每個篩選組合各有獨立的每日新卡額度，單字與文法進度分開累積
+
 ## [0.3.3] - 2026-07-12
 - 日文單字卡正面直接顯示假名讀音，漢字不再不會念
 - 新增 🔊 發音按鈕：單字與例句都能用日文／英文語音朗讀
