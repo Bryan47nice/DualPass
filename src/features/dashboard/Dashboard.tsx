@@ -4,6 +4,7 @@ import { QUEST_TARGETS } from '@/types'
 import { useUiStore } from '@/stores/uiStore'
 import { useSrsStore } from '@/stores/srsStore'
 import { useQuestStore } from '@/stores/questStore'
+import { IconCheckCircle, IconFlame } from '@/components/icons'
 
 function daysUntil(dateStr: string): number {
   const target = new Date(`${dateStr}T00:00:00`)
@@ -72,11 +73,11 @@ export default function Dashboard() {
         <div className="flex items-center justify-between">
           <div className="flex gap-5 text-sm">
             <div>
-              <div className="text-2xl font-bold text-amber-400">{dueCount}</div>
+              <div className="text-2xl font-bold text-slate-100">{dueCount}</div>
               <div className="text-slate-400">{t.dashboard.dueCards}</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-emerald-400">{newCount}</div>
+              <div className="text-2xl font-bold text-slate-100">{newCount}</div>
               <div className="text-slate-400">{t.dashboard.newCards}</div>
             </div>
           </div>
@@ -95,8 +96,9 @@ export default function Dashboard() {
       <section className="rounded-2xl bg-slate-800 p-4">
         <div className="mb-3 flex items-center justify-between">
           <h2 className="font-semibold">{t.dashboard.dailyQuest}</h2>
-          <span className="text-sm text-slate-400">
-            🔥 {t.dashboard.streak} {quest.streak}
+          <span className="flex items-center gap-1 text-sm text-slate-400">
+            <IconFlame className={`h-4 w-4 ${quest.streak > 0 ? 'text-amber-400' : ''}`} />
+            {t.dashboard.streak} {quest.streak}
           </span>
         </div>
         <ul className="space-y-2">
@@ -124,10 +126,14 @@ export default function Dashboard() {
               ? 'bg-emerald-600/30 text-emerald-300'
               : complete
                 ? 'bg-emerald-500 text-white active:bg-emerald-600'
-                : 'bg-slate-700 text-slate-500'
+                : 'bg-slate-700/60 text-slate-500'
           }`}
         >
-          {checkedIn ? t.dashboard.questDone : t.dashboard.checkIn}
+          {checkedIn
+            ? t.dashboard.questDone
+            : complete
+              ? t.dashboard.checkIn
+              : t.dashboard.checkInHint.replace('{n}', String(remainingTasks(today)))}
         </button>
       </section>
     </div>
@@ -168,12 +174,25 @@ function QuestRow({ label, done, target }: { label: string; done: number; target
   const finished = done >= target
   return (
     <li className="flex items-center justify-between text-sm">
-      <span className={finished ? 'text-slate-500 line-through' : ''}>
-        {finished ? '✅' : '⬜'} {label}
+      <span className={`flex items-center gap-2 ${finished ? 'text-slate-500 line-through' : ''}`}>
+        <IconCheckCircle
+          done={finished}
+          className={`h-5 w-5 shrink-0 ${finished ? 'text-emerald-400' : 'text-slate-600'}`}
+        />
+        {label}
       </span>
       <span className={`tabular-nums ${finished ? 'text-emerald-400' : 'text-slate-400'}`}>
         {Math.min(done, target)}/{target}
       </span>
     </li>
   )
+}
+
+/** 尚未達標的任務數（打卡提示用） */
+function remainingTasks(d: { enVocabDone: number; jaGrammarDone: number; readingDone: number }): number {
+  let n = 0
+  if (d.enVocabDone < QUEST_TARGETS.enVocab) n++
+  if (d.jaGrammarDone < QUEST_TARGETS.jaGrammar) n++
+  if (d.readingDone < QUEST_TARGETS.reading) n++
+  return n
 }

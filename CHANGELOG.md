@@ -3,6 +3,12 @@
 本專案版號遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)。
 規範見 [.claude/rules/versioning.md](.claude/rules/versioning.md)；單一事實來源為 [src/version.ts](src/version.ts)。
 
+## [0.5.0] - 2026-07-12
+- UI 全面翻新：介面圖示改為統一的線條風格（不再使用 emoji）
+- 日文改用日文字形渲染（漢字寫法正確），修正長文法標題的斷行
+- 點卡片即可翻面、主要按鈕改為模式色、新增翻卡過場動效
+- 發音按鈕與導覽列觸控範圍加大；打卡按鈕會提示還差幾項任務
+
 ## [0.4.0] - 2026-07-12
 - 日文單字卡新增篩選：可分開複習「單字」與「文法」，並依 N5／N4 等級篩選
 - 每張日文卡標上 JLPT 等級（N5／N4）與類型徽章

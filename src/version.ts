@@ -2,7 +2,7 @@
  * 版號與 Changelog 的單一事實來源（Single Source of Truth）。
  * 修改版本時請遵循 .claude/rules/versioning.md 的四步驟。
  */
-export const APP_VERSION = '0.4.0'
+export const APP_VERSION = '0.5.0'
 
 export interface ChangelogEntry {
   version: string
@@ -12,6 +12,16 @@ export interface ChangelogEntry {
 
 /** 最新版本排最前面 */
 export const CHANGELOG: ChangelogEntry[] = [
+  {
+    version: '0.5.0',
+    date: '2026-07-12',
+    changes: [
+      'UI 全面翻新：介面圖示改為統一的線條風格（不再使用 emoji）',
+      '日文改用日文字形渲染（漢字寫法正確），修正長文法標題的斷行',
+      '點卡片即可翻面、主要按鈕改為模式色、新增翻卡過場動效',
+      '發音按鈕與導覽列觸控範圍加大；打卡按鈕會提示還差幾項任務',
+    ],
+  },
   {
     version: '0.4.0',
     date: '2026-07-12',

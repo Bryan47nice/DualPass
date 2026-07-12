@@ -15,9 +15,47 @@ body {
   @apply bg-slate-900 text-slate-100 antialiased;
   font-family:
     'Noto Sans TC',
-    'Noto Sans JP',
     system-ui,
     -apple-system,
     'Segoe UI',
+    'Microsoft JhengHei',
     sans-serif;
+}
+
+/* 日文內容用日文字形渲染（Han unification：直/戶/骨 等漢字日中寫法不同）。
+   iOS 用 Hiragino、Windows 用 Yu Gothic，皆為系統內建，零下載。 */
+:lang(ja) {
+  font-family:
+    'Hiragino Kaku Gothic ProN',
+    'Hiragino Sans',
+    'Yu Gothic UI',
+    'Yu Gothic',
+    'Meiryo',
+    'Noto Sans JP',
+    sans-serif;
+}
+
+/* 卡片進場／翻面動效（只動 transform + opacity） */
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.card-in {
+  animation: card-in 200ms ease-out;
+}
+
+/* 尊重使用者的減少動效偏好 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
