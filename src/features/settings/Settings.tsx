@@ -1,11 +1,14 @@
+import { useState } from 'react'
 import { t } from '@/i18n/zh-TW'
 import { firebaseEnabled, signIn, signOut } from '@/lib/firebase'
 import { useAuth } from '@/lib/useAuth'
 import { useUiStore } from '@/stores/uiStore'
+import { APP_VERSION, CHANGELOG } from '@/version'
 
 export default function Settings() {
   const { user, localMode } = useAuth()
   const { settings, updateSettings } = useUiStore()
+  const [showChangelog, setShowChangelog] = useState(false)
 
   return (
     <div className="space-y-5">
@@ -80,6 +83,63 @@ export default function Settings() {
         <h2 className="mb-2 text-sm font-semibold text-slate-400">{t.settings.licenses}</h2>
         <p className="text-xs leading-relaxed text-slate-400">{t.settings.licensesBody}</p>
       </section>
+
+      {/* 版本 */}
+      <button
+        onClick={() => setShowChangelog(true)}
+        className="w-full py-2 text-center text-xs text-slate-500 active:text-slate-300"
+      >
+        {t.app.name} v{APP_VERSION} · {t.settings.changelog}
+      </button>
+
+      {showChangelog && <ChangelogModal onClose={() => setShowChangelog(false)} />}
+    </div>
+  )
+}
+
+function ChangelogModal({ onClose }: { onClose: () => void }) {
+  return (
+    <div
+      onClick={onClose}
+      className="fixed inset-0 z-20 flex items-end justify-center bg-black/60 p-4 sm:items-center"
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="max-h-[80dvh] w-full max-w-md overflow-y-auto rounded-2xl bg-slate-800 p-5"
+      >
+        <div className="mb-4 flex items-center justify-between">
+          <h2 className="text-lg font-bold">{t.settings.changelog}</h2>
+          <button
+            onClick={onClose}
+            className="rounded-lg bg-slate-700 px-3 py-1 text-sm active:bg-slate-600"
+          >
+            {t.settings.close}
+          </button>
+        </div>
+        <ul className="space-y-5">
+          {CHANGELOG.map((entry, i) => (
+            <li key={entry.version}>
+              <div className="mb-1 flex items-center gap-2">
+                <span className="font-semibold">v{entry.version}</span>
+                {i === 0 && (
+                  <span className="rounded-full bg-sky-500 px-2 py-0.5 text-[10px] font-bold text-white">
+                    {t.settings.latest}
+                  </span>
+                )}
+                <span className="text-xs text-slate-500">{entry.date}</span>
+              </div>
+              <ul className="space-y-1">
+                {entry.changes.map((c, j) => (
+                  <li key={j} className="flex gap-2 text-sm text-slate-300">
+                    <span className="text-slate-500">•</span>
+                    <span>{c}</span>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   )
 }

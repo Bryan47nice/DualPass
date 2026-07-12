@@ -67,5 +67,9 @@ export const t = {
       'N4/N5 詞表資料來源：Jonathan Waller JLPT Resources（tanos.co.uk，CC-BY）。' +
       '日文釋義參考 JMdict（EDRDG，CC-BY-SA 4.0）。' +
       '所有練習題目皆由 AI 原創生成，不使用任何官方真題。',
+    version: '版本',
+    changelog: '更新紀錄',
+    latest: '最新',
+    close: '關閉',
   },
 } as const

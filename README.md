@@ -36,12 +36,12 @@ npm run build    # 型別檢查 + 產出 dist/
 
 ## 版本
 
-### v0.1.0（Phase 1 / W1）
-* **Major**: 專案重啟為 DualPass（前身為 Lexibank，見下方歷史）。
-* **Feature**: 雙語儀表板：EN/JA 一鍵切換、TOEIC 與 JLPT 雙倒數、每日任務（10 商務單字 + 5 N4 詞彙文型 + 1 閱讀）與 streak 打卡。
-* **Feature**: FSRS 間隔重複單字卡（三鍵評分：不會/模糊/會），起始牌組：30 TOEIC 商務單字、30 N4 詞彙、15 N4 文法句型。
-* **Feature**: PWA 可安裝、離線可用；Firebase 未設定時自動以本機模式運作。
-* **Scaffold**: 刷題/錯題本/設定頁面殼，考試日期與每日新卡量可調。
+版號遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)，規範見 [.claude/rules/versioning.md](.claude/rules/versioning.md)，完整紀錄見 [CHANGELOG.md](CHANGELOG.md)。App 內「設定 → 版本」也可查看更新紀錄。
+
+- **v0.3.1**（2026-07-12）— N4 詞彙 +169，教材總計 2,198 筆
+- **v0.3.0**（2026-07-12）— 雙人模式（各自進度、共用題庫）
+- **v0.2.0**（2026-07-12）— 種子教材庫（N4/N5 詞彙、文法、TOEIC 單字）
+- **v0.1.0**（2026-07-12）— 首版：雙語儀表板 + FSRS 閃卡 + PWA
 
 ---
 
