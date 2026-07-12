@@ -1,14 +1,26 @@
 import { useState } from 'react'
 import { t } from '@/i18n/zh-TW'
 import { firebaseEnabled, signIn, signOut } from '@/lib/firebase'
-import { useAuth } from '@/lib/useAuth'
+import { useAuth, describeAuthError } from '@/lib/useAuth'
 import { useUiStore } from '@/stores/uiStore'
 import { APP_VERSION, CHANGELOG } from '@/version'
 
 export default function Settings() {
-  const { user, localMode } = useAuth()
+  const { user, localMode, authError } = useAuth()
   const { settings, updateSettings } = useUiStore()
   const [showChangelog, setShowChangelog] = useState(false)
+  const [signInError, setSignInError] = useState<string | null>(null)
+
+  async function handleSignIn() {
+    setSignInError(null)
+    try {
+      await signIn()
+    } catch (err) {
+      setSignInError(describeAuthError(err))
+    }
+  }
+
+  const error = signInError ?? authError
 
   return (
     <div className="space-y-5">
@@ -33,13 +45,20 @@ export default function Settings() {
             </button>
           </div>
         ) : (
-          <button
-            onClick={() => void signIn()}
-            disabled={!firebaseEnabled}
-            className="w-full rounded-xl bg-sky-500 py-3 font-semibold text-white active:bg-sky-600"
-          >
-            {t.settings.signIn}
-          </button>
+          <div>
+            <button
+              onClick={() => void handleSignIn()}
+              disabled={!firebaseEnabled}
+              className="w-full rounded-xl bg-sky-500 py-3 font-semibold text-white active:bg-sky-600"
+            >
+              {t.settings.signIn}
+            </button>
+            {error && (
+              <p className="mt-2 rounded-lg bg-red-500/15 p-2 text-xs leading-relaxed text-red-300">
+                {error}
+              </p>
+            )}
+          </div>
         )}
       </section>
 

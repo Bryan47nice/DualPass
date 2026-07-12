@@ -2,7 +2,7 @@
  * 版號與 Changelog 的單一事實來源（Single Source of Truth）。
  * 修改版本時請遵循 .claude/rules/versioning.md 的四步驟。
  */
-export const APP_VERSION = '0.3.1'
+export const APP_VERSION = '0.3.2'
 
 export interface ChangelogEntry {
   version: string
@@ -12,6 +12,14 @@ export interface ChangelogEntry {
 
 /** 最新版本排最前面 */
 export const CHANGELOG: ChangelogEntry[] = [
+  {
+    version: '0.3.2',
+    date: '2026-07-12',
+    changes: [
+      '修正 Google 登入：手機／PWA 改用整頁跳轉（redirect），不再依賴會被擋的彈窗',
+      '登入失敗時顯示明確錯誤原因（授權網域、彈窗被擋、未啟用等）',
+    ],
+  },
   {
     version: '0.3.1',
     date: '2026-07-12',

@@ -3,6 +3,10 @@
 本專案版號遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)。
 規範見 [.claude/rules/versioning.md](.claude/rules/versioning.md)；單一事實來源為 [src/version.ts](src/version.ts)。
 
+## [0.3.2] - 2026-07-12
+- 修正 Google 登入：手機／PWA 改用整頁跳轉（redirect），不再依賴會被擋的彈窗
+- 登入失敗時顯示明確錯誤原因（授權網域、彈窗被擋、未啟用等）
+
 ## [0.3.1] - 2026-07-12
 - N4 詞彙擴充 +169：自他動詞對、形容詞、名詞與外來語，全部附原創例句
 - 詞彙總量達 1,553 筆（教材總計 2,198 筆）

@@ -6,8 +6,10 @@ import { initializeApp, type FirebaseApp } from 'firebase/app'
 import {
   GoogleAuthProvider,
   getAuth,
+  getRedirectResult,
   onAuthStateChanged,
   signInWithPopup,
+  signInWithRedirect,
   signOut as fbSignOut,
   type Auth,
   type User,
@@ -48,10 +50,38 @@ export function getDb(): Firestore | null {
   return db
 }
 
+function isMobileOrStandalone(): boolean {
+  const standalone =
+    window.matchMedia?.('(display-mode: standalone)').matches ||
+    (navigator as unknown as { standalone?: boolean }).standalone === true
+  const mobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
+  return standalone || mobile
+}
+
+/**
+ * 桌面用 popup（體驗好、不離開頁面）；手機/PWA 用 redirect（popup 會被擋）。
+ * redirect 的結果在 completeRedirectSignIn() 於 app 載入時取回。
+ */
 export async function signIn(): Promise<User | null> {
   if (!auth) return null
-  const result = await signInWithPopup(auth, new GoogleAuthProvider())
+  const provider = new GoogleAuthProvider()
+  if (isMobileOrStandalone()) {
+    await signInWithRedirect(auth, provider)
+    return null // 會整頁跳轉，不會走到這
+  }
+  const result = await signInWithPopup(auth, provider)
   return result.user
+}
+
+/** app 載入時呼叫：完成 redirect 登入流程（若剛從 Google 跳轉回來） */
+export async function completeRedirectSignIn(): Promise<void> {
+  if (!auth) return
+  try {
+    await getRedirectResult(auth)
+  } catch (err) {
+    console.error('[auth] redirect result error', err)
+    throw err
+  }
 }
 
 export async function signOut(): Promise<void> {
