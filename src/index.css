@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-en: #0ea5e9;
+  --color-en-soft: #0c4a6e;
+  --color-ja: #fb7185;
+  --color-ja-soft: #881337;
+}
+
+html {
+  background-color: #0f172a;
+}
+
+body {
+  @apply bg-slate-900 text-slate-100 antialiased;
+  font-family:
+    'Noto Sans TC',
+    'Noto Sans JP',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    sans-serif;
+}

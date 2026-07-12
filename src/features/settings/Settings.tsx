@@ -1,0 +1,107 @@
+import { t } from '@/i18n/zh-TW'
+import { firebaseEnabled, signIn, signOut } from '@/lib/firebase'
+import { useAuth } from '@/lib/useAuth'
+import { useUiStore } from '@/stores/uiStore'
+
+export default function Settings() {
+  const { user, localMode } = useAuth()
+  const { settings, updateSettings } = useUiStore()
+
+  return (
+    <div className="space-y-5">
+      <h1 className="font-semibold">{t.settings.title}</h1>
+
+      {/* 帳號 */}
+      <section className="rounded-2xl bg-slate-800 p-4">
+        <h2 className="mb-3 text-sm font-semibold text-slate-400">{t.settings.account}</h2>
+        {localMode ? (
+          <div>
+            <div className="font-semibold text-amber-400">{t.settings.localMode}</div>
+            <p className="mt-1 text-sm text-slate-400">{t.settings.localModeHint}</p>
+          </div>
+        ) : user ? (
+          <div className="flex items-center justify-between">
+            <span className="text-sm">{user.email}</span>
+            <button
+              onClick={() => void signOut()}
+              className="rounded-lg bg-slate-700 px-4 py-2 text-sm active:bg-slate-600"
+            >
+              {t.settings.signOut}
+            </button>
+          </div>
+        ) : (
+          <button
+            onClick={() => void signIn()}
+            disabled={!firebaseEnabled}
+            className="w-full rounded-xl bg-sky-500 py-3 font-semibold text-white active:bg-sky-600"
+          >
+            {t.settings.signIn}
+          </button>
+        )}
+      </section>
+
+      {/* 考試日期 */}
+      <section className="rounded-2xl bg-slate-800 p-4">
+        <h2 className="mb-3 text-sm font-semibold text-slate-400">{t.settings.examDates}</h2>
+        <div className="space-y-3">
+          <DateField
+            label={t.settings.jlptDate}
+            value={settings.jlptDate}
+            onChange={(v) => updateSettings({ jlptDate: v })}
+          />
+          <DateField
+            label={t.settings.toeicDate}
+            value={settings.toeicDate}
+            onChange={(v) => updateSettings({ toeicDate: v })}
+          />
+        </div>
+      </section>
+
+      {/* 學習 */}
+      <section className="rounded-2xl bg-slate-800 p-4">
+        <h2 className="mb-3 text-sm font-semibold text-slate-400">{t.settings.study}</h2>
+        <label className="flex items-center justify-between text-sm">
+          {t.settings.newCardsPerDay}
+          <input
+            type="number"
+            min={0}
+            max={100}
+            value={settings.newCardsPerDay}
+            onChange={(e) =>
+              updateSettings({ newCardsPerDay: Math.max(0, Number(e.target.value) || 0) })
+            }
+            className="w-20 rounded-lg bg-slate-900 px-3 py-2 text-right"
+          />
+        </label>
+      </section>
+
+      {/* 授權聲明 */}
+      <section className="rounded-2xl bg-slate-800 p-4">
+        <h2 className="mb-2 text-sm font-semibold text-slate-400">{t.settings.licenses}</h2>
+        <p className="text-xs leading-relaxed text-slate-400">{t.settings.licensesBody}</p>
+      </section>
+    </div>
+  )
+}
+
+function DateField({
+  label,
+  value,
+  onChange,
+}: {
+  label: string
+  value: string
+  onChange: (v: string) => void
+}) {
+  return (
+    <label className="flex items-center justify-between text-sm">
+      {label}
+      <input
+        type="date"
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className="rounded-lg bg-slate-900 px-3 py-2"
+      />
+    </label>
+  )
+}

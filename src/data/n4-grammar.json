@@ -1,0 +1,17 @@
+[
+  { "id": "n4g:たことがある", "deck": "n4-grammar", "front": "〜たことがある", "meaning": "曾經做過～（經驗）", "example": "日本へ 行ったことが あります。", "exampleTrans": "我去過日本。", "category": "經驗" },
+  { "id": "n4g:ようになる", "deck": "n4-grammar", "front": "〜ようになる", "meaning": "變得（能）～（能力或習慣的變化）", "example": "日本語が 話せるように なりました。", "exampleTrans": "我變得會說日語了。", "category": "變化" },
+  { "id": "n4g:なければならない", "deck": "n4-grammar", "front": "〜なければならない", "meaning": "必須～、不得不～", "example": "明日までに レポートを 出さなければ なりません。", "exampleTrans": "明天之前必須交報告。", "category": "義務" },
+  { "id": "n4g:てもいい", "deck": "n4-grammar", "front": "〜てもいい", "meaning": "可以～（許可）", "example": "ここで 写真を 撮っても いいですか。", "exampleTrans": "可以在這裡拍照嗎？", "category": "許可" },
+  { "id": "n4g:てはいけない", "deck": "n4-grammar", "front": "〜てはいけない", "meaning": "不可以～（禁止）", "example": "教室で ものを 食べては いけません。", "exampleTrans": "不可以在教室裡吃東西。", "category": "禁止" },
+  { "id": "n4g:そうだ様態", "deck": "n4-grammar", "front": "〜そうだ（樣態）", "meaning": "看起來～、好像要～", "example": "雨が 降りそうです。", "exampleTrans": "看起來快要下雨了。", "category": "推測" },
+  { "id": "n4g:かもしれない", "deck": "n4-grammar", "front": "〜かもしれない", "meaning": "也許～、說不定～", "example": "午後は 雪に なるかもしれません。", "exampleTrans": "下午也許會下雪。", "category": "推測" },
+  { "id": "n4g:つもりだ", "deck": "n4-grammar", "front": "〜つもりだ", "meaning": "打算～", "example": "夏休みに 国へ 帰るつもりです。", "exampleTrans": "我打算暑假回國。", "category": "意志" },
+  { "id": "n4g:ながら", "deck": "n4-grammar", "front": "〜ながら", "meaning": "一邊～一邊～", "example": "音楽を 聞きながら、勉強します。", "exampleTrans": "一邊聽音樂一邊念書。", "category": "並行動作" },
+  { "id": "n4g:たりたりする", "deck": "n4-grammar", "front": "〜たり〜たりする", "meaning": "又～又～、有時～有時～（列舉動作）", "example": "休みの日は 掃除したり、買い物に 行ったり します。", "exampleTrans": "假日會打掃、購物之類的。", "category": "列舉" },
+  { "id": "n4g:ば條件", "deck": "n4-grammar", "front": "〜ば（條件形）", "meaning": "如果～的話", "example": "急げば、間に合いますよ。", "exampleTrans": "快一點的話就來得及喔。", "category": "條件" },
+  { "id": "n4g:られる可能", "deck": "n4-grammar", "front": "〜られる（可能形）", "meaning": "能夠～、會～", "example": "漢字が 少し 読められます → 読めます。", "exampleTrans": "會讀一點漢字。（注意：五段動詞用え段+る）", "category": "動詞變化" },
+  { "id": "n4g:させる使役", "deck": "n4-grammar", "front": "〜させる（使役形）", "meaning": "讓（某人）做～", "example": "先生は 学生に 作文を 書かせました。", "exampleTrans": "老師讓學生寫了作文。", "category": "動詞變化" },
+  { "id": "n4g:ておく", "deck": "n4-grammar", "front": "〜ておく", "meaning": "預先做好～（準備）；保持原狀", "example": "会議の 前に 資料を 読んで おきます。", "exampleTrans": "開會前先把資料讀好。", "category": "準備" },
+  { "id": "n4g:てしまう", "deck": "n4-grammar", "front": "〜てしまう", "meaning": "（動作完了）～完了；（遺憾）不小心～了", "example": "財布を 忘れて しまいました。", "exampleTrans": "不小心忘了帶錢包。", "category": "完了・遺憾" }
+]

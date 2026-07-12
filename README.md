@@ -1,42 +1,58 @@
-# Lexibank
+# DualPass 雙語備考
 
-Lexibank 是一個以「私人銀行」為概念的英文短句學習資產管理工具。使用者輸入一句英文短句或慣用語後，系統透過 AI 自動生成結構化的完整學習筆記，經使用者預覽、編輯、確認後存入個人專屬金庫，並可隨時瀏覽、搜尋、匯出備份，讓語言能力產生複利效應。
+> **⚠️ 11 月起凍結新功能，只修 bug，全力備考。**（JLPT N4：2026-12-06）
+
+DualPass 是一個雙語備考 PWA：同時衝刺 **多益金色證書（860+）** 與 **日檢 N4**。核心是「每天打開就知道要做什麼」——雙語儀表板、考試倒數、每日任務打卡、FSRS 間隔重複單字卡，以及 AI 生成的擬真練習題。
 
 ## 系統架構
-* **前端框架**: React (Vite + Tailwind CSS)
-* **AI 引擎**: Google Gemini (gemini-3.1-pro-preview)
-* **雲端服務**: Firebase (Authentication + Firestore)
-* **本地儲存**: LocalStorage (未登入時的降級方案)
 
-## 如何同步到 GitHub
+* **前端**：React + TypeScript + Vite + Tailwind CSS v4，PWA（vite-plugin-pwa，可安裝、離線可用）
+* **狀態**：zustand（localStorage 持久化）；SRS 演算法用 [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs)
+* **雲端**：Firebase Auth（Google 登入）+ Firestore（離線持久化 + 跨裝置同步）；未設定時自動降級為純本機模式
+* **AI**：Google Gemini（經 Vercel serverless proxy，API key 不進前端）
+* **部署**：Vercel（Hobby 免費層，GitHub 自動部署）
 
-由於 AI Studio 是沙盒環境，無法直接推送程式碼到您的私人 GitHub 倉庫。請依照以下步驟手動同步：
-
-1. **下載程式碼**：點擊 AI Studio 介面右上角的「Export」或「Download」按鈕，將專案下載並解壓縮到您的電腦。
-2. **建立倉庫**：在 GitHub 上建立一個全新的空倉庫 (Repository)。
-3. **推送程式碼**：在解壓縮後的專案資料夾中，開啟終端機 (Terminal) 並執行以下指令：
+## 開發
 
 ```bash
-# 初始化 Git
-git init
-
-# 加入所有檔案
-git add .
-
-# 提交第一次版本
-git commit -m "Initial commit from Phrase Vault"
-
-# 設定遠端倉庫 (請將網址換成您的 GitHub Repo 網址)
-git remote add origin https://github.com/您的帳號/您的專案名稱.git
-
-# 推送到 GitHub
-git push -u origin main
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # 型別檢查 + 產出 dist/
 ```
 
-以後若有修改，只需重複執行 `git add .`、`git commit` 和 `git push` 即可。
+## 前置設定（雲端功能）
 
+沒有以下設定 app 也能跑（本機模式），設定後才有雲端同步與 AI 出題：
 
-### v1.2.1 (Current)
+1. **Firebase**（Spark 免費層）：建立專案 → 開啟 Google 登入與 Firestore → 把 Web App config 填入 `.env`（參考 `.env.example` 的 `VITE_FIREBASE_*`）
+2. **Vercel**：連結本 GitHub repo 自動部署；`GEMINI_API_KEY` 設在 Vercel 環境變數
+3. **Firestore Security Rules**：鎖定單一使用者 email（見開發計畫）
+
+## 內容授權
+
+* N4/N5 詞表參考 Jonathan Waller JLPT Resources（tanos.co.uk，CC-BY）
+* 日文釋義參考 JMdict（EDRDG，CC-BY-SA 4.0）
+* 所有練習題目皆由 AI 原創生成，**不使用任何 ETS / JLPT 官方真題**
+
+## 版本
+
+### v0.1.0（Phase 1 / W1）
+* **Major**: 專案重啟為 DualPass（前身為 Lexibank，見下方歷史）。
+* **Feature**: 雙語儀表板：EN/JA 一鍵切換、TOEIC 與 JLPT 雙倒數、每日任務（10 商務單字 + 5 N4 詞彙文型 + 1 閱讀）與 streak 打卡。
+* **Feature**: FSRS 間隔重複單字卡（三鍵評分：不會/模糊/會），起始牌組：30 TOEIC 商務單字、30 N4 詞彙、15 N4 文法句型。
+* **Feature**: PWA 可安裝、離線可用；Firebase 未設定時自動以本機模式運作。
+* **Scaffold**: 刷題/錯題本/設定頁面殼，考試日期與每日新卡量可調。
+
+---
+
+## 前身：Lexibank（歷史紀錄）
+
+Lexibank 是本 repo 的前身專案：以「私人銀行」為概念的英文短句學習資產管理工具（React + Gemini + Firebase，開發於 Google AI Studio，程式碼未同步至本 repo）。其片語筆記功能未來可能整合進 DualPass 的英文模組。
+
+<details>
+<summary>Lexibank 版本歷史</summary>
+
+### v1.2.1
 * **Patch**: 修復「New Entry」按鈕無法重置輸入狀態的問題。
 * **Patch**: 為所有已儲存詞彙新增刪除按鈕，並加入防呆確認機制。
 * **UI/UX**: 優化詞彙卡片詳細視圖，修正 Contextual Examples 突兀的白色懸停背景，並加入專屬的銀行紋理背景動畫。
@@ -59,3 +75,5 @@ git push -u origin main
 * **Minor**: 實作列表瀏覽、即時搜尋、Markdown 匯出功能。
 * **Minor**: 實作 Token 用量與預估費用追蹤。
 * **Patch**: 使用 LocalStorage 進行本地端資料持久化。
+
+</details>
