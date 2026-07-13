@@ -6,7 +6,7 @@ import { useUiStore } from '@/stores/uiStore'
 import { APP_VERSION, CHANGELOG } from '@/version'
 
 export default function Settings() {
-  const { user, localMode, authError } = useAuth()
+  const { user, ready, localMode, authError } = useAuth()
   const { settings, updateSettings } = useUiStore()
   const [showChangelog, setShowChangelog] = useState(false)
   const [signInError, setSignInError] = useState<string | null>(null)
@@ -34,6 +34,11 @@ export default function Settings() {
           <div>
             <div className="font-semibold text-amber-400">{t.settings.localMode}</div>
             <p className="mt-1 text-sm text-slate-400">{t.settings.localModeHint}</p>
+          </div>
+        ) : !ready ? (
+          <div className="flex items-center gap-3 text-sm text-slate-400">
+            <span className="h-4 w-4 animate-spin rounded-full border-2 border-slate-600 border-t-sky-400" />
+            確認登入狀態中…
           </div>
         ) : user ? (
           <div className="flex items-center justify-between">
