@@ -85,10 +85,12 @@ export interface UserSettings {
   jlptDate: string   // yyyy-MM-dd
   toeicDate: string  // yyyy-MM-dd
   newCardsPerDay: number
+  soundEnabled: boolean  // 答題音效與自動發音
 }
 
 export const DEFAULT_SETTINGS: UserSettings = {
   jlptDate: '2026-12-06',
   toeicDate: '2026-11-15',
   newCardsPerDay: 20,
+  soundEnabled: true,
 }

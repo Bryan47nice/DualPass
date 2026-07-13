@@ -93,6 +93,8 @@ export const t = {
     toeicDate: '多益目標場次',
     study: '學習',
     newCardsPerDay: '每日新卡片數量',
+    sound: '答題音效與發音',
+    soundHint: '答對/答錯提示音，並自動唸出正解',
     licenses: '授權聲明',
     licensesBody:
       'N4/N5 詞表資料來源：Jonathan Waller JLPT Resources（tanos.co.uk，CC-BY）。' +

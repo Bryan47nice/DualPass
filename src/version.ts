@@ -13,6 +13,15 @@ export interface ChangelogEntry {
 /** 最新版本排最前面 */
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    version: '0.6.1',
+    date: '2026-07-14',
+    changes: [
+      '刷題新增發音：題目可點 🔊 朗讀，答完自動唸出正解',
+      '答對／答錯即時音效回饋',
+      '設定新增「答題音效與發音」開關（通勤時可關）',
+    ],
+  },
+  {
     version: '0.6.0',
     date: '2026-07-13',
     changes: [

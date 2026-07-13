@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { t } from '@/i18n/zh-TW'
 import { buildQuiz, type QuizQuestion } from '@/lib/quiz'
 import { speak, ttsSupported } from '@/lib/tts'
+import { playCorrect, playWrong } from '@/lib/sfx'
 import { IconSpeaker } from '@/components/icons'
 import { useUiStore } from '@/stores/uiStore'
 import { useSrsStore } from '@/stores/srsStore'
@@ -20,6 +21,7 @@ function tpl(s: string, vars: Record<string, string | number>): string {
 export default function Quiz() {
   const lang = useUiStore((s) => s.lang)
   const jaFilter = useUiStore((s) => s.jaFilter)
+  const soundEnabled = useUiStore((s) => s.settings.soundEnabled !== false)
   const injectMistake = useSrsStore((s) => s.injectMistake)
   const addProgress = useQuestStore((s) => s.addProgress)
   const addMistake = useMistakesStore((s) => s.add)
@@ -55,7 +57,9 @@ export default function Quiz() {
     if (isCorrect) {
       setCorrectCount((c) => c + 1)
       resolveMistake(current.itemId) // 之前錯的這次對了 → 標記已解決
+      if (soundEnabled) playCorrect()
     } else {
+      if (soundEnabled) playWrong()
       // 答錯：進 SRS 複習佇列 + 錯題本
       injectMistake(current.itemId)
       addMistake({
@@ -66,6 +70,11 @@ export default function Quiz() {
         correctAnswer: current.choices[current.answerIndex],
         chosenAnswer: current.choices[i],
       })
+    }
+    // 答完自動唸出正解的詞（題幹是詞→唸題幹；題幹是意思→唸正解選項）
+    if (soundEnabled && ttsSupported()) {
+      const word = current.mode === 'toMeaning' ? current.prompt : current.choices[current.answerIndex]
+      window.setTimeout(() => speak(word, ttsLang), 380)
     }
   }
 
@@ -154,11 +163,11 @@ export default function Quiz() {
           >
             {current.prompt}
           </span>
-          {current.promptIsJa && ttsSupported() && (
+          {current.mode === 'toMeaning' && ttsSupported() && (
             <button
               onClick={() => speak(current.prompt, ttsLang)}
               aria-label={t.flashcards.play}
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full text-slate-400 active:bg-slate-700"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full text-slate-400 active:bg-slate-700"
             >
               <IconSpeaker className="h-5 w-5" />
             </button>
