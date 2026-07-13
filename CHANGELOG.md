@@ -3,6 +3,11 @@
 本專案版號遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)。
 規範見 [.claude/rules/versioning.md](.claude/rules/versioning.md)；單一事實來源為 [src/version.ts](src/version.ts)。
 
+## [0.6.0] - 2026-07-13
+- 刷題上線：從你的牌組自動出選擇題（單字義、對應詞），免 AI、離線可用
+- 答錯自動收進錯題本，並排入 SRS 複習；之後答對會標記已訂正
+- 完成一輪測驗計入每日任務；日文題可發音
+
 ## [0.5.0] - 2026-07-12
 - UI 全面翻新：介面圖示改為統一的線條風格（不再使用 emoji）
 - 日文改用日文字形渲染（漢字寫法正確），修正長文法標題的斷行

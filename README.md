@@ -38,6 +38,7 @@ npm run build    # 型別檢查 + 產出 dist/
 
 版號遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)，規範見 [.claude/rules/versioning.md](.claude/rules/versioning.md)，完整紀錄見 [CHANGELOG.md](CHANGELOG.md)。App 內「設定 → 版本」也可查看更新紀錄。
 
+- **v0.6.0**（2026-07-13）— 刷題上線（種子資料自動出題，免 AI）+ 錯題本
 - **v0.5.0**（2026-07-12）— UI 翻新：SVG 圖示、日文字形修正、點卡翻面、動效與觸控優化
 - **v0.4.0**（2026-07-12）— 日文單字／文法分開複習 + N5／N4 等級篩選與徽章
 - **v0.3.3**（2026-07-12）— 日文卡顯示假名讀音 + 🔊 發音按鈕

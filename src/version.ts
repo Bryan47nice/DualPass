@@ -2,7 +2,7 @@
  * 版號與 Changelog 的單一事實來源（Single Source of Truth）。
  * 修改版本時請遵循 .claude/rules/versioning.md 的四步驟。
  */
-export const APP_VERSION = '0.5.0'
+export const APP_VERSION = '0.6.0'
 
 export interface ChangelogEntry {
   version: string
@@ -12,6 +12,15 @@ export interface ChangelogEntry {
 
 /** 最新版本排最前面 */
 export const CHANGELOG: ChangelogEntry[] = [
+  {
+    version: '0.6.0',
+    date: '2026-07-13',
+    changes: [
+      '刷題上線：從你的牌組自動出選擇題（單字義、對應詞），免 AI、離線可用',
+      '答錯自動收進錯題本，並排入 SRS 複習；之後答對會標記已訂正',
+      '完成一輪測驗計入每日任務；日文題可發音',
+    ],
+  },
   {
     version: '0.5.0',
     date: '2026-07-12',
