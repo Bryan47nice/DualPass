@@ -3,6 +3,11 @@
 本專案版號遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)。
 規範見 [.claude/rules/versioning.md](.claude/rules/versioning.md)；單一事實來源為 [src/version.ts](src/version.ts)。
 
+## [0.6.1] - 2026-07-14
+- 刷題新增發音：題目可點 🔊 朗讀，答完自動唸出正解
+- 答對／答錯即時音效回饋
+- 設定新增「答題音效與發音」開關（通勤時可關）
+
 ## [0.6.0] - 2026-07-13
 - 刷題上線：從你的牌組自動出選擇題（單字義、對應詞），免 AI、離線可用
 - 答錯自動收進錯題本，並排入 SRS 複習；之後答對會標記已訂正

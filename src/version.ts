@@ -2,7 +2,7 @@
  * 版號與 Changelog 的單一事實來源（Single Source of Truth）。
  * 修改版本時請遵循 .claude/rules/versioning.md 的四步驟。
  */
-export const APP_VERSION = '0.6.0'
+export const APP_VERSION = '0.6.1'
 
 export interface ChangelogEntry {
   version: string
