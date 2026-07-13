@@ -13,7 +13,8 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,json,svg,png,ico,woff2}'],
         navigateFallback: 'index.html',
-        navigateFallbackDenylist: [/^\/api\//],
+        // /__/ 為 Firebase Auth handler 反向代理路徑，不可被 SPA fallback 攔截
+        navigateFallbackDenylist: [/^\/api\//, /^\/__\//],
       },
       manifest: {
         name: 'DualPass 雙語備考',
