@@ -10,7 +10,7 @@ DualPass 是一個雙語備考 PWA：同時衝刺 **多益金色證書（860+）
 * **狀態**：zustand（localStorage 持久化）；SRS 演算法用 [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs)
 * **雲端**：Firebase Auth（Google 登入）+ Firestore（離線持久化 + 跨裝置同步）；未設定時自動降級為純本機模式
 * **AI**：Google Gemini（經 Vercel serverless proxy，API key 不進前端）
-* **部署**：Vercel（Hobby 免費層，GitHub 自動部署）
+* **部署**：Vercel（Hobby 免費層，目前以 CLI 手動部署 `vercel --prod`；尚未接 GitHub 自動部署）
 
 ## 開發
 
@@ -25,7 +25,7 @@ npm run build    # 型別檢查 + 產出 dist/
 沒有以下設定 app 也能跑（本機模式），設定後才有雲端同步與 AI 出題：
 
 1. **Firebase**（Spark 免費層）：建立專案 → 開啟 Google 登入與 Firestore → 把 Web App config 填入 `.env`（參考 `.env.example` 的 `VITE_FIREBASE_*`）
-2. **Vercel**：連結本 GitHub repo 自動部署；`GEMINI_API_KEY` 設在 Vercel 環境變數
+2. **Vercel**：目前以 CLI 手動部署（`vercel --prod`，專案已 link）；尚未接 GitHub 自動部署（要接需在 Vercel 後台裝 GitHub App）。`GEMINI_API_KEY` 設在 Vercel 環境變數
 3. **Firestore Security Rules**：鎖定單一使用者 email（見開發計畫）
 
 ## 內容授權
