@@ -3,6 +3,12 @@
 本專案版號遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)。
 規範見 [.claude/rules/versioning.md](.claude/rules/versioning.md)；單一事實來源為 [src/version.ts](src/version.ts)。
 
+## [0.7.0] - 2026-07-15
+- 刷題新增「例句填空」：多益例句挖空選字，練 Part 5 句意判斷
+- 刷題新增「聽力題」：聽發音選出意思或對應的字（用裝置語音，離線可用）
+- 錯題本升級精熟判定：連續答對 2 次才標記已訂正，並可「重測錯題」只考錯過的字
+- 單字卡複習答對也會推進錯題精熟
+
 ## [0.6.1] - 2026-07-14
 - 刷題新增發音：題目可點 🔊 朗讀，答完自動唸出正解
 - 答對／答錯即時音效回饋

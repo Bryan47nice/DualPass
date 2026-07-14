@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { t } from '@/i18n/zh-TW'
 import { IconBook } from '@/components/icons'
 import { SEED_BY_ID } from '@/data'
-import { useMistakesStore } from '@/stores/mistakesStore'
+import { MASTERY_THRESHOLD, useMistakesStore } from '@/stores/mistakesStore'
 
 function tpl(s: string, vars: Record<string, string | number>): string {
   return s.replace(/\{(\w+)\}/g, (_, k) => String(vars[k] ?? ''))
@@ -13,6 +13,7 @@ export default function Mistakes() {
   const clearResolved = useMistakesStore((s) => s.clearResolved)
   const list = [...entries].sort((a, b) => b.at - a.at)
   const hasResolved = list.some((e) => e.resolved)
+  const hasUnresolved = list.some((e) => !e.resolved)
 
   if (list.length === 0) {
     return (
@@ -42,6 +43,15 @@ export default function Mistakes() {
         <span className="text-sm text-slate-400">{tpl(t.mistakes.count, { n: list.length })}</span>
       </div>
 
+      {hasUnresolved && (
+        <Link
+          to="/quiz?mode=retest"
+          className="block rounded-xl bg-sky-500 py-3 text-center text-sm font-semibold text-white active:bg-sky-600"
+        >
+          {t.mistakes.retest}
+        </Link>
+      )}
+
       <ul className="space-y-3">
         {list.map((e) => {
           const item = SEED_BY_ID.get(e.itemId)
@@ -62,9 +72,13 @@ export default function Mistakes() {
                     </div>
                   )}
                 </div>
-                {e.resolved && (
+                {e.resolved ? (
                   <span className="shrink-0 rounded-full bg-emerald-600/30 px-2 py-0.5 text-[11px] font-semibold text-emerald-300">
                     {t.mistakes.resolved}
+                  </span>
+                ) : (
+                  <span className="shrink-0 rounded-full bg-slate-900/60 px-2 py-0.5 text-[11px] font-semibold text-slate-400 tabular-nums">
+                    {tpl(t.mistakes.masteryProgress, { c: e.correctStreak, n: MASTERY_THRESHOLD })}
                   </span>
                 )}
               </div>
@@ -89,7 +103,9 @@ export default function Mistakes() {
         })}
       </ul>
 
-      <p className="text-center text-xs text-slate-500">{t.mistakes.resolvedHint}</p>
+      <p className="text-center text-xs text-slate-500">
+        {tpl(t.mistakes.resolvedHint, { n: MASTERY_THRESHOLD })}
+      </p>
       {hasResolved && (
         <button
           onClick={clearResolved}

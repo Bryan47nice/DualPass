@@ -91,6 +91,6 @@ export interface UserSettings {
 export const DEFAULT_SETTINGS: UserSettings = {
   jlptDate: '2026-12-06',
   toeicDate: '2026-11-15',
-  newCardsPerDay: 20,
+  newCardsPerDay: 40,
   soundEnabled: true,
 }

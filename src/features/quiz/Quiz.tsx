@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
 import { t } from '@/i18n/zh-TW'
-import { buildQuiz, type QuizQuestion } from '@/lib/quiz'
+import { buildQuiz, type QuizMode, type QuizQuestion } from '@/lib/quiz'
 import { speak, ttsSupported } from '@/lib/tts'
 import { playCorrect, playWrong } from '@/lib/sfx'
 import { IconSpeaker } from '@/components/icons'
@@ -18,6 +18,21 @@ function tpl(s: string, vars: Record<string, string | number>): string {
   return s.replace(/\{(\w+)\}/g, (_, k) => String(vars[k] ?? ''))
 }
 
+function captionFor(mode: QuizMode): string {
+  switch (mode) {
+    case 'toWord':
+      return t.quiz.pickWord
+    case 'cloze':
+      return t.quiz.pickCloze
+    case 'listenMeaning':
+      return t.quiz.pickMeaningListen
+    case 'listenWord':
+      return t.quiz.pickWordListen
+    default:
+      return t.quiz.pickMeaning
+  }
+}
+
 export default function Quiz() {
   const lang = useUiStore((s) => s.lang)
   const jaFilter = useUiStore((s) => s.jaFilter)
@@ -25,30 +40,81 @@ export default function Quiz() {
   const injectMistake = useSrsStore((s) => s.injectMistake)
   const addProgress = useQuestStore((s) => s.addProgress)
   const addMistake = useMistakesStore((s) => s.add)
-  const resolveMistake = useMistakesStore((s) => s.resolve)
+  const recordCorrect = useMistakesStore((s) => s.recordCorrect)
+  const mistakeEntries = useMistakesStore((s) => s.entries)
 
+  const [searchParams] = useSearchParams()
   const [phase, setPhase] = useState<Phase>('start')
   const [questions, setQuestions] = useState<QuizQuestion[]>([])
   const [index, setIndex] = useState(0)
   const [chosen, setChosen] = useState<number | null>(null)
   const [correctCount, setCorrectCount] = useState(0)
-  const [noQuestions, setNoQuestions] = useState(false)
+  const [emptyReason, setEmptyReason] = useState<'none' | 'normal' | 'retest'>('none')
 
   const filter = lang === 'ja' ? jaFilter : undefined
   const accentBg = lang === 'en' ? 'bg-sky-500 active:bg-sky-600' : 'bg-rose-500 active:bg-rose-600'
   const ttsLang: 'ja-JP' | 'en-US' = lang === 'en' ? 'en-US' : 'ja-JP'
+  const allowTts = soundEnabled && ttsSupported()
 
   const current = questions[index]
+  const answered = chosen !== null
 
-  function begin() {
-    const qs = buildQuiz(lang, filter, QUIZ_SIZE)
+  // 該語系未訂正的錯題
+  const retestIds = useMemo(
+    () =>
+      Object.values(mistakeEntries)
+        .filter((e) => !e.resolved && e.lang === lang)
+        .map((e) => e.itemId),
+    [mistakeEntries, lang],
+  )
+
+  function begin(retest = false) {
+    let qs: QuizQuestion[]
+    if (retest) {
+      const ids = retestIds
+      if (ids.length === 0) {
+        setEmptyReason('retest')
+        setPhase('start')
+        return
+      }
+      qs = buildQuiz(lang, filter, Math.min(QUIZ_SIZE, ids.length), {
+        onlyItemIds: ids,
+        tts: allowTts,
+      })
+    } else {
+      qs = buildQuiz(lang, filter, QUIZ_SIZE, { tts: allowTts })
+    }
     setQuestions(qs)
     setIndex(0)
     setChosen(null)
     setCorrectCount(0)
-    setNoQuestions(qs.length === 0)
-    setPhase(qs.length === 0 ? 'start' : 'playing')
+    if (qs.length === 0) {
+      setEmptyReason(retest ? 'retest' : 'normal')
+      setPhase('start')
+    } else {
+      setEmptyReason('none')
+      setPhase('playing')
+    }
   }
+
+  // ?mode=retest 進來自動開始重測（僅掛載時觸發一次）
+  const autoStarted = useRef(false)
+  useEffect(() => {
+    if (autoStarted.current) return
+    if (searchParams.get('mode') === 'retest') {
+      autoStarted.current = true
+      begin(true)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  // 聽力題出現時自動播放發音
+  useEffect(() => {
+    if (phase === 'playing' && current?.promptIsAudio && allowTts) {
+      speak(current.audioText ?? current.prompt, ttsLang)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [index, phase])
 
   function choose(i: number) {
     if (chosen !== null || !current) return
@@ -56,7 +122,7 @@ export default function Quiz() {
     const isCorrect = i === current.answerIndex
     if (isCorrect) {
       setCorrectCount((c) => c + 1)
-      resolveMistake(current.itemId) // 之前錯的這次對了 → 標記已解決
+      recordCorrect(current.itemId) // 推進精熟；連對達標才標記已訂正
       if (soundEnabled) playCorrect()
     } else {
       if (soundEnabled) playWrong()
@@ -71,9 +137,11 @@ export default function Quiz() {
         chosenAnswer: current.choices[i],
       })
     }
-    // 答完自動唸出正解的詞（題幹是詞→唸題幹；題幹是意思→唸正解選項）
+    // 答完自動唸出目標詞
     if (soundEnabled && ttsSupported()) {
-      const word = current.mode === 'toMeaning' ? current.prompt : current.choices[current.answerIndex]
+      const word =
+        current.audioText ??
+        (current.mode === 'toMeaning' ? current.prompt : current.choices[current.answerIndex])
       window.setTimeout(() => speak(word, ttsLang), 380)
     }
   }
@@ -99,13 +167,24 @@ export default function Quiz() {
         <p className="mb-6 max-w-xs text-sm text-slate-400">
           {tpl(t.quiz.startHint, { n: QUIZ_SIZE })}
         </p>
-        {noQuestions && <p className="mb-4 text-sm text-amber-400">{t.quiz.empty}</p>}
+        {emptyReason === 'normal' && <p className="mb-4 text-sm text-amber-400">{t.quiz.empty}</p>}
+        {emptyReason === 'retest' && (
+          <p className="mb-4 text-sm text-amber-400">{t.quiz.retestEmpty}</p>
+        )}
         <button
-          onClick={begin}
+          onClick={() => begin(false)}
           className={`rounded-xl px-8 py-4 font-semibold text-white ${accentBg}`}
         >
           {t.quiz.start}
         </button>
+        {retestIds.length > 0 && (
+          <button
+            onClick={() => begin(true)}
+            className="mt-3 rounded-xl bg-slate-800 px-6 py-3 text-sm font-semibold text-slate-300 active:bg-slate-700"
+          >
+            {tpl(t.quiz.retestCount, { n: retestIds.length })}
+          </button>
+        )}
       </div>
     )
   }
@@ -124,7 +203,7 @@ export default function Quiz() {
         </p>
         <div className="flex gap-3">
           <button
-            onClick={begin}
+            onClick={() => begin(false)}
             className={`rounded-xl px-6 py-3 font-semibold text-white ${accentBg}`}
           >
             {t.quiz.retry}
@@ -142,7 +221,6 @@ export default function Quiz() {
 
   // 作答畫面
   if (!current) return null
-  const answered = chosen !== null
 
   return (
     <div className="flex min-h-[calc(100dvh-8rem)] flex-col">
@@ -153,30 +231,70 @@ export default function Quiz() {
 
       {/* 題幹 */}
       <div className="rounded-2xl bg-slate-800 p-6 text-center">
-        <p className="mb-2 text-xs text-slate-500">
-          {current.mode === 'toMeaning' ? t.quiz.pickMeaning : t.quiz.pickWord}
-        </p>
-        <div className="flex items-center justify-center gap-2">
-          <span
-            lang={current.promptIsJa ? 'ja' : 'en'}
-            className={`font-bold ${current.prompt.length > 10 ? 'text-xl' : 'text-3xl'}`}
-          >
-            {current.prompt}
-          </span>
-          {current.mode === 'toMeaning' && ttsSupported() && (
+        <p className="mb-2 text-xs text-slate-500">{captionFor(current.mode)}</p>
+
+        {current.promptIsAudio ? (
+          // 聽力題：播放鈕，作答前不露字
+          <div className="flex flex-col items-center gap-2">
             <button
-              onClick={() => speak(current.prompt, ttsLang)}
-              aria-label={t.flashcards.play}
-              className="inline-flex h-11 w-11 items-center justify-center rounded-full text-slate-400 active:bg-slate-700"
+              onClick={() => speak(current.audioText ?? current.prompt, ttsLang)}
+              aria-label={t.quiz.playAudio}
+              className="inline-flex h-20 w-20 items-center justify-center rounded-full bg-slate-900 text-slate-200 active:bg-slate-700"
             >
-              <IconSpeaker className="h-5 w-5" />
+              <IconSpeaker className="h-9 w-9" />
             </button>
-          )}
-        </div>
-        {current.promptReading && (
-          <div lang="ja" className="mt-1 text-sm text-slate-400">
-            {current.promptReading}
+            <span className="text-xs text-slate-500">{t.quiz.replay}</span>
+            {answered && (
+              <div className="mt-1">
+                <span
+                  lang={current.promptIsJa ? 'ja' : 'en'}
+                  className="text-2xl font-bold"
+                >
+                  {current.prompt}
+                </span>
+                {current.promptReading && (
+                  <div lang="ja" className="text-sm text-slate-400">
+                    {current.promptReading}
+                  </div>
+                )}
+              </div>
+            )}
           </div>
+        ) : (
+          // 文字題幹（含克漏字）
+          <>
+            <div className="flex items-center justify-center gap-2">
+              <span
+                lang={current.promptIsJa ? 'ja' : 'en'}
+                className={`font-bold ${
+                  current.mode === 'cloze'
+                    ? 'text-xl leading-relaxed'
+                    : current.prompt.length > 10
+                      ? 'text-xl'
+                      : 'text-3xl'
+                }`}
+              >
+                {current.prompt}
+              </span>
+              {current.mode === 'toMeaning' && ttsSupported() && (
+                <button
+                  onClick={() => speak(current.prompt, ttsLang)}
+                  aria-label={t.flashcards.play}
+                  className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-slate-400 active:bg-slate-700"
+                >
+                  <IconSpeaker className="h-5 w-5" />
+                </button>
+              )}
+            </div>
+            {current.promptReading && (
+              <div lang="ja" className="mt-1 text-sm text-slate-400">
+                {current.promptReading}
+              </div>
+            )}
+            {answered && current.clozeTrans && (
+              <div className="mt-3 text-sm text-slate-400">{current.clozeTrans}</div>
+            )}
+          </>
         )}
       </div>
 

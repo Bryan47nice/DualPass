@@ -5,6 +5,7 @@ import { SEED_BY_ID } from '@/data'
 import { useUiStore } from '@/stores/uiStore'
 import { useSrsStore } from '@/stores/srsStore'
 import { useQuestStore } from '@/stores/questStore'
+import { useMistakesStore } from '@/stores/mistakesStore'
 import { speak, ttsSupported } from '@/lib/tts'
 import { IconSpeaker } from '@/components/icons'
 
@@ -31,6 +32,8 @@ export default function Flashcards() {
   const buildQueue = useSrsStore((s) => s.buildQueue)
   const rateCard = useSrsStore((s) => s.rateCard)
   const addProgress = useQuestStore((s) => s.addProgress)
+  const recordCorrect = useMistakesStore((s) => s.recordCorrect)
+  const resetStreakIfPresent = useMistakesStore((s) => s.resetStreakIfPresent)
 
   // 日文才套用篩選；英文不受影響
   const filter = lang === 'ja' ? jaFilter : undefined
@@ -58,6 +61,9 @@ export default function Flashcards() {
     if (!currentId) return
     rateCard(currentId, g)
     addProgress(lang === 'en' ? 'enVocabDone' : 'jaGrammarDone')
+    // 若這張是錯題本裡的字：good 推進精熟、again 重置連對（都不新建錯題）
+    if (g === 'good') recordCorrect(currentId)
+    else if (g === 'again') resetStreakIfPresent(currentId)
     setRevealed(false)
     if (g === 'again') {
       // 不會的卡排回本輪佇列尾端再複習一次

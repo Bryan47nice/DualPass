@@ -2,7 +2,7 @@
  * 版號與 Changelog 的單一事實來源（Single Source of Truth）。
  * 修改版本時請遵循 .claude/rules/versioning.md 的四步驟。
  */
-export const APP_VERSION = '0.6.1'
+export const APP_VERSION = '0.7.0'
 
 export interface ChangelogEntry {
   version: string
@@ -12,6 +12,16 @@ export interface ChangelogEntry {
 
 /** 最新版本排最前面 */
 export const CHANGELOG: ChangelogEntry[] = [
+  {
+    version: '0.7.0',
+    date: '2026-07-15',
+    changes: [
+      '刷題新增「例句填空」：多益例句挖空選字，練 Part 5 句意判斷',
+      '刷題新增「聽力題」：聽發音選出意思或對應的字（用裝置語音，離線可用）',
+      '錯題本升級精熟判定：連續答對 2 次才標記已訂正，並可「重測錯題」只考錯過的字',
+      '單字卡複習答對也會推進錯題精熟',
+    ],
+  },
   {
     version: '0.6.1',
     date: '2026-07-14',
